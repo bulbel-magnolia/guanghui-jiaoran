@@ -134,7 +134,159 @@ bash src/wet_lab/regen_figures.sh
 
 ---
 
-## 5. 团队 / Team
+## 5. 仓库同步说明 / Repository Sync Notes for AI Agents
+
+本项目以 Gitee 仓库作为队伍协作主仓库，GitHub 仓库作为 AI 工具读取、审查和辅助修改的镜像入口。后续 AI 工具读取本仓库时，应先确认用户是否已经把 Gitee 最新内容同步到 GitHub；如果 GitHub 侧由 AI 工具产生了修改，应通过本地双远程仓库把修改合回 Gitee。
+
+- Gitee 主仓库：`https://gitee.com/ai-synbio/guanghui-jiaoran.git`
+- GitHub 镜像仓库：`https://github.com/bulbel-magnolia/guanghui-jiaoran.git`
+- 当前默认分支：`master`
+
+### 5.1 首次配置本地双远程仓库
+
+```bash
+# 1) 从 Gitee 克隆主仓库
+git clone https://gitee.com/ai-synbio/guanghui-jiaoran.git
+cd guanghui-jiaoran
+
+# 2) 将默认远程名 origin 改为 gitee，避免后续混淆
+git remote rename origin gitee
+
+# 3) 添加 GitHub 镜像远程
+git remote add github https://github.com/bulbel-magnolia/guanghui-jiaoran.git
+
+# 4) 检查远程地址
+git remote -v
+
+# 5) 首次把 Gitee 当前内容推送到 GitHub
+git push github master
+git push github --tags
+```
+
+检查 `git remote -v` 时应看到两个远程仓库：
+
+```text
+gitee   https://gitee.com/ai-synbio/guanghui-jiaoran.git (fetch)
+gitee   https://gitee.com/ai-synbio/guanghui-jiaoran.git (push)
+github  https://github.com/bulbel-magnolia/guanghui-jiaoran.git (fetch)
+github  https://github.com/bulbel-magnolia/guanghui-jiaoran.git (push)
+```
+
+### 5.2 Gitee 更新后，同步到 GitHub
+
+当队友在 Gitee 提交新内容后，用下面命令把 Gitee 最新内容同步到 GitHub，供 AI 工具读取：
+
+```bash
+git checkout master
+git status
+
+# 从 Gitee 拉取最新 master，只允许快进合并，减少意外合并提交
+git pull --ff-only gitee master
+
+# 推送到 GitHub 镜像仓库
+git push github master
+git push github --tags
+```
+
+完成后刷新 GitHub 页面，确认文件列表、提交记录和 Gitee 保持一致。
+
+### 5.3 GitHub 被 AI 修改后，同步回 Gitee
+
+当 AI 工具或其他协作者在 GitHub 侧提交了修改后，用下面命令把 GitHub 的修改合并回 Gitee：
+
+```bash
+git checkout master
+git status
+
+# 先保证本地 master 与 Gitee 主仓库一致
+git pull --ff-only gitee master
+
+# 拉取 GitHub 侧最新提交
+git fetch github
+
+# 可选：查看最近提交图，确认 GitHub 侧新增了哪些提交
+git log --oneline --graph --decorate --all -20
+
+# 将 GitHub/master 合并到当前本地 master
+git merge github/master
+
+# 推回 Gitee 主仓库
+git push gitee master
+
+# 再推回 GitHub，保证两个远程仓库最终一致
+git push github master
+```
+
+### 5.4 推荐的 AI 分支工作流
+
+为了避免 AI 工具直接改动 `master`，建议在 GitHub 上使用专门的 AI 修改分支。例如：
+
+```bash
+# 从 Gitee 最新 master 创建 AI 工作分支
+git checkout master
+git pull --ff-only gitee master
+git checkout -b ai-update-wiki
+
+# 推送到 GitHub，交给 AI 工具修改
+git push github ai-update-wiki
+```
+
+AI 修改完成后，再由本地检查并合并回主分支：
+
+```bash
+git checkout master
+git pull --ff-only gitee master
+git fetch github
+
+git merge github/ai-update-wiki
+
+git push gitee master
+git push github master
+```
+
+### 5.5 冲突处理
+
+如果 `git merge github/master` 或 `git merge github/<branch-name>` 出现冲突，先查看冲突文件：
+
+```bash
+git status
+```
+
+打开冲突文件，处理 Git 标记的冲突区：
+
+```text
+<<<<<<< HEAD
+Gitee 当前版本
+=======
+GitHub / AI 修改版本
+>>>>>>> github/master
+```
+
+保留最终需要的内容，删除冲突标记，然后提交合并结果：
+
+```bash
+git add .
+git commit -m "Resolve sync conflicts from GitHub updates"
+git push gitee master
+git push github master
+```
+
+如需取消当前合并，执行：
+
+```bash
+git merge --abort
+```
+
+### 5.6 注意事项
+
+- 不要把 GitHub Personal Access Token、Gitee 密码或任何访问令牌写入 README、Issue、Commit Message 或聊天记录。
+- 默认分支目前是 `master`；如果后续改为 `main`，以上命令中的 `master` 需要同步替换为 `main`。
+- GitHub 镜像主要服务于 AI 读取和辅助修改；Gitee 仍作为队伍协作与提交的主仓库。
+- 在 Gitee 和 GitHub 同时独立修改同一个文件时，后续合并容易产生冲突。建议先同步，再修改，再合并。
+
+---
+
+## 6. 团队 / Team
 
 | 姓名 | 角色 | 主要负责 |
 |---|---|---|
@@ -146,7 +298,7 @@ bash src/wet_lab/regen_figures.sh
 
 ---
 
-## 6. 许可与引用 / License & Citation
+## 7. 许可与引用 / License & Citation
 
 - 代码以 MIT 协议开源（见 [`LICENSE`](./LICENSE)）。
 - 提交至大赛 Registry 的 DNA 元件遵循大赛共享协议。
@@ -164,7 +316,7 @@ bash src/wet_lab/regen_figures.sh
 
 ---
 
-## 7. 联系 / Contact
+## 8. 联系 / Contact
 
 - 队长邮箱：1120240849@bit.edu.cn
 - Primary PI 邮箱：binghu319@bit.edu.cn
