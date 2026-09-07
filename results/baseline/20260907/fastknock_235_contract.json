@@ -1,0 +1,12 @@
+{
+  "task": "FastKnock 2024 corrected-v1 single-gene K=1 closeout",
+  "candidate_pool_size": 235,
+  "removed_from_old_pool": ["YER014W", "YOR176W"],
+  "max_gene_knockouts": 1,
+  "growth_threshold": "0.1 * v1 WT max growth",
+  "product_threshold": "unchanged from frozen FastKnock adapter",
+  "must_reuse_same_model": true,
+  "must_not_rerun_candidate_generation_with_old_prepare_candidates_py": true,
+  "corrected_pool_definition": "exactly the historical 237-gene pool minus YER014W and YOR176W; no other additions/removals",
+  "expected_interpretation": "Run output as observed. If zero legal candidates are returned, candidate-quality metrics are N/A, not 0."
+}
