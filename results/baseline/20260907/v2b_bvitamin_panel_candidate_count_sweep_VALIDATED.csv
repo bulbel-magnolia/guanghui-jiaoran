@@ -1,0 +1,5 @@
+cap_mmol_gDCW_h,wt_max_growth_h_inv,newly_unblocked_vs_v1,blocked_reactions,eligible_genes,delta_vs_corrected_v1
+1e-6,0.0809387544,7,593,238,3
+1e-5,0.0809453035,7,593,256,21
+1e-4,0.0809896146,7,593,262,27
+1e-3,0.0811563002,7,593,262,27
