@@ -1,0 +1,43 @@
+schema_version: '1.0'
+part_id: 'AISB26-045-002'
+name: 'Codon-optimized truncated BmCBP coding sequence'
+name_zh: '密码子优化的截短 BmCBP 编码序列'
+part_type: 'Basic CDS'
+length_bp: 690
+characterization_status: 'characterized'
+submission_status: 'formally_submitted_to_aisb26_2026'
+counts_toward_aisb26_part_total: true
+created_by_team: true
+first_aisb26_format_submission: true
+team:
+  team_no: '045'
+  team_name: 'BIT-CHINA'
+  contact: '1120240849@bit.edu.cn'
+original_constructed_year: 2025
+submitted_to_aisb26_year: 2026
+source_team: 'BIT-China 2025'
+source_registry_id: 'BBa_251P300A'
+source_license: 'CC-BY-SA-4.0'
+license: 'CC-BY-SA-4.0'
+confidential: false
+registry:
+  host_field: 'not specified'
+  documentation_present: false
+team_testing:
+  expression_vector: 'pET-28a-BmCBP'
+  expression_host: 'Escherichia coli BL21(DE3)'
+  replicate_definition: 'n = 3 measurements per condition'
+  a480_value_role: 'mean'
+  raw_measurements_status: 'optional_enhancement_not_recovered'
+  error_bars_generated: false
+design:
+  ai_assisted: false
+  sequence_changed_for_aisb26: false
+  reference_protein: 'UniProt Q8MYA9'
+  represented_amino_acids: '68-297'
+  removed_region: 'N-terminal residues 1-67 predicted disordered region'
+  coding_sequence: 'codon optimized'
+  length_bp: 690
+  independent_start_codon: false
+  independent_stop_codon: false
+  translation_context: 'translation initiation and fusion-expression context provided by vector'
