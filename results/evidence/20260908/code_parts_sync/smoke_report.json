@@ -1,0 +1,56 @@
+{
+  "status": "PASSED",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies": {
+    "cobra": "0.30.0",
+    "scipy": "1.17.1",
+    "swiglpk": "5.0.13",
+    "pandas": "2.3.3",
+    "pytest": "8.3.5"
+  },
+  "tolerance": 1e-07,
+  "checks": {
+    "cli_exit_codes_zero": true,
+    "frozen_inputs_and_results_unchanged": true,
+    "prepare_235_gene_set_exact": true,
+    "prepare_gpr_footprints_exact": true,
+    "prepare_blocked_reactions_exact": true,
+    "v1_235_gene_set_exact": true,
+    "v1_completed_without_solver_failures": true,
+    "v1_residuals_within_1e_7": true,
+    "v1_metrics_byte_exact": true,
+    "v2a_235_gene_set_exact": true,
+    "v2a_completed_without_solver_failures": true,
+    "v2a_residuals_within_1e_7": true,
+    "v2a_metrics_byte_exact": true,
+    "rank_design_mode_ranking.csv_byte_exact": true,
+    "rank_design_mode_topk.csv_byte_exact": true
+  },
+  "exit_codes": {
+    "prepare": 0,
+    "evaluate_v1": 0,
+    "evaluate_v2a": 0,
+    "rank": 0
+  },
+  "frozen_hashes": {
+    "models\\fabric_ai\\common_model.json": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684",
+    "results\\fabric_ai\\20260908\\design_mode_ranking.csv": "64e7493450278d3b616a66b6dc1d109b7d503d175bc3ffef5c9c36517ec23206",
+    "results\\fabric_ai\\20260908\\design_mode_topk.csv": "ea440d8e8bc5f96a8bf88b1579c4074f54ef4f4146eed6330058ad0edc62c561",
+    "results\\fabric_ai\\20260908\\gene_admission_audit.csv": "ef8d52056eccf1787d4a2408a9adebff4d944520e709f3f8bb390ef17e5aba03",
+    "results\\fabric_ai\\20260908\\reaction_fva.csv": "4d0589c52b150fa8e1707d92d813c1984ad291201452ae5fbbbcb30469fbd93e",
+    "results\\fabric_ai\\20260908\\v1_candidate_metrics.csv": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d",
+    "results\\fabric_ai\\20260908\\v2a_candidate_metrics.csv": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150",
+    "results\\fabric_ai\\20260908\\candidate_space.json": "22b01bf95c4e6574aa87d21a8d47d29baeba6aeb3d6a8b0fdabe4e73c17caf80",
+    "results\\fabric_ai\\20260908\\DESIGN_MODE_FINAL_FREEZE.json": "a81da6cdf2c3ac4311a2db4a195f862df315952729b09bf5f26afdfe77101369",
+    "results\\fabric_ai\\20260908\\DESIGN_MODE_PRIMARY_RESULT.json": "7ea2934f57cf2336ab76d2a5e9f71de63c598514cf71c1548465bf06fee170bb",
+    "results\\fabric_ai\\20260908\\prepare_summary.json": "c6f95d4edc49d083ef498aeef3cc8dc85d16bd0978ca0f5ac3a0fd67b61fad71",
+    "results\\fabric_ai\\20260908\\ranking_numeric_correction_manifest.json": "a46b11762ffc84de6516e0a621d8ea436c37235aa8f8a197c010157117c0a784",
+    "results\\fabric_ai\\20260908\\ranking_numeric_correction_verification.json": "ad603d5ff65fb296b106e64624c48f912218406a1fe78040dc2d78c084e890bf",
+    "results\\fabric_ai\\20260908\\summary.json": "448ef091d9bd766a08fa637314e2d1c4e729fe3ba431d8423a102d07b2904ff9",
+    "results\\fabric_ai\\20260908\\v1_summary.json": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22",
+    "results\\fabric_ai\\20260908\\v2a_summary.json": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e",
+    "configs\\fabric_ai\\protected_reaction_ids.json": "6373e8b8ea1af85f4e58819b6f7c42a2a15589106ef4f0dbefa16931c51e81cd",
+    "configs\\fabric_ai\\v1_glucose_reference.json": "f8605f6d68f3a23be3da8fb37d5fb1134ad4d2d62c81d720f26fea36c01556a5",
+    "configs\\fabric_ai\\v2a_historical_ethanol_stage.json": "1e33446024972f882a0260cdd0e1efd06a9e708ad297952b7e926947919d0027"
+  }
+}

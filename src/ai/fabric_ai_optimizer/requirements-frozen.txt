@@ -1,0 +1,6 @@
+# Direct dependencies of the validated frozen-contract environment.
+cobra==0.30.0
+scipy==1.17.1
+swiglpk==5.0.13
+pandas==2.3.3
+pytest==8.3.5

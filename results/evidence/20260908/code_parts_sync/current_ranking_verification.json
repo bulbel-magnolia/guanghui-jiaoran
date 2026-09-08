@@ -1,0 +1,40 @@
+{
+  "status": "PASSED",
+  "scope": "ranking/tests/verification correction only",
+  "native_unit_solver_tolerance": 1e-07,
+  "source_commit_with_correction_instruction": "36ebd194b9f9cd94b6ab685bfe0057d752204cc1",
+  "checks": {
+    "frozen_metric_and_summary_hashes_exact": true,
+    "frozen_candidate_metrics_235_each": true,
+    "condition_gene_sets_exactly_match": true,
+    "no_native_growth_above_WT_plus_tolerance": true,
+    "no_primary_Pmax_above_WT_plus_tolerance": true,
+    "ranking_matches_independent_native_unit_recompute": true,
+    "ranking_priority_exact": true,
+    "non_discrimination_gate_unchanged": true,
+    "secondary_scope_only": true,
+    "top_k_fixed_at_6": true,
+    "top6_is_ranking_head": true,
+    "historical_ranking_retained_for_audit": true,
+    "production_superiority_claim_prohibited": true,
+    "native_objective_inconsistency_count_zero": true,
+    "nine_ranking_tests_passed": true
+  },
+  "source_hashes": {
+    "results/fabric_ai_v1_metrics/candidate_metrics.csv": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d",
+    "results/fabric_ai_v2a_metrics/candidate_metrics.csv": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150",
+    "results/fabric_ai_v1_metrics/summary.json": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22",
+    "results/fabric_ai_v2a_metrics/summary.json": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e"
+  },
+  "ranking_sha256": "64e7493450278d3b616a66b6dc1d109b7d503d175bc3ffef5c9c36517ec23206",
+  "topk_sha256": "ea440d8e8bc5f96a8bf88b1579c4074f54ef4f4146eed6330058ad0edc62c561",
+  "secondary_top6": [
+    "YAL060W",
+    "YBR006W",
+    "YBR011C",
+    "YBR183W",
+    "YBR281C",
+    "YCR005C"
+  ],
+  "candidate_rank_changes_vs_historical_numeric_handling": 189
+}

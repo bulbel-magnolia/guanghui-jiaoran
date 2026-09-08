@@ -1,0 +1,11 @@
+{
+  "condition_id": "v2a_historical_ethanol_stage",
+  "role": "reported_production_stage_sensitivity_not_hard_admissibility",
+  "hard_admissibility": false,
+  "base_model_bounds": "canonical common_model.json with only the two frozen historical-stage overrides below",
+  "bounds": [
+    {"reaction": "r_1714", "lower_bound": 0.0},
+    {"reaction": "r_1761", "lower_bound": -0.447596}
+  ],
+  "protected_reaction_ids_file": "../config/protected_reaction_ids.json"
+}

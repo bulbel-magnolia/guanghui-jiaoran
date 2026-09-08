@@ -1,5 +1,7 @@
 # AI + Synthetic Biology Project — Team Template
 
+2026-09-08 冻结计算结果请从 [FABRIC-AI 复现入口](src/ai/fabric_ai_optimizer/README.md) 和 [最终结果索引](results/fabric_ai/20260908/README.md)进入。本轮同步检查见 [仓库同步报告](results/evidence/20260908/code_parts_sync/README_最终仓库同步结果.md)。
+
 > 光绘酵染
 >
 > 一句话项目介绍（建议 60 字以内）。

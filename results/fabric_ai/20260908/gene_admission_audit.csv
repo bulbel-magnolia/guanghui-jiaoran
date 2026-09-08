@@ -1,0 +1,1144 @@
+﻿gene,footprint,footprint_size,mutant_growth,solver_status,finite,mass_balance_residual,bound_residual,solver_message,admission_reason
+Q0045,r_0438,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+Q0080,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+Q0085,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+Q0105,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+Q0130,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+Q0250,r_0438,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+Q0275,r_0438,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YAL012W,r_0310,1,0.0,optimal,True,9.094947017729282e-13,3.774403012357652e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YAL022C,r_1109;r_1132,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YAL023C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YAL026C,r_3821;r_3822;r_3823;r_3824;r_3825;r_3826;r_3827;r_3828;r_3885;r_3886;r_3887;r_3888;r_3889;r_3890;r_3891;r_3892,16,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YAL035W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YAL038W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YAL039C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YAL044C,r_0501;r_0504;r_0506;r_0507;r_0508;r_0509;r_1030,7,0.08093802601840153,optimal,True,9.712563465749875e-08,9.712563465749877e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YAL054C,r_0113,1,0.08093802601840926,optimal,True,9.712563465750803e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YAL060W,r_0003,1,0.08093802601837483,optimal,True,9.712563465746671e-08,9.712563465746672e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YAL061W,r_4153;r_4154,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YAL062W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YAR015W,r_0908,1,0.0,optimal,True,3.410605131648481e-13,1.6591173201347018e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YAR035W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YAR071W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBL011W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBL013W,r_0728,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBL015W,r_0111;r_4039,2,0.08093802601819704,optimal,True,9.712563465725338e-08,9.712563465725338e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBL030C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBL033C,r_0525,1,0.0,optimal,True,1.7663042745591e-13,2.385782426661219e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBL039C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBL042C,r_1274;r_1735,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBL045C,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBL064C,r_0551,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBL068W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBL076C,r_0665,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBL080C,r_4155,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBL091C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBL098W,r_0671,1,0.0,optimal,True,2.446931546273845e-13,2.3857997429430545e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBL099W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR001C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR002C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR003W,r_1047,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR004C,r_0521,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR006W,r_1023,1,0.08093802601840926,optimal,True,9.712563465750803e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR011C,r_0568,1,0.08093802601841006,optimal,True,9.7125634657509e-08,9.712563465750901e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR018C,r_0459;r_1071,2,0.08093802601837478,optimal,True,9.712563465746667e-08,9.712563465746668e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR019C,r_1070;r_4750,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR020W,r_0458,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR021W,r_1272,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR022W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR023C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR026C,r_2151;r_2152;r_2153,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR029C,r_2432;r_2433;r_2434;r_2435;r_2436;r_2437;r_2438;r_2439;r_2440,9,0.0,optimal,True,1.822986206434507e-13,1.3677947663381929e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR034C,r_0541,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR035C,r_0953;r_0954;r_0955;r_0956,4,0.08093802601827223,optimal,True,9.71256346573436e-08,9.712563465734361e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR036C,r_0747;r_0748;r_0749;r_0750;r_0751;r_0752;r_0753;r_0754;r_0755;r_0756,10,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR038W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR039W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR041W,r_1770;r_1775;r_1835;r_1836;r_1981;r_2186;r_2192;r_2213;r_2214;r_2215;r_2216;r_2217;r_2218,13,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR042C,r_2462;r_2463,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR046C,r_4158,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR058C-A,r_0993,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR068C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR069C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR070C,r_4159,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR084W,r_0447;r_0724;r_0733,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR085W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR092C,r_1032;r_1033,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR093C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR097W,r_2852;r_2853;r_2854;r_2855;r_2856;r_2857;r_2858;r_2859,8,0.08093802601845991,optimal,True,9.712563465756883e-08,9.712563465756883e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR110W,r_0228,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR111C,r_4160,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR115C,r_0678,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR117C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR121C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR126C,r_0195;r_1051,2,0.0,optimal,True,1.1368683772161603e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR127C,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR128C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR132C,r_1191,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR145W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR147W,r_1657;r_1837;r_1919,3,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR149W,r_0321,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR153W,r_0015,1,0.0,optimal,True,1.7663042745591e-13,2.385782426661219e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR159W,r_2161;r_2162;r_2163;r_2164;r_2165;r_2166;r_2167,7,0.08093801366587498,optimal,True,9.712561983446639e-08,9.712561983446639e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR161W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR166C,r_0939,1,0.0,optimal,True,2.3803181647963356e-13,2.6645352591003757e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR176W,r_0063,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR177C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR180W,r_1228,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR183W,r_0919,1,0.0809380260183748,optimal,True,9.712563465746668e-08,9.71256346574667e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR192W,r_1130;r_1131;r_1275;r_1276;r_3959;r_3960,6,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR196C,r_0467,1,0.08093802601845368,optimal,True,9.712563465756134e-08,9.712563465756135e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR199W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR204C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR205W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR208C,r_0191;r_1075,2,0.08093802771891975,optimal,True,9.712563669812071e-08,9.712563669812071e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR213W,r_0998;r_0999,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR218C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR221C,r_0961,1,0.07915997492504064,optimal,True,9.499197326999628e-08,9.499197326999627e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR222C,r_4164,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR229C,r_4165;r_4166,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR235W,r_4167,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR241C,r_1805;r_4168;r_4169,3,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR242W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR243C,r_4170,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR244W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR248C,r_0563,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR249C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR252W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR256C,r_0968,1,0.0,optimal,True,1.23262511309008e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR263W,r_0503,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YBR265W,r_0041,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YBR281C,r_4171,1,0.08093802601845192,optimal,True,9.712563465755925e-08,9.712563465755924e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YBR291C,r_1126;r_1127;r_1128,3,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR293W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR294W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR295W,r_4172,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YBR296C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR298C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YBR299W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCL004W,r_2536;r_2537;r_2538;r_2539;r_2540;r_2541,6,0.08093802771893915,optimal,True,9.712563669814399e-08,9.712563669814399e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCL005W-A,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCL009C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCL018W,r_0061,1,0.0,optimal,True,1.7053025658242404e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YCL025C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCL030C,r_0536;r_0909;r_0910,3,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YCL035C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCL038C,r_1202;r_1208;r_1220,3,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCL040W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCL047C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCL050C,r_0223;r_0224;r_1026,3,0.08093802601851935,optimal,True,9.712563465764015e-08,9.712563465764015e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCL052C,r_0519,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YCL064C,r_0689;r_0692,2,0.08093802601846588,optimal,True,9.712563465757596e-08,9.712563465757599e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCL069W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCR005C,r_0301,1,0.08093802601851845,optimal,True,9.712563465763907e-08,9.712563465763907e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCR010C,r_1106,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCR011C,r_4174,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCR012W,r_0892,1,0.07449149866040189,optimal,True,8.938980155427617e-08,8.938980155427615e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCR024C,r_0213,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YCR024C-A,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCR028C,r_1241,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCR034W,r_2156,1,0.0809380260184092,optimal,True,9.712563465750796e-08,9.712563465750798e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCR036W,r_0332;r_0969,2,0.08093802601838458,optimal,True,9.712563465747845e-08,9.712563465747844e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCR037C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCR048W,r_0126;r_0128;r_0129;r_0130;r_0131;r_0133;r_0134;r_0135,8,0.08093802601837481,optimal,True,9.712563465746672e-08,9.712563465746671e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YCR053W,r_0069;r_1041,2,0.0,optimal,True,2.0605739337042905e-13,1.794120407794253e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YCR068W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCR075C,r_1193,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCR083W,r_0551;r_1039,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YCR098C,r_1169;r_1170;r_3606;r_3607,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YCR105W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YCR107W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL004W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDL015C,r_2175;r_2176;r_2177;r_2178;r_2179;r_2180;r_2181,7,0.08093801366587498,optimal,True,9.712561983446639e-08,9.712561983446639e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL022W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL024C,r_2064;r_4216,2,0.08093799536179337,optimal,True,2.8309125876813113e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL040C,r_0992,1,0.0809380260184363,optimal,True,9.71256346575405e-08,9.712563465754051e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL042C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL045C,r_0440;r_1790,2,0.0,optimal,True,1.8185453143360064e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDL052C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL055C,r_0722,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDL066W,r_2131,1,0.08082450104246672,optimal,True,9.698940468155842e-08,9.698940468155842e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL067C,r_0438,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDL078C,r_0715,1,0.08093802601846929,optimal,True,9.71256346575801e-08,9.71256346575801e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL080C,r_0072,1,0.08093802771883137,optimal,True,9.712563669801465e-08,9.712563669801465e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL085W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL090C,r_0249,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL093W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL095W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL100C,r_0348,1,0.08093801853192671,optimal,True,9.712562567372869e-08,9.712562567372868e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL103C,r_1069,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDL120W,r_4217,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL131W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL141W,r_0109;r_0230,2,0.0,optimal,True,1.039723862561459e-12,1.0029313221918894e-10,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDL142C,r_2548;r_2549;r_2550;r_2551;r_2552;r_2553;r_2554;r_2555;r_2556;r_2557;r_2558;r_2559;r_2560;r_2561;r_2562;r_2563;r_2564;r_2565;r_2566;r_2567;r_2568;r_2569;r_2570;r_2571;r_2572;r_2573;r_2574;r_2575;r_2576;r_2577;r_2578;r_2579;r_2580;r_2581;r_2582;r_2583,36,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL166C,r_1729,1,0.08093590051821173,optimal,True,9.712308405718077e-08,9.71230840571808e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL168W,r_0443,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL171C,r_0472,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL174C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL178W,r_0002,1,0.08093802601837466,optimal,True,9.712563465746651e-08,9.712563465746653e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL182W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL185W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDL198C,r_1175,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDL205C,r_0557,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDL210W,r_1102,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDL215C,r_0470,1,0.08093802601830624,optimal,True,9.712563465738442e-08,9.712563465738443e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL219W,r_4218;r_4219,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL236W,r_4220,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL238C,r_0526,1,0.0809380260183547,optimal,True,9.712563465744258e-08,9.712563465744258e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDL243C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL245C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDL246C,r_4221,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDL247W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR001C,r_0194,1,0.08093802601848277,optimal,True,9.712563465759624e-08,9.712563465759625e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR007W,r_0913,1,0.0,optimal,True,9.094947017729282e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR009W,r_4222,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR017C,r_0074;r_0083;r_0093;r_0358,4,0.08093802601855125,optimal,True,9.712563465767844e-08,9.712563465767844e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR019C,r_0501;r_0504;r_0506;r_0507;r_0508;r_0509;r_1030,7,0.08093802601840153,optimal,True,9.712563465749875e-08,9.712563465749877e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR020C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR023W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR035W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR036C,r_4223;r_4762,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR037W,r_0711,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR038C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR039C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR040C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR044W,r_0304,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR046C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR047W,r_1081,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR050C,r_1054,1,0.08076272347411158,optimal,True,9.691527159691011e-08,9.691527159691011e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR058C,r_3304;r_3305;r_3306;r_3307,4,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR062W,r_0993,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR071C,r_1739,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR072C,r_3348;r_3349;r_3350;r_3351;r_3352;r_3353;r_3354;r_3355;r_3356;r_3357;r_3358;r_3359;r_3360;r_3361;r_3362;r_3363;r_3364;r_3365;r_3366;r_3367;r_3368;r_3369;r_3370;r_3371;r_3372;r_3373;r_3374;r_3375;r_3376;r_3377;r_3378;r_3379;r_3380;r_3381;r_3382;r_3383;r_3384;r_3385;r_3386;r_3387;r_3388;r_3389;r_3390;r_3391;r_3392;r_3393;r_3394;r_3395;r_3396;r_3397;r_3398;r_3399;r_3400;r_3401;r_3402;r_3403;r_3404;r_3405;r_3406;r_3407;r_3408;r_3409;r_3410;r_3411;r_3412;r_3413;r_3414;r_3415;r_3416;r_3417;r_3418;r_3419;r_3420;r_3421;r_3422;r_3423;r_3424;r_3425;r_3426;r_3427,80,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR074W,r_0195;r_1051,2,0.0,optimal,True,1.1368683772161603e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR093W,r_4457,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR098C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR105C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR109C,r_4757,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR111C,r_4226,1,0.08093802601840931,optimal,True,9.712563465750811e-08,9.712563465750811e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR127W,r_0039;r_0040;r_0065;r_0996;r_0997,5,0.0,optimal,True,5.435651928564766e-13,1.7053025658242404e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR135C,r_0964,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR147W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR148C,r_0831;r_0832,2,0.08093800969807419,optimal,True,9.712561507310527e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR158W,r_0219,1,0.0,optimal,True,4.689582056016661e-13,1.785238623597252e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR173C,r_0572;r_0573;r_0574;r_0575,4,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR178W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR191W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR196C,r_0334;r_1736,2,0.0,optimal,True,4.547473508876166e-13,5.799111636494393e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR204W,r_0021;r_0022;r_0532;r_0963;r_0985,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR208W,r_2860;r_2861;r_2862;r_2863;r_2864;r_2865;r_2866;r_2867;r_2868;r_2869;r_2870;r_2871;r_2872;r_2873;r_2874;r_2875,16,0.0809380260184093,optimal,True,9.712563465750808e-08,9.71256346575081e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR226W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR231C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR232W,r_0081,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR234W,r_0027,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR236C,r_0965;r_0966,2,0.0809380260184638,optimal,True,9.712563465757349e-08,9.712563465757349e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR242W,r_4227;r_4228;r_4230;r_4231,4,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR248C,r_4232,1,0.08093802601848507,optimal,True,9.712563465759902e-08,9.712563465759902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR256C,r_0256,1,0.08093802601840926,optimal,True,9.712563465750804e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR261C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR268W,r_1058,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR270W,r_4334,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR272W,r_0553,1,0.08093802601848507,optimal,True,9.712563465759902e-08,9.712563465759902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR284C,r_2352;r_2353;r_2354;r_2355;r_2356;r_2357;r_2358;r_2359;r_3224;r_3225;r_3226;r_3227;r_3228;r_3229;r_3230;r_3231;r_3244;r_3245;r_3246;r_3247,20,0.08093802601848507,optimal,True,9.712563465759902e-08,9.712563465759902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR287W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR294C,r_0921;r_1003,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR297W,r_0259;r_0261;r_0922,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR298C,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR300C,r_0468,1,0.08093802601837481,optimal,True,9.712563465746671e-08,9.712563465746671e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR302W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR305C,r_0204;r_4769,2,0.08093802601848507,optimal,True,9.712563465759902e-08,9.712563465759902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR315C,r_0571,1,0.08093802601855125,optimal,True,9.712563465767844e-08,9.712563465767844e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR321W,r_0679,1,0.08093802601829393,optimal,True,9.712563465736965e-08,9.712563465736966e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR322C-A,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR341C,r_0209,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR342C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR343C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR345C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR352W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR353W,r_1038,1,0.0,optimal,True,2.2737367544323206e-13,7.958078640513122e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR354W,r_0202,1,0.0,optimal,True,9.094947017729282e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR367W,r_3428;r_3429;r_3430;r_3431;r_3432;r_3433;r_3434;r_3435;r_3436;r_3437;r_3438;r_3439;r_3440;r_3441;r_3442;r_3443;r_3444;r_3445;r_3446;r_3447;r_3448;r_3449;r_3450;r_3451;r_3452;r_3453;r_3454;r_3455;r_3456;r_3457;r_3458;r_3459;r_3460;r_3461;r_3462;r_3463;r_3464;r_3465;r_3466;r_3467;r_3468;r_3469;r_3470;r_3471;r_3472;r_3473;r_3474;r_3475;r_3476;r_3477;r_3478;r_3479;r_3480;r_3481;r_3482;r_3483;r_3484;r_3485;r_3486;r_3487;r_3488;r_3489;r_3490;r_3491;r_3492;r_3493;r_3494;r_3495;r_3496;r_3497;r_3498;r_3499;r_3500;r_3501;r_3502;r_3503;r_3504;r_3505;r_3506;r_3507,80,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR368W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR371W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR373W,r_2836;r_2837;r_2838;r_2839;r_2840;r_2841;r_2842;r_2843,8,0.08093802601837478,optimal,True,9.712563465746667e-08,9.712563465746668e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR376W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR377W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR380W,r_0854,1,0.08093802601874843,optimal,True,9.712563465791506e-08,9.712563465791506e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR384C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR387C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR399W,r_0527;r_0562,2,0.0809380000376311,optimal,True,3.410605131648481e-13,9.712560348057316e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR400W,r_4045;r_4756,2,0.08093802601838458,optimal,True,9.712563465747845e-08,9.712563465747844e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR402C,r_0763;r_0920,2,0.08093802601835311,optimal,True,9.712563465744066e-08,9.712563465744066e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR403W,r_0695;r_0763,2,0.08093802771885507,optimal,True,9.712563669804309e-08,9.712563669804309e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR408C,r_0499,1,0.0,optimal,True,7.815970093361102e-14,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR428C,r_0762,1,0.0,optimal,True,1.801891968966629e-13,3.601311345334501e-15,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR437W,r_4234,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR441C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR452W,r_4335,1,0.08093802601847554,optimal,True,9.712563465758758e-08,9.712563465758758e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR453C,r_0550,1,0.0809380260183216,optimal,True,9.712563465740287e-08,9.712563465740287e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR454C,r_0330;r_0528;r_0529,3,0.0,optimal,True,2.5163547900421306e-13,4.774847184307873e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR456W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR481C,r_0188;r_4768,2,0.08093802601848261,optimal,True,9.712563465759605e-08,9.712563465759608e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR483W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR487C,r_0038,1,0.0,optimal,True,1.23262511309008e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR497C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR502C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR503C,r_2360;r_2361;r_2362;r_2363;r_2364;r_2365;r_2366;r_2367;r_3232;r_3233;r_3234;r_3235;r_3236;r_3237;r_3238;r_3239;r_3248;r_3249;r_3250;r_3251,20,0.08093802771875129,optimal,True,9.712563669791856e-08,9.712563669791856e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR508C,r_1658;r_1935;r_2045;r_2072,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR513W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR516C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR529C,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YDR530C,r_0222,1,0.08093802601848507,optimal,True,9.712563465759902e-08,9.712563465759902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YDR531W,r_0842,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YDR533C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR536W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YDR538W,r_0044;r_4754,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YDR539W,r_0044,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YEL004W,r_4339,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YEL006W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL017C-A,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL021W,r_0821,1,0.0,optimal,True,4.337576389925087e-13,4.160938260611147e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YEL024W,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YEL027W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YEL029C,r_2029,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YEL031W,r_4181,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YEL038W,r_0013,1,0.0,optimal,True,4.547734995600218e-13,1.4180938098612093e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YEL039C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL041W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL042W,r_0791;r_0810,2,0.08093802601837483,optimal,True,9.712563465746674e-08,9.712563465746672e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YEL046C,r_0675;r_1040,2,0.08093802601840917,optimal,True,9.712563465750792e-08,9.712563465750795e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YEL047C,r_0454;r_0455;r_1000,3,0.08093802771885426,optimal,True,9.712563669804212e-08,9.712563669804212e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YEL051W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YEL058W,r_0882;r_0890,2,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YEL063C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL066W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL069C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL070W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YEL071W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER003C,r_0723,1,0.0,optimal,True,1.1368683772161603e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER005W,r_0788;r_0789;r_0790;r_0792;r_0793;r_0805;r_0806,7,0.08093801366585401,optimal,True,9.712561983444123e-08,9.712561983444123e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER010C,r_4184;r_4185,2,0.08093802601830583,optimal,True,9.712563465738393e-08,9.712563465738393e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER014W,r_0942,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER015W,r_0399;r_0400;r_0402;r_0410;r_0412;r_2206;r_2207;r_2208,8,0.080938012532079,optimal,True,9.712561847391116e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER019W,r_0596;r_0597;r_0598;r_0599;r_0600;r_0601;r_0602;r_0603;r_0604;r_0605;r_0606;r_0607;r_0608;r_0609;r_0610;r_0611;r_0612;r_0613;r_0614;r_0615;r_0616;r_0617;r_0618;r_0619;r_0620;r_0621;r_0622;r_0623;r_0624;r_0625;r_0626;r_0627;r_0628;r_0629;r_0630;r_0631;r_0632;r_0633;r_0634;r_0635;r_0636;r_0637;r_0638;r_0639;r_0640;r_0641;r_0642;r_0643;r_0644;r_0645;r_0646;r_0647;r_0648;r_0649;r_0650;r_0651;r_0652;r_0653;r_0654;r_0655,60,0.08093802601840946,optimal,True,9.712563465750831e-08,9.71256346575083e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER023W,r_0687;r_0957;r_4760,3,0.0,optimal,True,2.6290081223123707e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER024W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER026C,r_2446;r_2447;r_2448;r_2449;r_2450;r_2451;r_2452;r_2453,8,0.0,optimal,True,9.947598300641403e-14,9.237055564881302e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER037W,r_1619;r_3240;r_3241;r_3242;r_3243,5,0.08093802601845843,optimal,True,9.712563465756704e-08,9.712563465756704e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER042W,r_4186,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YER043C,r_0144,1,0.0,optimal,True,3.410605131648481e-13,1.2998953025089577e-09,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER052C,r_0215,1,0.0,optimal,True,4.689582056016661e-13,1.785238623597252e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER053C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER055C,r_0225,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER056C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER060W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER060W-A,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER061C,r_2142;r_2143;r_2144,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YER062C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER065C,r_0662,1,0.0809380136657883,optimal,True,9.712561983436238e-08,9.712561983436238e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER069W,r_0115;r_0759,2,0.0,optimal,True,2.2315482794965646e-13,3.730349362740526e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER070W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER073W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER081W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER086W,r_0693,1,0.08093802601851624,optimal,True,9.712563465763642e-08,9.712563465763642e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER087W,r_4187,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YER090W,r_0203,1,0.0,optimal,True,2.5579538487363607e-13,4.121147867408581e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER091C,r_0085;r_0727,2,0.0,optimal,True,1.1518286324729843e-12,2.603428583825007e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YER099C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER119C,r_1189;r_1195,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YER141W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER152C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER163C,r_4188,1,0.08093802601846381,optimal,True,9.71256346575735e-08,9.712563465757352e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER170W,r_0149;r_0150,2,0.08093802601837498,optimal,True,9.71256346574669e-08,9.712563465746691e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER174C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YER175C,r_0059;r_1046,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YER178W,r_0961,1,0.07915997492504064,optimal,True,9.499197326999628e-08,9.499197326999627e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YER183C,r_0084;r_1623;r_1624,3,0.08093802601840153,optimal,True,9.712563465749875e-08,9.712563465749877e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YFL001W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL011W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL017C,r_0760,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YFL018C,r_0501;r_0504;r_0505;r_0506;r_0507;r_0508;r_0509;r_0831;r_0832;r_0961;r_1030,11,0.07915996310920702,optimal,True,9.499195909099543e-08,9.499195909099543e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YFL022C,r_0852,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YFL030W,r_0156,1,0.0809380260183638,optimal,True,9.712563465745352e-08,9.71256346574535e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YFL045C,r_0902,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YFL053W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL054C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL055W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL058W,r_1603,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YFL059W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL060C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFL061W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFR015C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFR019W,r_2876;r_2877;r_2878;r_2879;r_2880;r_2881;r_2882;r_2883;r_3216;r_3217;r_3218;r_3219;r_3220;r_3221;r_3222;r_3223,16,0.08093802601834833,optimal,True,9.712563465743493e-08,9.712563465743493e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YFR021W,r_3216;r_3217;r_3218;r_3219;r_3220;r_3221;r_3222;r_3223,8,0.08093802601837499,optimal,True,9.712563465746692e-08,9.712563465746692e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YFR025C,r_0537,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YFR030W,r_1027,1,0.0,optimal,True,3.410605131648481e-13,2.6489033189136535e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YFR033C,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YFR044C,r_4214,1,0.08093802771884656,optimal,True,9.712563669803289e-08,9.712563669803289e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YFR047C,r_0786;r_0787,2,0.0,optimal,True,2.446931546273845e-13,2.3857997429430545e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YFR049W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFR053C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YFR055W,r_4701,1,0.0809380260184363,optimal,True,9.71256346575405e-08,9.712563465754051e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGL001C,r_0234;r_0235,2,0.0,optimal,True,9.852489194866904e-13,3.1940429645111895e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL006W,r_4237,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGL008C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL009C,r_0023;r_0060,2,0.0,optimal,True,1.7053025658242404e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL012W,r_0244,1,0.0,optimal,True,9.094947017729282e-13,8.979793321150859e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL026C,r_1055,1,0.0,optimal,True,9.094947017729282e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL027C,r_4241,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL037C,r_0781,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL038C,r_4242,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL040C,r_0935,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL047W,r_4159,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL055W,r_2182;r_2183,2,0.0,optimal,True,2.0461410343841635e-13,2.3669954885008358e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL062W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL063W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL065C,r_4243;r_4244,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL067W,r_0764,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL077C,r_1125;r_1149,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGL080W,r_2034,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGL084C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL101W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL125W,r_0080,1,0.0,optimal,True,1.1518286324729843e-12,2.603428583825007e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL142C,r_0522,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL148W,r_0279,1,0.0,optimal,True,5.435651928564766e-13,1.7053025658242404e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL154C,r_0678,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL156W,r_4245,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL167C,r_4238,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGL169W,r_4247,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL184C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL186C,r_1253,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGL187C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL191W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL196W,r_4248,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGL202W,r_0851;r_1056;r_1063,3,0.08093802601837295,optimal,True,9.712563465746449e-08,9.712563465746447e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGL205W,r_0120;r_0121;r_0122;r_0123;r_0124;r_0125;r_2236;r_2237;r_2238;r_2239;r_2240;r_2241;r_2242;r_2243;r_2244;r_2245;r_2246;r_2247,18,0.08093802601846929,optimal,True,9.71256346575801e-08,9.71256346575801e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGL224C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL225W,r_1165;r_1803,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGL234W,r_0855;r_0914,2,0.0,optimal,True,7.815970093361102e-14,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL245W,r_0479,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGL248W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL253W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL255W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGL256W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR007W,r_0885,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR010W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR012W,r_4249,1,0.0809380260184363,optimal,True,9.71256346575405e-08,9.712563465754051e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR015C,r_4649,1,0.08093802601830702,optimal,True,9.712563465738537e-08,9.712563465738536e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR019W,r_0068,1,0.08093802601840926,optimal,True,9.712563465750803e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR020C,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR032W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR036C,r_4250,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR038W,r_0993,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR043C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR046W,r_2441;r_2442;r_2443;r_2444;r_2445,5,0.0809380260183403,optimal,True,9.712563465742529e-08,9.71256346574253e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR055W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR060W,r_0238;r_0239;r_0240;r_0241,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR061C,r_0079,1,0.0,optimal,True,7.815970093361102e-14,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR062C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR065C,r_1119,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR087C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR088W,r_0255,1,0.08093791836857687,optimal,True,9.712550547770462e-08,9.712550547770462e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR094W,r_1089;r_1090,2,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR096W,r_1269,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR106C,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR110W,r_2584;r_2585;r_2586;r_2587;r_2588;r_2589;r_2590;r_2591;r_2592;r_2593;r_2594;r_2595;r_2596;r_2597;r_2598;r_2599;r_2600;r_2601;r_2602;r_2603;r_2604;r_2605;r_2606;r_2607;r_2608;r_2609;r_2610;r_2611;r_2612;r_2613;r_2614;r_2615;r_2616;r_2617;r_2618;r_2619,36,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR121C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR124W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR138C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR143W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR144W,r_4781;r_4782,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR154C,r_4209,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR155W,r_0309,1,0.0,optimal,True,2.2737367544323186e-13,2.5011104298755527e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR157W,r_2488;r_2489;r_2490;r_2491;r_2492;r_2493;r_2494;r_2495,8,0.0,optimal,True,3.7989681021543994e-13,3.83124643121846e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR170W,r_2472;r_2473;r_2474;r_2475;r_2476;r_2477;r_2478;r_2479;r_2480;r_2481;r_2482;r_2483;r_2484;r_2485;r_2486;r_2487,16,0.08093802601852211,optimal,True,9.712563465764346e-08,9.712563465764348e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR171C,r_0730,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR175C,r_1010;r_1011,2,0.0,optimal,True,2.3991919562149633e-13,3.8369307731045395e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR177C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR180C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR183C,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR185C,r_1066,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR191W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR192C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR193C,r_0961,1,0.07915997492504064,optimal,True,9.499197326999628e-08,9.499197326999627e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR194C,r_1094,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR202C,r_0274,1,0.08093801253220334,optimal,True,9.712561847406037e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR204W,r_0446;r_0725;r_0732,3,0.0,optimal,True,1.1368683772161603e-13,3.232969447708456e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR208W,r_0917,1,0.07845932854901763,optimal,True,9.41511975890297e-08,9.415119758902971e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR209C,r_0970;r_0971;r_0972;r_0973,4,0.0809380277188306,optimal,True,9.712563669801373e-08,9.712563669801373e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR216C,r_4234,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR227W,r_4253,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR234W,r_4254;r_4255,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR240C,r_0886,1,0.08036529792622767,optimal,True,9.643836092258068e-08,9.643836092258068e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR243W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR244C,r_0668;r_1022,2,0.08093802601850372,optimal,True,9.712563465762139e-08,9.71256346576214e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR247W,r_0155;r_4372;r_4388;r_4412,4,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR248W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR254W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR255C,r_0021;r_0022;r_0532;r_0963;r_0985,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR256W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR260W,r_1235,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR264C,r_0729,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR267C,r_0524,1,0.0,optimal,True,2.1449508835758024e-13,4.6807223644152414e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YGR277C,r_0841,1,0.08093780165465521,optimal,True,9.712536542099366e-08,9.712536542099367e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YGR282C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR286C,r_0229,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YGR287C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YGR289C,r_2079,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YGR292W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHL003C,r_0263;r_0264;r_0265;r_0266,4,0.08093802601840676,optimal,True,9.712563465750504e-08,9.712563465750505e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHL011C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHL012W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHL016C,r_1273,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHL018W,r_4189,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHL032C,r_0488,1,0.0809380260183578,optimal,True,9.712563465744629e-08,9.712563465744629e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHL036W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR001W-A,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHR002W,r_1129;r_3680,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHR007C,r_0317,1,0.0,optimal,True,5.426437077460378e-12,6.588058753394922e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR008C,r_4190,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHR011W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR013C,r_0992,1,0.0809380260184363,optimal,True,9.71256346575405e-08,9.712563465754051e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHR018C,r_0207,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR019C,r_0212,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR020W,r_0941,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR025W,r_0548,1,0.0,optimal,True,2.0605739337042905e-13,1.794120407794253e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR026W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHR037W,r_0012;r_0672;r_0673,3,0.08093802601841411,optimal,True,9.712563465751388e-08,9.712563465751388e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHR039C-A,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHR042W,r_0317,1,0.0,optimal,True,5.426437077460378e-12,6.588058753394922e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR043C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR044C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR046C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR051W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR063C,r_0019,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR067W,r_2148;r_2149;r_2150,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHR068W,r_0331,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHR072W,r_0698,1,0.0,optimal,True,2.3991919562149633e-13,3.8369307731045395e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR074W,r_0768;r_0769,2,0.0,optimal,True,7.276401703393276e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR091C,r_0210,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHR092C,r_1719,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YHR094C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR096C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR100C,r_2542;r_2543;r_2544;r_2545;r_2546;r_2547,6,0.08093802771893915,optimal,True,9.712563669814399e-08,9.712563669814399e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHR104W,r_0205;r_1093,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHR106W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR109W,r_4192,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHR116W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR123W,r_2520;r_2521;r_2522;r_2523;r_2524;r_2525;r_2526;r_2527,8,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YHR128W,r_1074,1,0.08093802771875105,optimal,True,9.712563669791827e-08,9.712563669791827e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHR137W,r_2117;r_2118;r_2119;r_4660,4,0.0809380136657347,optimal,True,9.712561983429806e-08,9.712561983429806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHR144C,r_0326;r_0327,2,0.08093716345256419,optimal,True,9.712459957845735e-08,9.712459957845735e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YHR162W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR163W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR174W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR183W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR190W,r_1012,1,0.0,optimal,True,2.3991919562149633e-13,3.8369307731045395e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR201C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR208W,r_0664;r_0700;r_1088,3,0.0,optimal,True,3.2573943542502093e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YHR215W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YHR216W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL002C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL006W,r_1230;r_1231;r_1232,3,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YIL009W,r_2209;r_2210;r_2211;r_2212,4,0.08093802601827435,optimal,True,9.712563465734615e-08,9.712563465734615e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YIL010W,r_1037,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YIL013C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL020C,r_0007,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIL023C,r_4194,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YIL043C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL048W,r_3893;r_3894;r_3895;r_3896;r_3897;r_3898;r_3899;r_3900,8,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YIL053W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL066C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL074C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL078W,r_1042,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIL083C,r_0905,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIL094C,r_0545,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIL099W,r_0464,1,0.08093801366570658,optimal,True,9.712561983426431e-08,9.712561983426431e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YIL107C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL111W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIL116W,r_0538,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIL124W,r_2324;r_2325;r_2326;r_2327;r_2328;r_2329;r_2330;r_2331,8,0.08093802601837481,optimal,True,9.712563465746671e-08,9.712563465746671e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YIL125W,r_0831;r_0832,2,0.08093800969807419,optimal,True,9.712561507310527e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YIL134W,r_1151,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YIL145C,r_0843,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIL155C,r_0490,1,0.0809380260183748,optimal,True,9.71256346574667e-08,9.71256346574667e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YIL160C,r_0100;r_0101;r_0102;r_0105;r_0106;r_0107;r_2283;r_2284;r_2285;r_2286;r_2287;r_2288;r_2289;r_2290;r_2291;r_2292;r_2293;r_2294,18,0.08093802601846929,optimal,True,9.71256346575801e-08,9.71256346575801e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YIL162W,r_1024,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YIL166C,r_4700;r_4705,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YIL172C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIR027C,r_0190,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YIR028W,r_1114,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YIR029W,r_0189,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YIR031C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YIR032C,r_1076;r_4765,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YIR034C,r_0988,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YIR036C,r_4198,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YIR037W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL003W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL005W,r_0147;r_4766,2,0.08093802601845893,optimal,True,9.712563465756764e-08,9.712563465756765e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJL012C,r_4722,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJL026W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL045W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL052W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL060W,r_2112;r_4761;r_4767,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJL068C,r_0987,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJL071W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL088W,r_0816,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJL091C,r_0137,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJL097W,r_2168;r_2169;r_2170;r_2171;r_2172;r_2173;r_2174,7,0.08093801366587498,optimal,True,9.712561983446639e-08,9.712561983446639e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJL100W,r_2828;r_2829;r_2830;r_2831;r_2832;r_2833;r_2834;r_2835,8,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJL101C,r_0460,1,0.0,optimal,True,1.2452261444195756e-12,3.730349362740526e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJL121C,r_0984,1,0.0805716324161322,optimal,True,9.6685962319224e-08,9.6685962319224e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJL126W,r_4260;r_4261,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJL129C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL130C,r_0214,1,0.0,optimal,True,4.337576389925087e-13,4.160938260611147e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJL133W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL134W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL137C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL139C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL153C,r_0758,1,0.0,optimal,True,2.2737367544323206e-13,2.3874235921539366e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJL155C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL166W,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJL167W,r_0355;r_0462,2,0.0,optimal,True,6.67021993194794e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJL196C,r_2154;r_2155,2,0.0809380260183748,optimal,True,9.712563465746668e-08,9.71256346574667e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJL198W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL200C,r_4262,1,0.08093802601832455,optimal,True,9.71256346574064e-08,9.71256346574064e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJL212C,r_1167;r_1990,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJL214W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL216C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL219W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJL221C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR001W,r_1187;r_1197;r_1203;r_1209,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJR009C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR010W,r_1025,1,0.0,optimal,True,2.2734591986761643e-13,2.274291865944633e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR013W,r_0519,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJR016C,r_0352;r_0353,2,0.0,optimal,True,1.2079226507921703e-13,9.325873406851315e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR019C,r_0844;r_0845;r_0847;r_0848;r_0849;r_0850;r_2232;r_2233;r_2234;r_2235,10,0.08093802771890238,optimal,True,9.712563669809987e-08,9.712563669809987e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR024C,r_0086,1,0.0,optimal,True,4.547734995600218e-13,1.4180938098612093e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR025C,r_0058,1,0.0,optimal,True,2.446931546273845e-13,2.3857997429430545e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR040W,r_4263,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJR048W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR049C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR051W,r_4264,1,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR057W,r_0363,1,0.08093802601837498,optimal,True,9.712563465746691e-08,9.712563465746691e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR069C,r_0807;r_4266;r_4267;r_4268;r_4269,5,0.08093802601841046,optimal,True,9.71256346575095e-08,9.71256346575095e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR073C,r_2496;r_2497;r_2498;r_2499;r_2500;r_2501;r_2502;r_2503;r_2504;r_2505;r_2506;r_2507;r_2508;r_2509;r_2510;r_2511,16,0.0,optimal,True,3.7989681021543994e-13,3.83124643121846e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR077C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR078W,r_0694,1,0.0,optimal,True,1.801891968966629e-13,3.601311345334501e-15,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR095W,r_1265,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJR103W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR104C,r_4270,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJR105W,r_0142,1,0.08090488227836116,optimal,True,9.708586216804356e-08,9.708586216804354e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR109C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR110W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR121W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJR130C,r_0311,1,0.08093802601837109,optimal,True,9.712563465746224e-08,9.712563465746225e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR131W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR133W,r_1091,1,0.08093802601838475,optimal,True,9.712563465747864e-08,9.712563465747864e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YJR137C,r_1027,1,0.0,optimal,True,3.410605131648481e-13,2.6489033189136535e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR139C,r_0546;r_0547,2,0.0,optimal,True,4.689582056016661e-13,1.785238623597252e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR143C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR148W,r_0663;r_0699;r_1087,3,0.0,optimal,True,1.7053025658242404e-13,2.2737367544323206e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YJR149W,r_4273,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJR152W,r_1113,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YJR153W,r_0365,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJR155W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR158W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YJR159W,r_0691,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YJR160C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL001C,r_0154,1,0.0,optimal,True,2.2737367544323206e-13,4.950487285569025e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL004W,r_3428;r_3429;r_3430;r_3431;r_3432;r_3433;r_3434;r_3435;r_3436;r_3437;r_3438;r_3439;r_3440;r_3441;r_3442;r_3443;r_3444;r_3445;r_3446;r_3447;r_3448;r_3449;r_3450;r_3451;r_3452;r_3453;r_3454;r_3455;r_3456;r_3457;r_3458;r_3459;r_3460;r_3461;r_3462;r_3463;r_3464;r_3465;r_3466;r_3467;r_3468;r_3469;r_3470;r_3471;r_3472;r_3473;r_3474;r_3475;r_3476;r_3477;r_3478;r_3479;r_3480;r_3481;r_3482;r_3483;r_3484;r_3485;r_3486;r_3487;r_3488;r_3489;r_3490;r_3491;r_3492;r_3493;r_3494;r_3495;r_3496;r_3497;r_3498;r_3499;r_3500;r_3501;r_3502;r_3503;r_3504;r_3505;r_3506;r_3507,80,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL008C,r_0263;r_0264;r_0265;r_0266,4,0.08093802601840676,optimal,True,9.712563465750504e-08,9.712563465750505e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL016C,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL019W,r_0249,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL024C,r_1072;r_1073;r_1079;r_1080;r_1703;r_1704,6,0.0,optimal,True,6.139089236967266e-12,1.315853160127735e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL026C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL029C,r_0718;r_0719,2,0.08042261358558311,optimal,True,9.650713971623999e-08,9.650713971623998e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL035W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL055C,r_2145;r_2146;r_2147,3,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL060C,r_0322;r_0450;r_0990,3,0.0803652979260693,optimal,True,9.643836092239065e-08,9.643836092239064e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL067W,r_0795;r_0796;r_0797;r_0798;r_0799;r_0800;r_0801;r_0802;r_0803;r_0811;r_4770;r_4771;r_4772;r_4773;r_4774;r_4775;r_4776;r_4777;r_4778,19,0.0,optimal,True,9.170442183403793e-14,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL069W,r_4202,1,0.08093802601842666,optimal,True,9.712563465752893e-08,9.712563465752893e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL080W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL085W,r_0713,1,0.08093802601840926,optimal,True,9.712563465750804e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL087C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL088W,r_0906,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL094W,r_3308;r_3309;r_3310;r_3311,4,0.08093802601856787,optimal,True,9.712563465769839e-08,9.712563465769837e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL103C,r_4203;r_4204,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL104C,r_0477,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL106W,r_0217;r_0682,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL120W,r_1239;r_1574;r_4783;r_4784,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL127W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL132C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL140W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL141W,r_1021,1,0.08045222662393846,optimal,True,9.654267536352332e-08,9.654267536352332e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL146W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL148C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL150W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL152C,r_0356,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL165C,r_0520,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL174C,r_1250;r_1259,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL181W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKL182W,r_2140;r_2141,2,0.0,optimal,True,5.74117421867539e-13,1.1027623258996755e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL184W,r_0817,1,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL188C,r_1236;r_1771;r_1772;r_1774;r_2219;r_2220;r_2221;r_2222;r_2223;r_2224;r_2225;r_2226;r_2227;r_2228;r_2231,15,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL192C,r_0099;r_0721;r_2142;r_2143;r_2144,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL194C,r_1043,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL211C,r_0203;r_0566,2,0.0,optimal,True,9.094947017729282e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL212W,r_0993;r_3128;r_3129;r_3130;r_3131;r_3132;r_3133;r_3134;r_3135;r_3136;r_3137;r_3138;r_3139;r_3140;r_3141;r_3142;r_3143;r_3160;r_3161;r_3162;r_3163;r_3164;r_3165;r_3166;r_3167;r_3168;r_3169;r_3170;r_3171;r_3172;r_3173;r_3174;r_3175,33,0.08093801366693786,optimal,True,9.712561983574184e-08,9.712561983574184e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL215C,r_4205,1,0.08093802601846381,optimal,True,9.71256346575735e-08,9.712563465757352e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKL216W,r_0453,1,0.0,optimal,True,4.337576389925087e-13,4.160938260611147e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKL217W,r_1136;r_1206;r_1207;r_1254,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKL218C,r_4206,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKL220C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKR009C,r_0057;r_2248;r_2249;r_2250;r_2251;r_2252;r_2253;r_2254;r_2255;r_2256;r_2257;r_2258;r_2259;r_2260;r_2261;r_2262;r_2263;r_2264;r_2265;r_2266;r_2267;r_2268;r_2269;r_2270;r_2271;r_2272;r_2273;r_2274;r_2275;r_2276;r_2277;r_2278;r_2279;r_2280;r_2281;r_2282,36,0.08093802601846929,optimal,True,9.71256346575801e-08,9.71256346575801e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKR031C,r_3104;r_3105;r_3106;r_3107;r_3108;r_3109;r_3110;r_3111,8,0.080938026018375,optimal,True,9.712563465746695e-08,9.712563465746695e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKR039W,r_1238;r_1907;r_3545;r_4469,4,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKR043C,r_2126,1,0.08093802771882605,optimal,True,9.712563669800827e-08,9.712563669800827e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKR052C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKR053C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKR058W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKR061W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKR066C,r_0437,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKR067W,r_2310;r_2311;r_2314;r_2315;r_2316;r_2317;r_2318;r_2319;r_2320;r_2321;r_2322;r_2323,12,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YKR069W,r_1082,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKR072C,r_0906,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YKR076W,r_4208,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YKR080W,r_0731,1,0.0805091041354043,optimal,True,9.661092837969652e-08,9.661092837969649e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKR089C,r_3316;r_3317;r_3318;r_3319;r_3320;r_3321;r_3322;r_3323;r_3324;r_3325;r_3326;r_3327;r_3328;r_3329;r_3330;r_3331,16,0.08093802601845937,optimal,True,9.712563465756818e-08,9.712563465756818e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YKR093W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YKR097W,r_0884,1,0.08093802601840926,optimal,True,9.712563465750804e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLL001W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL012W,r_3254;r_3255;r_3256;r_3257;r_3258;r_3259;r_3260;r_3261,8,0.0809380260183308,optimal,True,9.712563465741389e-08,9.71256346574139e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLL015W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL018C,r_0220,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLL018C-A,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL028W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL031C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL041C,r_1021,1,0.08045222662393846,optimal,True,9.654267536352332e-08,9.654267536352332e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLL043W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL048C,r_1028,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YLL051C,r_4276,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YLL052C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL053C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL057C,r_1029,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLL058W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLL061W,r_1257,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YLL062C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR011W,r_0441;r_0442,2,0.08093802601849445,optimal,True,9.712563465761028e-08,9.712563465761028e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR017W,r_0075,1,0.0,optimal,True,4.547734995600218e-13,1.4180938098612093e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR020C,r_3262;r_3263,2,0.08093802601806807,optimal,True,9.712563465709862e-08,9.712563465709862e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR027C,r_0216;r_0218;r_0681;r_0683;r_1065,5,0.0,optimal,True,1.8189894035458565e-12,3.751665644813329e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR028C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR038C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR043C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR044C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR047C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR056W,r_0242,1,0.08093802601876499,optimal,True,9.712563465793492e-08,9.712563465793492e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR057W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR058C,r_0502,1,0.0799445860989107,optimal,True,9.593350671194318e-08,9.593350671194318e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR060W,r_0852,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR070C,r_1092,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR081W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR089C,r_0674,1,0.08093802601860436,optimal,True,9.712563465774215e-08,9.712563465774217e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR092W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR100W,r_0236;r_0237,2,0.0,optimal,True,9.852489194866904e-13,3.1940429645111895e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR109W,r_0552,1,0.08093802601840926,optimal,True,9.712563465750803e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR130C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR133W,r_0273,1,0.08093802601840926,optimal,True,9.712563465750806e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR134W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR138W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR142W,r_0940,1,0.08093802601841411,optimal,True,9.712563465751388e-08,9.712563465751388e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR146C,r_1002,1,0.0,optimal,True,4.547473508906477e-13,1.4328894099310493e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR151C,r_4279,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR153C,r_0114,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR155C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR157C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR158C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR160C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR164W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR172C,r_0359,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR174W,r_0659,1,0.08093802601835805,optimal,True,9.712563465744659e-08,9.712563465744659e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR180W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR189C,r_1068,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR201C,r_0021;r_0022;r_0532;r_0963;r_0985,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR209C,r_0943;r_0949;r_0950;r_0951;r_4749;r_4758,6,0.08093798114554633,optimal,True,9.712558081007066e-08,9.712558081007063e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR211C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR214W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR231C,r_0045;r_0670,2,0.0,optimal,True,1.801891968966629e-13,3.601311345334501e-15,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR237W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR240W,r_2852;r_2853;r_2854;r_2855;r_2856;r_2857;r_2858;r_2859,8,0.08093802601845991,optimal,True,9.712563465756883e-08,9.712563465756883e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR244C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR245C,r_0314;r_0329,2,0.08093802658524529,optimal,True,9.712563533771131e-08,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR258W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR260W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR284C,r_2295;r_2296;r_2297;r_2298;r_2299;r_2300,6,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR285W,r_0782,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR286C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR295C,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YLR299W,r_0457,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR300W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR303W,r_0312;r_0812;r_0813,3,0.0,optimal,True,2.74724687443495e-13,8.348877145181177e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR304C,r_0280;r_0302;r_0303;r_2305,4,0.08093802601864775,optimal,True,9.712563465779423e-08,9.712563465779423e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR305C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR307W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR308W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR328W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR342W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR345W,r_4282,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR348C,r_1226;r_1264,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YLR350W,r_0993,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR351C,r_4336,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR354C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR355C,r_0096;r_0669,2,0.0,optimal,True,1.2079226507921703e-13,9.325873406851315e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR359W,r_0151;r_0152,2,0.0,optimal,True,1.890802652315027e-13,6.130961795912354e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR360W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR372W,r_2160,1,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR377C,r_0449,1,0.08093802601836006,optimal,True,9.7125634657449e-08,9.712563465744902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR382C,r_0702,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR386W,r_3216;r_3217;r_3218;r_3219;r_3220;r_3221;r_3222;r_3223,8,0.08093802601837499,optimal,True,9.712563465746692e-08,9.712563465746692e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR395C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR410W,r_0088;r_0089,2,0.08093802601855125,optimal,True,9.712563465767844e-08,9.712563465767844e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR420W,r_0349,1,0.0,optimal,True,4.337576389925087e-13,4.160938260611147e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YLR432W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YLR438W,r_0819,1,0.08093802601836109,optimal,True,9.712563465745025e-08,9.712563465745025e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YLR446W,r_4283;r_4284;r_4285;r_4286;r_4287,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YLR447C,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YLR450W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML004C,r_0697,1,0.08093802601848507,optimal,True,9.712563465759902e-08,9.712563465759902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YML008C,r_0986,1,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YML022W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML035C,r_0143,1,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YML042W,r_0253;r_0254,2,0.08093802601842487,optimal,True,9.712563465752677e-08,9.712563465752678e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YML054C,r_0004,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YML056C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML059C,r_3022;r_3023;r_3024;r_3025;r_3026;r_3027;r_3028;r_3029;r_3030;r_3031;r_3032;r_3033,12,0.08093802601840926,optimal,True,9.712563465750804e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YML070W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML075C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML081C-A,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YML082W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML086C,r_0319,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YML100W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML106W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML110C,r_0021;r_0022;r_0532;r_0963;r_0985,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YML120C,r_0773,1,0.08093802601840948,optimal,True,9.712563465750831e-08,9.712563465750831e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YML123C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML125C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YML126C,r_0560,1,0.0,optimal,True,6.89226453687297e-13,2.539746191132508e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR006C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR008C,r_3034;r_3035;r_3036;r_3037;r_3038;r_3039;r_3040;r_3041;r_3042;r_3043;r_3044;r_3045,12,0.0809380260183158,optimal,True,9.71256346573959e-08,9.71256346573959e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR009W,r_0013,1,0.0,optimal,True,4.547734995600218e-13,1.4180938098612093e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR011W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR013C,r_0360,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR015C,r_0233,1,0.08093802601876499,optimal,True,9.712563465793492e-08,9.712563465793492e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR020W,r_0929;r_0936;r_0937,3,0.0,optimal,True,2.274014310188477e-13,2.2737367544323206e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR041C,r_0320,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR054W,r_1085,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YMR056C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR058W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR062C,r_0818,1,0.0,optimal,True,2.2315482794965646e-13,3.730349362740526e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR083W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR087W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR088C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR099C,r_4288,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR101C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR105C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR108W,r_0016;r_0097,2,0.0,optimal,True,1.2079226507921703e-13,9.325873406851315e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR110C,r_4291;r_4292;r_4293;r_4294;r_4295;r_4296;r_4297;r_4298;r_4299;r_4300;r_4301;r_4302;r_4303;r_4304;r_4305;r_4306;r_4307,17,0.0809380260183748,optimal,True,9.712563465746668e-08,9.71256346574667e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR113W,r_0346,1,0.0,optimal,True,2.1449508835758024e-13,4.6807223644152414e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR120C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR145C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR162C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR165C,r_2344;r_2345;r_2346;r_2347;r_2348;r_2349;r_2350;r_2351,8,0.08093802601851015,optimal,True,9.712563465762912e-08,9.712563465762912e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR169C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR170C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR189W,r_0501;r_0504;r_0506;r_0507;r_0508;r_0509;r_1030,7,0.08093802601840153,optimal,True,9.712563465749875e-08,9.712563465749877e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR202W,r_0243,1,0.0809380260182391,optimal,True,9.712563465730387e-08,9.712563465730386e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR205C,r_0886,1,0.08036529792622767,optimal,True,9.643836092258068e-08,9.643836092258068e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR207C,r_0108,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR208W,r_0735;r_0736;r_0737;r_0738,4,0.0,optimal,True,6.608047442568932e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR210W,r_4309,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR217W,r_0514,1,0.0,optimal,True,1.5787371410169726e-13,4.529709940470639e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR220W,r_0904,1,0.0,optimal,True,6.608047442568932e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR226C,r_0676;r_0690,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR241W,r_1112,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YMR243C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR246W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR250W,r_0469,1,0.08093801366592135,optimal,True,9.712561983452203e-08,9.712561983452203e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR256C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR261C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR267W,r_0569,1,0.0798169483031005,optimal,True,9.578034135155336e-08,9.578034135155336e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR271C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR272C,r_0260;r_0262;r_0267;r_0268;r_0269;r_0270,6,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR278W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR281W,r_0518,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR289W,r_0067,1,0.0,optimal,True,5.911937606128959e-13,2.339950036110142e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR293C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR296C,r_0993,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YMR298W,r_0263;r_0264;r_0265;r_0266,4,0.08093802601840676,optimal,True,9.712563465750504e-08,9.712563465750505e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR300C,r_0915,1,0.0,optimal,True,7.815970093361102e-14,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YMR301C,r_4337,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YMR303C,r_0163,1,0.08093802601837481,optimal,True,9.71256346574667e-08,9.712563465746671e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR306W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR313C,r_3296;r_3298;r_3299;r_3300;r_3301;r_3302;r_3303;r_3312;r_3313;r_3314;r_3315,11,0.08093802601810428,optimal,True,9.712563465714207e-08,9.712563465714207e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YMR318C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR319C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR322C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YMR323W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL003C,r_1256,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YNL009W,r_0661,1,0.08093802601840924,optimal,True,9.712563465750803e-08,9.712563465750803e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL029C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL036W,r_1667,1,0.08093802601837498,optimal,True,9.71256346574669e-08,9.712563465746691e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL037C,r_0658,1,0.08093802601824872,optimal,True,9.71256346573154e-08,9.71256346573154e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL038W,r_4234,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL045W,r_0703;r_0704;r_0705;r_0706;r_0707;r_0708,6,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL048W,r_4310;r_4311,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL052W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL054W,r_3216;r_3217;r_3218;r_3219;r_3220;r_3221;r_3222;r_3223,8,0.08093802601837499,optimal,True,9.712563465746692e-08,9.712563465746692e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL065W,r_1795;r_1816;r_2190;r_2191;r_4493,5,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YNL071W,r_0961,1,0.07915997492504064,optimal,True,9.499197326999628e-08,9.499197326999627e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL073W,r_0712,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL092W,r_4312,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL101W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL104C,r_0025,1,0.08076715116992772,optimal,True,9.692058483207741e-08,9.692058483207741e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL106C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL117W,r_0717,1,0.08093801253224725,optimal,True,9.712561847411307e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL129W,r_0983,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL130C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL141W,r_0138;r_0140;r_0328,3,0.08093802601839913,optimal,True,9.712563465749588e-08,9.712563465749589e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL142W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL169C,r_2464;r_2465;r_2466;r_2467;r_2468;r_2469;r_2470;r_2471,8,0.08093801366578912,optimal,True,9.712561983436336e-08,9.712561983436336e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL191W,r_4171,1,0.08093802601845192,optimal,True,9.712563465755925e-08,9.712563465755924e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL192W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL202W,r_2303;r_2304,2,0.08093802601840924,optimal,True,9.712563465750803e-08,9.712563465750803e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL219C,r_4313;r_4314,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL220W,r_0153,1,0.0,optimal,True,1.252220549474714e-12,3.020446082808064e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNL229C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL241C,r_0466,1,0.0803693530933594,optimal,True,9.644322712331086e-08,9.644322712331087e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL247W,r_0313,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNL256W,r_0017;r_0347;r_0350;r_0351,4,0.0,optimal,True,2.1449508835758024e-13,4.6807223644152414e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNL267W,r_2836;r_2837;r_2838;r_2839;r_2840;r_2841;r_2842;r_2843;r_2844;r_2845;r_2846;r_2847;r_2848;r_2849;r_2850;r_2851,16,0.08093802601835066,optimal,True,9.712563465743775e-08,9.712563465743774e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL268W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL270C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL274C,r_4315,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNL275W,r_4588,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YNL277W,r_0549,1,0.0,optimal,True,1.779099794185429e-12,9.265477274311706e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNL280C,r_0231,1,0.0,optimal,True,5.426437077460378e-12,6.588058753394922e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNL292W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL316C,r_0938,1,0.0,optimal,True,2.2737367544323206e-13,3.410605131648481e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNL318C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL325C,r_3216;r_3217;r_3218;r_3219;r_3220;r_3221;r_3222;r_3223,8,0.08093802601837499,optimal,True,9.712563465746692e-08,9.712563465746692e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNL331C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL333W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL334C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNL335W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNR001C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNR008W,r_2884;r_2885;r_2886;r_2887;r_2888;r_2889;r_2890;r_2891;r_2892;r_2893;r_2894;r_2895;r_2896;r_2897;r_2898;r_2899;r_2900;r_2901;r_2902;r_2903;r_2904;r_2905;r_2906;r_2907;r_2908;r_2909;r_2910;r_2911;r_2912;r_2913;r_2914;r_2915;r_2916;r_2917;r_2918;r_2919;r_2920;r_2921;r_2922;r_2923;r_2924;r_2925;r_2926;r_2927;r_2928;r_2929;r_2930;r_2931;r_2932;r_2933;r_2934;r_2935;r_2936;r_2937;r_2938;r_2939;r_2940;r_2941;r_2942;r_2943;r_2944;r_2945;r_2946;r_2947;r_2948;r_2949;r_2950;r_2951;r_2952;r_2953;r_2954;r_2955;r_2956;r_2957;r_2958;r_2959;r_2960;r_2961;r_2962;r_2963;r_2964;r_2965;r_2966;r_2967;r_2968;r_2969;r_2970;r_2971;r_2972;r_2973;r_2974;r_2975;r_2976;r_2977;r_2978;r_2979;r_2980;r_2981;r_2982;r_2983;r_2984;r_2985;r_2986;r_2987;r_2988;r_2989;r_2990;r_2991;r_2992;r_2993;r_2994;r_2995;r_2996;r_2997;r_2998;r_2999;r_3000;r_3001;r_3002;r_3003;r_3004;r_3005;r_3006;r_3007;r_3008;r_3009;r_3010;r_3011,128,0.08093802771882003,optimal,True,9.712563669800104e-08,9.712563669800104e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNR012W,r_0315,1,0.08093802601844799,optimal,True,9.712563465755452e-08,9.712563465755452e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNR013C,r_2008;r_3649,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YNR016C,r_0109,1,0.0,optimal,True,1.039723862561459e-12,1.0029313221918894e-10,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNR019W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNR027W,r_2025;r_2026,2,0.08093802601836797,optimal,True,9.712563465745849e-08,9.71256346574585e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YNR030W,r_4316,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNR033W,r_0066,1,0.0,optimal,True,5.911937606128959e-13,2.339950036110142e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNR041C,r_0555,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNR043W,r_0739,1,0.0,optimal,True,6.608047442568932e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNR050C,r_0989,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YNR056C,r_1104,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YNR057C,r_0335,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNR058W,r_0146,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YNR060W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNR067C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNR072W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YNR073C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL011W,r_3070;r_3071;r_3072;r_3073;r_3074;r_3075;r_3076;r_3077;r_3078;r_3079;r_3080;r_3081,12,0.0809380260184055,optimal,True,9.71256346575035e-08,9.712563465750353e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOL020W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL033W,r_0480,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOL049W,r_0485,1,0.0,optimal,True,1.2452261444195756e-12,3.730349362740526e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL052C,r_0145,1,0.0,optimal,True,4.547734995600218e-13,1.4180938098612093e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL055C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL058W,r_0208,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL059W,r_0492,1,0.08093802601840926,optimal,True,9.712563465750804e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOL061W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL064C,r_0032,1,0.07895492947491319,optimal,True,9.474591872114016e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOL065C,r_3208;r_3209;r_3210;r_3211;r_3212;r_3213;r_3214;r_3215,8,0.08093802601832109,optimal,True,9.712563465740224e-08,9.712563465740224e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOL066C,r_0014,1,0.0,optimal,True,1.7663042745591e-13,2.385782426661219e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL068C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL077W-A,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOL086C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL092W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL096C,r_0021;r_0022;r_0532;r_0963;r_0985,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOL097C,r_1057,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL103W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL122C,r_4587;r_4589,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOL126C,r_0714,1,0.08093802601840926,optimal,True,9.712563465750804e-08,9.712563465750804e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOL130W,r_4590,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOL136C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL140W,r_0118,1,0.0,optimal,True,2.2315482794965646e-13,3.730349362740526e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL143C,r_0967,1,0.0,optimal,True,1.23262511309008e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOL151W,r_0696,1,0.0809380260184093,optimal,True,9.712563465750808e-08,9.71256346575081e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOL152W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL156W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOL157C,r_4317;r_4318;r_4319;r_4338,4,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOL165C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR002W,r_4320,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR011W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR025W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR040W,r_0554,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR054C,r_0906,1,0.0,optimal,True,3.410605131648481e-13,1.2559552404355497e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR065W,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR067C,r_4321,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR071C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR074C,r_1045,1,0.0,optimal,True,3.591016373150069e-13,1.33308179310158e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR081C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR095C,r_0982,1,0.0,optimal,True,3.544942117628125e-13,6.393749471612655e-14,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR099W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR100C,r_1120;r_1882;r_1976,3,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR108W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR109W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR120W,r_0487,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR125C,r_0021;r_0022;r_0532;r_0963;r_0985,5,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR126C,r_0369;r_0656;r_0657;r_4711;r_4712;r_4713;r_4714;r_4715;r_4716;r_4717;r_4720;r_4721,12,0.08093802601837502,optimal,True,9.712563465746698e-08,9.712563465746696e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR128C,r_0911,1,0.0,optimal,True,3.410605131648481e-13,1.6591173201347018e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR130C,r_1237,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR136W,r_0658,1,0.08093802601824872,optimal,True,9.71256346573154e-08,9.71256346573154e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR142W,r_0668;r_1022,2,0.08093802601850372,optimal,True,9.712563465762139e-08,9.71256346576214e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR143C,r_1034;r_1035,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR149C,r_4322,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR155C,r_0077,1,0.08093802771947448,optimal,True,9.712563669878637e-08,9.712563669878637e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR161C,r_4332,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR163W,r_0082;r_0357,2,0.08093802601855125,optimal,True,9.712563465767844e-08,9.712563465767844e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR168W,r_0478,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR171C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR175C,r_2332;r_2334;r_2336;r_2338,4,0.08089504782905874,optimal,True,9.707406082846322e-08,9.707406082846321e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR176W,r_0436,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR180C,r_2301;r_2302,2,0.08093802601840931,optimal,True,9.71256346575081e-08,9.712563465750811e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR184W,r_0918,1,0.07845932854901763,optimal,True,9.41511975890297e-08,9.415119758902971e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR190W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR192C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR202W,r_0564,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR209C,r_0774;r_0775,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR221C,r_0721,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YOR222W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR236W,r_0344;r_0345,2,0.0,optimal,True,1.1851630787873546e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR241W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR245C,r_2400;r_2401;r_2402;r_2403;r_2404;r_2405;r_2406;r_2407;r_2408;r_2409;r_2410;r_2411;r_2412;r_2413;r_2414;r_2415;r_2416;r_2417;r_2418;r_2419;r_2420;r_2421;r_2422;r_2423;r_2424;r_2425;r_2426;r_2427;r_2428;r_2429;r_2430;r_2431,32,0.0809380260183194,optimal,True,9.712563465740023e-08,9.712563465740022e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR251C,r_4703,1,0.08093802601840927,optimal,True,9.712563465750806e-08,9.712563465750806e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR253W,r_0992,1,0.0809380260184363,optimal,True,9.71256346575405e-08,9.712563465754051e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR270C,r_1086,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR273C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR278W,r_1083,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR283W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR285W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR286W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR303W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR306C,r_2040,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR311C,r_2512;r_2513;r_2514;r_2515;r_2516;r_2517;r_2518;r_2519,8,0.08093802601840924,optimal,True,9.712563465750802e-08,9.712563465750803e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR316C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR317W,r_2194;r_2200,2,0.08093802771881982,optimal,True,9.712563669800079e-08,9.712563669800079e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR321W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR323C,r_0473,1,0.08093802601837481,optimal,True,9.712563465746671e-08,9.712563465746671e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR332W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YOR334W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR335C,r_0157,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YOR347C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR348C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR360C,r_0034;r_0035;r_0036;r_0037,4,0.08093801253218237,optimal,True,9.712561847403521e-08,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR374W,r_0174;r_0176;r_0201,3,0.0809380260185127,optimal,True,9.712563465763219e-08,9.712563465763217e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR375C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR377W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR381W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR384W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR388C,r_0445,1,0.08093802601836006,optimal,True,9.7125634657449e-08,9.712563465744902e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YOR391C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YOR393W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL015C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL023C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL028W,r_0103;r_0104,2,0.0,optimal,True,3.410605131648481e-13,3.979039320256562e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPL036W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL040C,r_0666,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL053C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL057C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL059W,r_0482;r_0484,2,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL060W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL061W,r_0173;r_0177,2,0.08077643208925833,optimal,True,9.693172193566807e-08,9.693172193566808e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL069C,r_0373,1,0.08093802601836254,optimal,True,9.712563465745199e-08,9.712563465745199e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL076W,r_4234,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL078C,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL087W,r_0340;r_0341;r_0342;r_0343,4,0.08093802601830233,optimal,True,9.712563465737974e-08,9.712563465737973e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL088W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL091W,r_0481;r_0482,2,0.08093802601830583,optimal,True,9.712563465738394e-08,9.712563465738393e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL092W,r_1267,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL095C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL096C-A,r_4234,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL097W,r_1067,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL104W,r_0221,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL110C,r_0497,1,0.08093802601847783,optimal,True,9.712563465759032e-08,9.712563465759032e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL111W,r_0206,1,0.08093802771897625,optimal,True,9.712563669818851e-08,9.712563669818851e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL117C,r_0667,1,0.0,optimal,True,6.67021993194794e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPL120W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL132W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL134C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL147W,r_1236;r_1771;r_1772;r_1774;r_2219;r_2220;r_2221;r_2222;r_2223;r_2224;r_2225;r_2226;r_2227;r_2228;r_2231,15,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL148C,r_0119,1,0.08093801366572564,optimal,True,9.712561983428719e-08,9.712561983428719e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL160W,r_0701,1,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPL172C,r_0531,1,0.0,optimal,True,2.2737367544323206e-13,1.1368683772161603e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPL175W,r_4234,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL188W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL189W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL206C,r_3098;r_3099;r_3100;r_3101;r_3102;r_3103,6,0.08093802601830605,optimal,True,9.712563465738419e-08,9.712563465738419e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL212C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL214C,r_0556;r_1036;r_4753,3,0.0,optimal,True,1.0231815394945443e-12,6.821210263296962e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPL227C,r_4328,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL231W,r_2140;r_2141,2,0.0,optimal,True,5.74117421867539e-13,1.1027623258996755e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPL234C,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL244C,r_1271,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL252C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL258C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL262W,r_0451;r_0452,2,0.07919097252316372,optimal,True,9.502917038905967e-08,9.502917038905967e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPL265W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL268W,r_3082;r_3083;r_3084;r_3085;r_3086;r_3087;r_3088;r_3089;r_3090;r_3091;r_3092;r_3093;r_3094;r_3095;r_3096;r_3097,16,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPL271W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL273W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL274W,r_1255,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPL280W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPL281C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR001W,r_0028,1,0.08093802601842183,optimal,True,9.712563465752313e-08,9.712563465752313e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR002W,r_0117,1,0.08093802601842183,optimal,True,9.712563465752313e-08,9.712563465752313e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR003C,r_4329,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR006C,r_0734,1,0.08093802601842183,optimal,True,9.712563465752313e-08,9.712563465752313e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR011C,r_1642,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR020W,r_0226,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR021C,r_1118;r_1194,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR026W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR033C,r_0539;r_0540,2,0.0,optimal,True,1.9895196601282805e-13,1.8118839761882555e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPR035W,r_0476,1,0.0,optimal,True,2.758904216193514e-13,1.4210854715202004e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPR036W,r_1085;r_1086,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR047W,r_0853,1,nan,not_solved,False,nan,nan,not_solved,no_unblocked_internal_reaction
+YPR058W,r_1811,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR060C,r_0278,1,0.0,optimal,True,2.469136006766348e-13,3.517186542012496e-13,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPR062W,r_0318;r_4764,2,0.080938026018307,optimal,True,9.712563465738534e-08,9.712563465738534e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR069C,r_1001,1,0.08093802601844463,optimal,True,9.712563465755049e-08,9.71256346575505e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR074C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR081C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR113W,r_2454;r_2455;r_2456;r_2457;r_2458;r_2459;r_2460;r_2461,8,0.0,optimal,True,1.1368683772161603e-13,0.0,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPR118W,r_0087,1,0.0,optimal,True,4.547734995600218e-13,1.4180938098612093e-12,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPR121W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR127W,r_4330,1,0.08093802601827223,optimal,True,9.71256346573436e-08,9.712563465734361e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR128C,r_1111;r_1116,2,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR138C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR139C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR140W,r_2620;r_2621;r_2622;r_2623;r_2624;r_2625;r_2626;r_2627;r_2628;r_2629;r_2630;r_2631;r_2632;r_2633;r_2634;r_2635;r_2636;r_2637;r_2638;r_2639;r_2640;r_2641;r_2642;r_2643;r_2644;r_2645;r_2646;r_2647;r_2648;r_2649;r_2650;r_2651;r_2652;r_2653;r_2654;r_2655;r_2656;r_2657;r_2658;r_2659;r_2660;r_2661;r_2662;r_2663;r_2664;r_2665;r_2666;r_2667;r_2668;r_2669;r_2670;r_2671;r_2672;r_2673;r_2674;r_2675;r_2676;r_2677;r_2678;r_2679;r_2680;r_2681;r_2682;r_2683;r_2684;r_2685;r_2686;r_2687;r_2688;r_2689;r_2690;r_2691;r_2692;r_2693;r_2694;r_2695;r_2696;r_2697;r_2698;r_2699;r_2700;r_2701;r_2702;r_2703;r_2704;r_2705;r_2706;r_2707;r_2708;r_2709;r_2710;r_2711;r_2712;r_2713;r_2714;r_2715;r_2716;r_2717;r_2718;r_2719;r_2720;r_2721;r_2722;r_2723;r_2724;r_2725;r_2726;r_2727;r_2728;r_2729;r_2730;r_2731;r_2732;r_2733;r_2734;r_2735;r_2736;r_2737;r_2738;r_2739;r_2740;r_2741;r_2742;r_2743;r_2744;r_2745;r_2746;r_2747;r_2748;r_2749;r_2750;r_2751;r_2752;r_2753;r_2754;r_2755;r_2756;r_2757;r_2758;r_2759;r_2760;r_2761;r_2762;r_2763;r_2764;r_2765;r_2766;r_2767;r_2768;r_2769;r_2770;r_2771;r_2772;r_2773;r_2774;r_2775;r_2776;r_2777;r_2778;r_2779;r_2780;r_2781;r_2782;r_2783;r_2784;r_2785;r_2786;r_2787;r_2788;r_2789;r_2790;r_2791;r_2792;r_2793;r_2794;r_2795;r_2796;r_2797;r_2798;r_2799;r_2800;r_2801;r_2802;r_2803;r_2804;r_2805;r_2806;r_2807;r_2808;r_2809;r_2810;r_2811,192,0.08093802601856542,optimal,True,9.712563465769545e-08,9.712563465769545e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR145W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR156C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR159W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR160W,r_0511,1,0.08093802601825557,optimal,True,9.712563465732361e-08,9.712563465732363e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR165W,r_0005,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR167C,r_0883,1,0.0,optimal,True,2.2737367544323206e-13,4.950487285569025e-11,Optimization terminated successfully. (HiGHS Status 7: Optimal),mutant_growth_below_0.1_WT
+YPR170W-B,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR183W,r_0361,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR184W,r_0463,1,0.08093802601852255,optimal,True,9.7125634657644e-08,9.7125634657644e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible
+YPR191W,r_0439,1,nan,not_solved,False,nan,nan,not_solved,protected_reaction_in_footprint
+YPR192W,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint
+YPR193C,,0,nan,not_solved,False,nan,nan,not_solved,empty_effective_footprint

@@ -1,0 +1,37 @@
+{
+  "status": "PASSED",
+  "tolerance": 1e-07,
+  "checks": {
+    "prepare_completed": true,
+    "fresh_eligible_235": true,
+    "corrected_gene_set_exact": true,
+    "blocked_set_exact": true,
+    "full_gpr_footprints_exact": true,
+    "v1_completed_235": true,
+    "v2a_completed_235": true,
+    "sensitivity_pool_not_intersected": true,
+    "all_footprints_match": true,
+    "no_solver_failures": true,
+    "residuals_within_tolerance": true,
+    "primary_non_discriminating_actual": true,
+    "rank_gate_exact": true,
+    "ranking_235": true,
+    "topk_fixed_6": true,
+    "topk_secondary_only": true,
+    "no_production_superiority_permission": true,
+    "tests_passed": true
+  },
+  "footprint_mismatches": [],
+  "v2a_infeasible_mutants": [
+    "YMR303C"
+  ],
+  "v2a_growth_floor_infeasible_cells": 32,
+  "secondary_top6": [
+    "YOR311C",
+    "YKL094W",
+    "YDR402C",
+    "YDR453C",
+    "YBR006W",
+    "YGR019W"
+  ]
+}

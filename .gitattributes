@@ -1,0 +1,18 @@
+# Preserve the exact ZIP member bytes across Git checkouts on all platforms.
+/src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py -text whitespace=cr-at-eol
+/src/ai/fabric_ai_optimizer/verify_design_mode.py -text whitespace=cr-at-eol
+/src/ai/fabric_ai_optimizer/verify_ranking_numeric_correction.py -text whitespace=cr-at-eol
+/src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md -text whitespace=cr-at-eol
+/src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json -text whitespace=cr-at-eol
+/tests/fabric_ai/test_ranker.py -text whitespace=cr-at-eol
+/configs/fabric_ai/** -text whitespace=cr-at-eol
+/configs/config/protected_reaction_ids.json -text whitespace=cr-at-eol
+/models/fabric_ai/common_model.json -text whitespace=cr-at-eol
+/results/fabric_ai/20260908/** -text whitespace=cr-at-eol
+/results/history/fabric_ai/20260908/** -text whitespace=cr-at-eol
+/results/evidence/20260908/code_parts_sync/** -text whitespace=cr-at-eol
+/parts/AISB26-045-001/sequence.fasta -text whitespace=cr-at-eol
+/parts/AISB26-045-001/registry_export.gb -text whitespace=cr-at-eol
+/parts/AISB26-045-001/map.svg -text whitespace=cr-at-eol
+/parts/AISB26-045-002/registry_export.gb -text whitespace=cr-at-eol
+/parts/AISB26-045-002/map.svg -text whitespace=cr-at-eol

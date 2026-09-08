@@ -1,0 +1,89 @@
+{
+  "benchmark_id": "FABRIC_standardized_common_v1_20260906",
+  "created_at_utc": "2026-09-06T02:25:53.978355+00:00",
+  "authorization": "2026-09-05 isolated-copy repair, structural adaptation and evaluator integration; original model/scripts/Wiki/form preserved",
+  "scope": "New standardized computational model, NOT reconstruction of the historical fermentation model",
+  "source_model": {
+    "version": "Yeast-GEM v9.1.0",
+    "commit": "2fd1a331abc422971e8a5a54ae185d1b33d68c10",
+    "sha256": "05d33f3e82c2e2d072e229e7588f06d33b7df9daa806288db548c140149fc8bb"
+  },
+  "archived_presets": {
+    "growth_thresholds": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "solver": "glpk",
+    "tolerance": 1e-07,
+    "time_limit_s": 3600,
+    "threads": 1,
+    "seed": 20260903,
+    "max_gene_knockouts": 1,
+    "max_supplementary_reaction_knockouts": 3
+  },
+  "new_operational_decisions": {
+    "medium": "All source Yeast-GEM exchange bounds retained exactly; glucose uptake limit 1, ethanol uptake closed, oxygen uptake limit 1000. All original maintenance bounds retained. Complete bounds exported.",
+    "experimental_product_rate": "Not imposed as constraint or used to tune thresholds; 0.000193873 is a historical record only.",
+    "growth_reference": "Maximum r_2111 flux of the unmodified-genotype NEW common model, same medium. All 0.1/0.5/0.9 floors use this single WT denominator.",
+    "candidate_generation_growth_floor": 0.1,
+    "candidate_pool": "Native genes with a nonempty effective GPR knockout footprint; exclude any footprint containing boundary, transport, biomass or maintenance; at least one affected internal reaction must be FVA-unblocked at WT growth floor 0.1; mutant must retain >=0.1 WT maximum growth. Include complete gene knockout footprint in evaluation.",
+    "blocked_definition": "FVA minimum and maximum within +/-1e-7, under common medium and 0.1 WT growth floor; never one arbitrary FBA solution.",
+    "fastknock_mapping": "Native K=1 tree construction on reaction representatives with exact single-gene GPR footprint as co-knockout set; only root-active admissible actions traversed, per native target-space rule. Deduplicate identical gene footprints. Keep root solutions.",
+    "fastknock_growth_threshold": "0.1 * WT maximum growth",
+    "fastknock_chemical_threshold": 1e-07,
+    "fastknock_objective": "Native biomass-maximizing FBA. No lexicographic product maximization substituted into search. Independent evaluator recalculates all product bounds.",
+    "cfsa_mapping": "Native three-scenario OptGP, common model at 0.1 WT growth floor. Source functions with compatibility/seed/checkpoint patches only. Original 10000 samples, thinning 100, optimality .9, pFBA flux multiplier 1.25 retained; one process.",
+    "cfsa_thresholds": {
+      "ks_1v3": 0.75,
+      "ks_2v3": 0.75,
+      "mean_absolute_change": 0.01,
+      "production_sd_max": 50,
+      "p_cutoff": 0.05,
+      "biomass_correlation_max": 1
+    },
+    "cfsa_gene_translation": "Only native knock-out recommendations mapped to eligible genes whose Boolean GPR knockout actually disables the recommended reaction. KD and over-expression kept separately; not silently converted to KO.",
+    "cfsa_rank": "Descending mean_absolute_change (source filtering notebook), descending min(KS1v3, KS2v3), gene ID for ties; highest scoring supported reaction per gene.",
+    "independent_evaluator": "Reload canonical model, apply actual gene.knock_out(), verify footprint; solve maximum growth, and min/max product under each ABSOLUTE WT growth floor; separately min/max product at >=0.95 mutant maximum growth. Preserve solver status and feasibility residual.",
+    "independent_ranking": "Report native order and all metrics; no post-hoc scalar aggregate tuned on results.",
+    "cfsa_validation": "Report valid sample counts, maximal stoichiometric/bound residual and source Geweke scores. One seeded chain does not establish full mixing; no ranking validated solely by sample count.",
+    "time_budget": "3600 wall seconds per native method invocation including its method-specific preparation; shared model/candidate preparation and independent evaluation timed separately; timeout retains partial files, never counts as zero candidates.",
+    "round1": "Do not load held-out Round 1 values, validation reports, or outcomes."
+  },
+  "modeling_assumptions": [
+    {
+      "id": "A1",
+      "decision": "r_4780 uses lumped net aerobic disposal: phytoene + 2 O2 -> lycopene + 4 H2O. Enzyme-bound FAD cancels. No NAD(P)H/ATP recovery from carotene desaturation.",
+      "evidence": "EC1.3.99.31 specifies four electron-acceptor reductions; Schaub 2012 establishes enzyme-bound FAD and oxygen terminal acceptor.",
+      "boundary": "Water disposal is an explicit steady-state composite model assumption, NOT a measured elementary CrtI stoichiometry. Schaub reports unresolved oxygen intermediates; no claim that CrtI directly produces water."
+    },
+    {
+      "id": "A2",
+      "decision": "Hydroxylation uses one NADPH + H+ per added hydroxyl; ketolation uses two NADPH + 2H+ and two O2 per introduced keto group, with three water products.",
+      "evidence": "EC1.14.99.63/.64 specify two reduced acceptors per keto group; EC1.14.15.24 describes ferredoxin-mediated hydroxylation.",
+      "boundary": "NADPH is a declared lumped upstream electron-supply convention, retaining the archived hydroxylation donor. Direct donor/reductase identity in the project construct has not been measured; no invented gene for this coupling."
+    },
+    {
+      "id": "A3",
+      "decision": "Carotenoid reactions cytosolic; product transport/export are bookkeeping drains. Native and heterologous import bounds are not opened.",
+      "boundary": "No claim of measured secretion or transporter activity."
+    },
+    {
+      "id": "A4",
+      "decision": "Import only metabolites used by the 21 astaxanthin reactions; omit unused beta-carotene[e] and two indigoidine records.",
+      "boundary": "The archived indigoidine compartment conflict remains documented in the untouched original package; it is not part of this astaxanthin model."
+    }
+  ],
+  "sources": {
+    "crtI_ec": "https://iubmb.qmul.ac.uk/enzyme/EC1/3/99/31.html",
+    "crtI_primary": "https://doi.org/10.1371/journal.pone.0039550",
+    "ketolase": "https://iubmb.qmul.ac.uk/enzyme/EC1/14/99/63.html",
+    "ketolase_hydroxylated": "https://iubmb.qmul.ac.uk/enzyme/EC1/14/99/64.html",
+    "hydroxylase": "https://iubmb.qmul.ac.uk/enzyme/EC1/14/15/24.html"
+  },
+  "not_executed_here": [
+    "OptEnvelope (local MATLAB assignment preserved)",
+    "FABRIC-AI new production optimizer (objective not supplied as executable frozen contract)",
+    "supplementary K=2/3 reaction benchmark"
+  ]
+}

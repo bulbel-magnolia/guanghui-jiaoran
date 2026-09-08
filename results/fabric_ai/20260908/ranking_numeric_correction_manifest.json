@@ -1,0 +1,129 @@
+{
+  "freeze_status": "RANKING_NUMERIC_EQUIVALENCE_CORRECTION_FROZEN",
+  "created_at_utc": "2026-09-08T03:57:27.028190+00:00",
+  "source_repository": "bulbel-magnolia/guanghui-jiaoran",
+  "source_branch": "benchmark/fabric-ai-20260907",
+  "source_commit_with_correction_instruction": "36ebd194b9f9cd94b6ab685bfe0057d752204cc1",
+  "correction_instruction_path": "results/fabric_ai/20260908/RANKING_NUMERIC_EQUIVALENCE_CORRECTION.md",
+  "scope": "ranking/tests/verification correction only",
+  "prepare_rerun": false,
+  "evaluate_rerun": false,
+  "frozen_inputs": {
+    "results/fabric_ai_v1_metrics/candidate_metrics.csv": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d",
+    "results/fabric_ai_v2a_metrics/candidate_metrics.csv": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150",
+    "results/fabric_ai_v1_metrics/summary.json": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22",
+    "results/fabric_ai_v2a_metrics/summary.json": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e"
+  },
+  "native_unit_solver_tolerance": 1e-07,
+  "ranking_priority_changed": false,
+  "top_k": 6,
+  "rank_status": "NON_DISCRIMINATING_GUARANTEED_PRODUCTION",
+  "topk_interpretation": "SECONDARY_FEASIBILITY_ORDER_ONLY",
+  "production_superiority_claim_allowed_from_topk": false,
+  "secondary_top6": [
+    "YAL060W",
+    "YBR006W",
+    "YBR011C",
+    "YBR183W",
+    "YBR281C",
+    "YCR005C"
+  ],
+  "candidate_rank_changes_vs_historical_numeric_handling": 189,
+  "native_objective_inconsistency_count": 0,
+  "tests": "9 passed",
+  "verification": "PASSED",
+  "historical_ratio_space_ranking_retained": true,
+  "wiki_or_judging_form_modified": false,
+  "files": [
+    {
+      "path": "README_RANKING_NUMERIC_EQUIVALENCE_CORRECTION.md",
+      "bytes": 1837,
+      "sha256": "d51d38bdb7a90d22ba7122651323d9ecd44019d14a80684e2b849b9cfafed52e"
+    },
+    {
+      "path": "optimizer/fabric_ai_benchmark.py",
+      "bytes": 45375,
+      "sha256": "c43964cafcf24ee65652256494f2f8aac67be7f3cfb1195f0ffe1614ac248c57"
+    },
+    {
+      "path": "src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md",
+      "bytes": 11529,
+      "sha256": "3d667a8cf54349134d9617da5601ace2cb7b8045fc26020c54cf1a210ffc6fcb"
+    },
+    {
+      "path": "src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json",
+      "bytes": 2573,
+      "sha256": "6076a435cf29d38be450b3f4eea5ed4687936f208169d266fd8bc33af710c98a"
+    },
+    {
+      "path": "tests/test_ranker.py",
+      "bytes": 5216,
+      "sha256": "df1d9037c7e7143feb9ce6ffaf8a1d885c2bc773431d35289fc503ee07804526"
+    },
+    {
+      "path": "tools/run_ranking_numeric_correction.py",
+      "bytes": 1610,
+      "sha256": "3fd57aa110c04441b2bfb5df2728eafd2faf0b1f653a38a1449c3845b913cbd7"
+    },
+    {
+      "path": "tools/run_ranking_correction_tests.py",
+      "bytes": 1034,
+      "sha256": "b90726976dfc47e3dc2e073dc93df74917647646cbb415b0df02add859523990"
+    },
+    {
+      "path": "tools/verify_ranking_numeric_correction.py",
+      "bytes": 7982,
+      "sha256": "12bf91d20296c62a09644c7f73f2ca7e049071e86f69fd5a4aeac0988714ee16"
+    },
+    {
+      "path": "logs/06_rank_numeric_correction.log",
+      "bytes": 2894,
+      "sha256": "450522e7f4f751372d05aadd097f2594a4158b465501f8f9504b69152c031cdf"
+    },
+    {
+      "path": "logs/07_tests_ranking_numeric_correction.log",
+      "bytes": 234,
+      "sha256": "3c3e61806981c8dc9dfd9d06bf3fd5d670ac7cf23e5b73cc5f5d16fad59679b7"
+    },
+    {
+      "path": "audit/ranking_numeric_correction_verification.json",
+      "bytes": 1833,
+      "sha256": "ad603d5ff65fb296b106e64624c48f912218406a1fe78040dc2d78c084e890bf"
+    },
+    {
+      "path": "results/fabric_ai_ranking_numeric_correction_20260908/design_mode_ranking.csv",
+      "bytes": 16833,
+      "sha256": "64e7493450278d3b616a66b6dc1d109b7d503d175bc3ffef5c9c36517ec23206"
+    },
+    {
+      "path": "results/fabric_ai_ranking_numeric_correction_20260908/design_mode_topk.csv",
+      "bytes": 509,
+      "sha256": "ea440d8e8bc5f96a8bf88b1579c4074f54ef4f4146eed6330058ad0edc62c561"
+    },
+    {
+      "path": "results/fabric_ai_ranking_numeric_correction_20260908/summary.json",
+      "bytes": 2627,
+      "sha256": "448ef091d9bd766a08fa637314e2d1c4e729fe3ba431d8423a102d07b2904ff9"
+    },
+    {
+      "path": "results/fabric_ai_v1_metrics/candidate_metrics.csv",
+      "bytes": 103985,
+      "sha256": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d"
+    },
+    {
+      "path": "results/fabric_ai_v1_metrics/summary.json",
+      "bytes": 3008,
+      "sha256": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22"
+    },
+    {
+      "path": "results/fabric_ai_v2a_metrics/candidate_metrics.csv",
+      "bytes": 106420,
+      "sha256": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150"
+    },
+    {
+      "path": "results/fabric_ai_v2a_metrics/summary.json",
+      "bytes": 3354,
+      "sha256": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+﻿path,line,category,status,target,detail
+attributions.md,54,relative_link,EXISTS,./AI-USE-DISCLOSURE.md,./AI-USE-DISCLOSURE.md
+README.md,8,science_claim,SCIENCE_REVIEW_REQUIRED,,"用基因工程酵母在不同波长光照下合成三种天然色素,配合家蚕内源 BmCBP 蛋白做媒染剂,把数字图案直接""画""在布料上,全程零重金属、零化学废水。"
+README.md,16,science_claim,SCIENCE_REVIEW_REQUIRED,,"研究问题:纺织印染是全球第二大污染产业,每年释放 2 万吨染料、消耗 930 亿立方米水,废水里有锑、铅、砷、铬这类重金属和苯胺等致癌物,处理成本高昂。我们要回答的核心问题是——能不能用合成生物学加上计算建模的手段,把化学染料和重金属媒染剂同时替换掉,在零毒排放的前提下还能做到精准的图案定制?"
+README.md,20,science_claim,SCIENCE_REVIEW_REQUIRED,,"计算建模驱动菌株设计:用 GSMM(基因组尺度代谢模型)加 OptKnock 算法,在虾青素合成路径上预测关键敲除靶点,把菌株迭代从""盲筛""变成""有理由的尝试"",目前虾青素产量已经提升了 45%;"
+README.md,21,science_claim,SCIENCE_REVIEW_REQUIRED,,"光遗传基因回路:在酿酒酵母里构建红、绿、蓝三种波长响应的启动子,分别诱导虾青素(红)、玉米黄素(黄)、靛蓝(蓝)合成,色素表达和光信号直接挂钩,共 8 条通路已经成功构建并测试;"
+README.md,31,science_claim,SCIENCE_REVIEW_REQUIRED,,"已发表 SCI 论文 1 篇(《Angew. Chem. Int. Ed.》,IF 16.9)、北大核心 1 篇,在申专利 48 项。"
+README.md,89,template,REVIEW_CONTEXT,,git clone <your-repo-url> fabric
+README.md,103,science_claim,SCIENCE_REVIEW_REQUIRED,,"bash# 1) 跑 GSMM + OptKnock,复现虾青素产量提升 45% 的预测结果"
+README.md,315,template,REVIEW_CONTEXT,,url    = {<your-repo-url>}
+README.md,3,relative_link,EXISTS,src/ai/fabric_ai_optimizer/README.md,src/ai/fabric_ai_optimizer/README.md
+README.md,3,relative_link,EXISTS,results/fabric_ai/20260908/README.md,results/fabric_ai/20260908/README.md
+README.md,3,relative_link,EXISTS,results/evidence/20260908/code_parts_sync/README_最终仓库同步结果.md,results/evidence/20260908/code_parts_sync/README_最终仓库同步结果.md
+README.md,129,relative_link,EXISTS,./wiki/Project-Description.md,./wiki/Project-Description.md
+README.md,130,relative_link,EXISTS,./wiki/AI-Computational-Methods.md,./wiki/AI-Computational-Methods.md
+README.md,131,relative_link,EXISTS,./wiki/Wet-Lab-Experiments.md,./wiki/Wet-Lab-Experiments.md
+README.md,132,relative_link,EXISTS,./wiki/Integrated-Validation.md,./wiki/Integrated-Validation.md
+README.md,133,relative_link,EXISTS,./wiki/Verifiability.md,./wiki/Verifiability.md
+README.md,134,relative_link,EXISTS,./wiki/AI-Ethics-Safety.md,./wiki/AI-Ethics-Safety.md
+README.md,135,relative_link,EXISTS,./attributions.md,./attributions.md
+README.md,305,relative_link,EXISTS,./LICENSE,./LICENSE
+results/baseline/20260907/fastknock_235_contract.json,10,old_candidate_pool,HISTORICAL_BASELINE,,"""corrected_pool_definition"": ""exactly the historical 237-gene pool minus YER014W and YOR176W; no other additions/removals"","
+results/baseline/20260907/optenvelope_v1_corrected_closeout_audit.md,13,optenvelope_zero_claim,HISTORICAL_BASELINE,,- “OptEnvelope 真实零候选”；
+results/baseline/20260907/optenvelope_v1_corrected_closeout_audit.md,44,optenvelope_zero_claim,HISTORICAL_BASELINE,,因此，本包证明的是 **修正版兼容流程的可行性与残差合格**。它没有独立证明 support-repaired pattern 仍然实现原始“最小活跃反应数”MILP 目标的全局最优性。最终材料应继续使用 manifest 的保守表述，不把空 reaction sets 解释成方法能力上的“真实零候选”。
+results/baseline/20260907/optenvelope_v1_corrected_closeout_audit.md,53,old_candidate_pool,HISTORICAL_BASELINE,,原 237-gene reaction domain 为 1139 reactions；纠正后的 235-gene union 为 1137 reactions，只减少 r_0942 与 r_0436。
+results/baseline/20260907/README.md,11,old_candidate_pool,HISTORICAL_BASELINE,,- Historical 237-gene pool contained two false-feasible entries caused by stale solver state during KO growth admission: `YER014W` (`r_0942`) and `YOR176W` (`r_0436`).
+results/baseline/20260907/README.md,19,optenvelope_zero_claim,HISTORICAL_BASELINE,,"The corrected GLPK compatibility workflow completed all 11 target points and returned 11 empty sequential reaction sets. This means **zero mappable gene rows were returned by this compatibility run**. It must **not** be described as proof that OptEnvelope has a ""true zero candidate"" result in theory or under all solver formulations."
+results/baseline/20260907/README.md,54,production_superiority,PROHIBITION_NOT_CONFLICT,,Current corrected-v1 + v2A run triggers `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`; any emitted Top-6 rows are `SECONDARY_FEASIBILITY_ORDER_ONLY` and cannot support a production-superiority claim.
+results/baseline/20260907/V1_CANDIDATE_POOL_ERRATUM.md,7,old_candidate_pool,HISTORICAL_BASELINE,,以 fresh/presolved gene-KO LP 重新复算 v1 候选空间后，冻结的 237-gene pool 中有 2 个基因被错误记录为可生长：
+results/baseline/20260907/V1_CANDIDATE_POOL_ERRATUM.md,22,old_candidate_pool,HISTORICAL_BASELINE,,- frozen historical v1：237 genes
+results/evidence/20260908/CODE_AND_PARTS_SYNC_TASK.md,70,template,TASK_INSTRUCTION,,- `YYYY-MM-DD`、`<例`、`<姓名`、`BBa_XXXX` 等模板残留；
+results/evidence/20260908/CODE_AND_PARTS_SYNC_TASK.md,71,old_candidate_pool,TASK_INSTRUCTION,,- `237 genes` / `237-gene` 的旧候选池表述；
+results/evidence/20260908/CODE_AND_PARTS_SYNC_TASK.md,72,old_top6,TASK_INSTRUCTION,,- 旧 Top-6 `YOR311C...`；
+results/evidence/20260908/CODE_AND_PARTS_SYNC_TASK.md,73,optenvelope_zero_claim,TASK_INSTRUCTION,,- `true zero candidate` / “真实零候选”形式的 OptEnvelope 旧结论；
+results/evidence/20260908/CODE_AND_PARTS_SYNC_TASK.md,74,production_superiority,TASK_INSTRUCTION,,- `production superiority` / “生产性能优于公开基线”形式的 FABRIC-AI 旧结论；
+results/fabric_ai/20260908/candidate_space.json,214,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"""YOR311C"","
+results/fabric_ai/20260908/candidate_space.json,1653,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"""YOR311C"": ["
+results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json,17,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_allowed"": false,"
+results/fabric_ai/20260908/DESIGN_MODE_PRIMARY_RESULT.json,18,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_allowed"": false,"
+results/fabric_ai/20260908/design_mode_ranking.csv,166,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"165,YOR311C,0.0,0.0,0.0,1.0,1.0,8,SECONDARY_FEASIBILITY_ORDER_ONLY"
+results/fabric_ai/20260908/DESIGN_MODE_V1_2_AUDIT.md,17,production_superiority,PROHIBITION_NOT_CONFLICT,,- no production-superiority claim is permitted from this run.
+results/fabric_ai/20260908/DESIGN_MODE_V1_2_AUDIT.md,30,old_top6,HISTORICAL_AUDIT,,- `YOR311C` mutant `Pmax`: `0.067255347296789` mmol/(gDCW·h)
+results/fabric_ai/20260908/DESIGN_MODE_V1_2_AUDIT.md,41,production_superiority,PROHIBITION_NOT_CONFLICT,,- the statement that the emitted Top-6 cannot support production superiority.
+results/fabric_ai/20260908/gene_admission_audit.csv,1037,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"YOR311C,r_2512;r_2513;r_2514;r_2515;r_2516;r_2517;r_2518;r_2519,8,0.08093802601840924,optimal,True,9.712563465750802e-08,9.712563465750803e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),eligible"
+results/fabric_ai/20260908/ranking_numeric_correction/README.md,25,production_superiority,PROHIBITION_NOT_CONFLICT,,All six rows are `SECONDARY_FEASIBILITY_ORDER_ONLY`. They are not production-optimal predictions and cannot support a production-superiority claim.
+results/fabric_ai/20260908/ranking_numeric_correction/verification_summary.json,19,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_prohibited"": true,"
+results/fabric_ai/20260908/ranking_numeric_correction_manifest.json,22,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_allowed_from_topk"": false,"
+results/fabric_ai/20260908/ranking_numeric_correction_verification.json,19,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_prohibited"": true,"
+results/fabric_ai/20260908/RANKING_NUMERIC_EQUIVALENCE_CORRECTION.md,12,old_top6,TASK_INSTRUCTION,,- `YOR311C Pmax_0.1 = 0.067255347296789`
+results/fabric_ai/20260908/README.md,3,relative_link,EXISTS,DESIGN_MODE_FINAL_FREEZE.json,DESIGN_MODE_FINAL_FREEZE.json
+results/fabric_ai/20260908/README.md,4,relative_link,EXISTS,design_mode_ranking.csv,design_mode_ranking.csv
+results/fabric_ai/20260908/README.md,4,relative_link,EXISTS,design_mode_topk.csv,design_mode_topk.csv
+results/fabric_ai/20260908/README.md,5,relative_link,EXISTS,summary.json,summary.json
+results/fabric_ai/20260908/README.md,5,relative_link,EXISTS,ranking_numeric_correction_verification.json,ranking_numeric_correction_verification.json
+results/fabric_ai/20260908/README.md,5,relative_link,EXISTS,ranking_numeric_correction_manifest.json,ranking_numeric_correction_manifest.json
+results/fabric_ai/20260908/README.md,6,relative_link,EXISTS,candidate_space.json,candidate_space.json
+results/fabric_ai/20260908/README.md,6,relative_link,EXISTS,v1_candidate_metrics.csv,v1_candidate_metrics.csv
+results/fabric_ai/20260908/README.md,6,relative_link,EXISTS,v2a_candidate_metrics.csv,v2a_candidate_metrics.csv
+results/fabric_ai/20260908/README.md,7,relative_link,EXISTS,../../../src/ai/fabric_ai_optimizer/README.md,../../../src/ai/fabric_ai_optimizer/README.md
+results/fabric_ai/20260908/README.md,8,relative_link,EXISTS,../../baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md,../../baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md
+results/fabric_ai/20260908/README.md,9,relative_link,EXISTS,../../evidence/20260908/code_parts_sync/README_最终仓库同步结果.md,../../evidence/20260908/code_parts_sync/README_最终仓库同步结果.md
+results/fabric_ai/20260908/README.md,11,relative_link,EXISTS,../../history/fabric_ai/20260908/pre_numeric_correction/design_mode_ranking.csv,../../history/fabric_ai/20260908/pre_numeric_correction/design_mode_ranking.csv
+results/fabric_ai/20260908/README.md,11,relative_link,EXISTS,../../evidence/20260908/code_parts_sync/source_sync_manifest.csv,../../evidence/20260908/code_parts_sync/source_sync_manifest.csv
+results/fabric_ai/20260908/README_RANKING_NUMERIC_EQUIVALENCE_CORRECTION.md,26,production_superiority,PROHIBITION_NOT_CONFLICT,,"These rows are not production-optimal candidates and do not support a production-superiority claim. Relative to the retained historical ratio-space ranking, 189 of 235 rank positions changed."
+results/fabric_ai/20260908/summary.json,13,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_allowed_from_topk"": false,"
+results/fabric_ai/20260908/v1_candidate_metrics.csv,213,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"YOR311C,v1_glucose_reference,r_2512;r_2513;r_2514;r_2515;r_2516;r_2517;r_2518;r_2519,8,True,0.08093802601848507,0.08093802601840924,optimal,True,9.712563465750802e-08,9.712563465750803e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.9999999999990631,optimal,0.0,0.06725534729678906,1.0000003909083546,optimal,0.0,0.04516383269864885,1.0000001578704787,optimal,0.0,0.009032766492508643,0.9999998109538892,0.0,0.0,0.004516383245760302,optimal"
+results/fabric_ai/20260908/v2a_candidate_metrics.csv,213,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"YOR311C,v2a_historical_ethanol_stage,r_2512;r_2513;r_2514;r_2515;r_2516;r_2517;r_2518;r_2519,8,True,0.010416437798675585,0.010416437718262861,optimal,True,1.2499725704041444e-08,1.2499725704041444e-08,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.999999992280209,optimal,0.0,0.010432146575585038,0.9999963780083094,optimal,0.0,0.005902246017548797,0.9999999999786172,optimal,0.0,0.0011804473518858103,0.9999530529002585,0.0,0.0,0.0005902227192356507,optimal"
+results/history/code_parts_sync_20260908/pre_sync/src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md,219,production_superiority,HISTORICAL_AUDIT,,在 corrected v1 primary candidate space（235 genes）与 v2A sensitivity 记录上，全部候选的 primary-condition GCP 与 Pmin95 均在 `1e-7` 容差内为 0，第一次执行状态为 `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`。因此当前运行只产生 secondary feasibility order，**未产生可用于 production-superiority claim 的 Top-k**。
+results/history/code_parts_sync_20260908/pre_sync/src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json,45,production_superiority,HISTORICAL_AUDIT,,"""non_discriminating_rule"": ""If all primary-condition eligible candidates have GCP=0 and Pmin95=0, label NON_DISCRIMINATING_GUARANTEED_PRODUCTION and prohibit production-superiority claims from secondary ordering."","
+results/history/code_parts_sync_20260908/pre_sync/src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json,46,production_superiority,PROHIBITION_NOT_CONFLICT,,"""non_discriminating_output"": ""Rows may be emitted only as SECONDARY_FEASIBILITY_ORDER_ONLY; they are not production recommendations and cannot support production-superiority claims."""
+results/history/fabric_ai/20260908/pre_numeric_correction/audit/final_verification.json,21,production_superiority,HISTORICAL_AUDIT,,"""no_production_superiority_permission"": true,"
+results/history/fabric_ai/20260908/pre_numeric_correction/audit/final_verification.json,30,old_top6,HISTORICAL_AUDIT,,"""YOR311C"","
+results/history/fabric_ai/20260908/pre_numeric_correction/design_mode_ranking.csv,2,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"1,YOR311C,0.0,0.0,0.0,1.0,1.0000003909083546,8,SECONDARY_FEASIBILITY_ORDER_ONLY"
+results/history/fabric_ai/20260908/pre_numeric_correction/design_mode_topk.csv,2,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"1,YOR311C,0.0,0.0,0.0,1.0,1.0000003909083546,8,SECONDARY_FEASIBILITY_ORDER_ONLY"
+results/history/fabric_ai/20260908/pre_numeric_correction/freeze_inputs/common_candidate_space_237_HISTORICAL.json,216,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"""YOR311C"","
+results/history/fabric_ai/20260908/pre_numeric_correction/freeze_inputs/common_candidate_space_237_HISTORICAL.json,1661,old_top6,GENE_DATA_NOT_TOP6_CLAIM,,"""YOR311C"": ["
+results/history/fabric_ai/20260908/pre_numeric_correction/summary.json,13,production_superiority,PROHIBITION_NOT_CONFLICT,,"""production_superiority_claim_allowed_from_topk"": false,"
+src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md,219,production_superiority,CODE_OR_CONTRACT,,在 corrected v1 primary candidate space（235 genes）与 v2A sensitivity 记录上，全部候选的 primary-condition GCP 与 Pmin95 均在 `1e-7` 容差内为 0，第一次执行状态为 `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`。因此当前运行只产生 secondary feasibility order，**未产生可用于 production-superiority claim 的 Top-k**。
+src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py,1030,production_superiority,CODE_OR_CONTRACT,,"""production_superiority_claim_allowed_from_topk"": not non_discriminating,"
+src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json,45,production_superiority,CODE_OR_CONTRACT,,"""non_discriminating_rule"": ""If all primary-condition eligible candidates have GCP=0 and Pmin95=0, label NON_DISCRIMINATING_GUARANTEED_PRODUCTION and prohibit production-superiority claims from secondary ordering."","
+src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json,46,production_superiority,PROHIBITION_NOT_CONFLICT,,"""non_discriminating_output"": ""Rows may be emitted only as SECONDARY_FEASIBILITY_ORDER_ONLY; they are not production recommendations and cannot support production-superiority claims."""
+src/ai/fabric_ai_optimizer/README.md,3,relative_link,EXISTS,../../../results/fabric_ai/20260908/README.md,../../../results/fabric_ai/20260908/README.md
+src/ai/fabric_ai_optimizer/README.md,3,relative_link,EXISTS,../../../results/history/fabric_ai/20260908/pre_numeric_correction/design_mode_ranking.csv,../../../results/history/fabric_ai/20260908/pre_numeric_correction/design_mode_ranking.csv
+src/ai/fabric_ai_optimizer/README.md,7,relative_link,EXISTS,requirements-frozen.txt,requirements-frozen.txt
+src/ai/fabric_ai_optimizer/README.md,13,relative_link,EXISTS,fabric_ai_optimizer_contract_v1.2.json,fabric_ai_optimizer_contract_v1.2.json
+src/ai/fabric_ai_optimizer/README.md,38,relative_link,EXISTS,../../../configs/config/protected_reaction_ids.json,../../../configs/config/protected_reaction_ids.json
+src/ai/fabric_ai_optimizer/README.md,38,relative_link,EXISTS,../../../configs/fabric_ai/protected_reaction_ids.json,../../../configs/fabric_ai/protected_reaction_ids.json
+src/ai/fabric_ai_optimizer/README.md,44,relative_link,EXISTS,../../../models/fabric_ai/common_model.json,../../../models/fabric_ai/common_model.json
+src/ai/fabric_ai_optimizer/README.md,45,relative_link,EXISTS,../../../results/fabric_ai/20260908/v1_candidate_metrics.csv,../../../results/fabric_ai/20260908/v1_candidate_metrics.csv
+src/ai/fabric_ai_optimizer/README.md,46,relative_link,EXISTS,../../../results/fabric_ai/20260908/v2a_candidate_metrics.csv,../../../results/fabric_ai/20260908/v2a_candidate_metrics.csv
+src/ai/fabric_ai_optimizer/README.md,50,relative_link,EXISTS,../../../results/evidence/20260908/code_parts_sync/source_sync_manifest.csv,../../../results/evidence/20260908/code_parts_sync/source_sync_manifest.csv
+src/ai/fabric_ai_optimizer/verify_design_mode.py,63,production_superiority,PROHIBITION_NOT_CONFLICT,,"""no_production_superiority_permission"": rank_summary[""production_superiority_claim_allowed_from_topk""] is False,"
+src/ai/fabric_ai_optimizer/verify_ranking_numeric_correction.py,156,production_superiority,CODE_OR_CONTRACT,,"""production_superiority_claim_prohibited"": rank_summary["
+src/ai/fabric_ai_optimizer/verify_ranking_numeric_correction.py,157,production_superiority,CODE_OR_CONTRACT,,"""production_superiority_claim_allowed_from_topk"""
+tools/fabric_ai/scan_repo.py,9,template,CODE_OR_CONTRACT,,"'template':r'YYYY-MM-DD|<例|<姓名|BBa_XXXX|<your-repo-url>|<repo-url>|<repo-dir>|<hash>',"
+tools/fabric_ai/scan_repo.py,11,old_top6,CODE_OR_CONTRACT,,"'old_top6':r'YOR311C',"
+tools/fabric_ai/scan_repo.py,12,optenvelope_zero_claim,CODE_OR_CONTRACT,,"'optenvelope_zero_claim':r'true zero candidate|真实零候选',"
+tools/fabric_ai/scan_repo.py,13,production_superiority,CODE_OR_CONTRACT,,"'production_superiority':r'production[-_ ]superiority|生产性能优于公开基线',"
+tools/fabric_ai/scan_repo.py,34,production_superiority,PROHIBITION_NOT_CONFLICT,,"if kind=='production_superiority' and re.search(r'false|prohibited.*true|no production|cannot support|do not support|not support',line,re.I):status='PROHIBITION_NOT_CONFLICT'"
+wiki/AI-Computational-Methods.md,82,relative_link,EXISTS,../src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md,../src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md
+wiki/AI-Computational-Methods.md,83,relative_link,EXISTS,../results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json,../results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json
+wiki/AI-Computational-Methods.md,118,relative_link,EXISTS,../results/baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md,../results/baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md
+wiki/AI-Computational-Methods.md,165,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/AI-Computational-Methods.md,171,relative_link,EXISTS,../results/baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md,../results/baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md
+wiki/AI-Computational-Methods.md,172,relative_link,EXISTS,../results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json,../results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json
+wiki/AI-Computational-Methods.md,173,relative_link,EXISTS,../src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json,../src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json
+wiki/AI-Computational-Methods.md,174,relative_link,EXISTS,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md
+wiki/AI-Computational-Methods.md,175,relative_link,EXISTS,./Verifiability.md,./Verifiability.md
+wiki/AI-Ethics-Safety.md,19,relative_link,EXISTS,../AI-USE-DISCLOSURE.md,../AI-USE-DISCLOSURE.md
+wiki/AI-Ethics-Safety.md,90,relative_link,EXISTS,./Attributions.md,./Attributions.md
+wiki/AI-Ethics-Safety.md,96,relative_link,EXISTS,../AI-USE-DISCLOSURE.md,../AI-USE-DISCLOSURE.md
+wiki/AI-Ethics-Safety.md,97,relative_link,EXISTS,../attributions.md,../attributions.md
+wiki/AI-Ethics-Safety.md,98,relative_link,EXISTS,../safety/,../safety/
+wiki/AI-Ethics-Safety.md,99,relative_link,EXISTS,./Verifiability.md,./Verifiability.md
+wiki/AI-Ethics-Safety.md,100,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Attributions.md,3,relative_link,EXISTS,../attributions.md,../attributions.md
+wiki/Attributions.md,33,relative_link,EXISTS,../AI-USE-DISCLOSURE.md,../AI-USE-DISCLOSURE.md
+wiki/Attributions.md,42,relative_link,EXISTS,../attributions.md,../attributions.md
+wiki/Collaboration.md,74,relative_link,EXISTS,../results/evidence/20260908/EDUCATION_AND_COLLABORATION_EVIDENCE.md,../results/evidence/20260908/EDUCATION_AND_COLLABORATION_EVIDENCE.md
+wiki/Collaboration.md,78,relative_link,EXISTS,./Education.md,./Education.md
+wiki/Collaboration.md,79,relative_link,EXISTS,./Human-Practices.md,./Human-Practices.md
+wiki/Design.md,90,relative_link,EXISTS,./AI-Computational-Methods.md,./AI-Computational-Methods.md
+wiki/Design.md,90,relative_link,EXISTS,./Engineering-Cycle.md,./Engineering-Cycle.md
+wiki/Education.md,68,relative_link,EXISTS,../results/evidence/20260908/EDUCATION_AND_COLLABORATION_EVIDENCE.md,../results/evidence/20260908/EDUCATION_AND_COLLABORATION_EVIDENCE.md
+wiki/Education.md,71,relative_link,EXISTS,./Human-Practices.md,./Human-Practices.md
+wiki/Education.md,72,relative_link,EXISTS,./Collaboration.md,./Collaboration.md
+wiki/Engineering-Cycle.md,104,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Engineering-Cycle.md,105,relative_link,EXISTS,./AI-Computational-Methods.md,./AI-Computational-Methods.md
+wiki/Engineering-Cycle.md,106,relative_link,EXISTS,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md
+wiki/Home.md,59,relative_link,EXISTS,./Project-Description.md,./Project-Description.md
+wiki/Home.md,60,relative_link,EXISTS,./Design.md,./Design.md
+wiki/Home.md,61,relative_link,EXISTS,./AI-Computational-Methods.md,./AI-Computational-Methods.md
+wiki/Home.md,62,relative_link,EXISTS,./Wet-Lab-Experiments.md,./Wet-Lab-Experiments.md
+wiki/Home.md,63,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Home.md,64,relative_link,EXISTS,./Engineering-Cycle.md,./Engineering-Cycle.md
+wiki/Home.md,65,relative_link,EXISTS,./AI-Ethics-Safety.md,./AI-Ethics-Safety.md
+wiki/Home.md,66,relative_link,EXISTS,./Verifiability.md,./Verifiability.md
+wiki/Home.md,67,relative_link,EXISTS,./Parts.md,./Parts.md
+wiki/Home.md,68,relative_link,EXISTS,./Attributions.md,./Attributions.md
+wiki/Home.md,72,relative_link,EXISTS,./Human-Practices.md,./Human-Practices.md
+wiki/Home.md,73,relative_link,EXISTS,./Education.md,./Education.md
+wiki/Home.md,74,relative_link,EXISTS,./Collaboration.md,./Collaboration.md
+wiki/Home.md,87,relative_link,EXISTS,./Attributions.md,./Attributions.md
+wiki/Home.md,87,relative_link,EXISTS,./AI-Ethics-Safety.md,./AI-Ethics-Safety.md
+wiki/Human-Practices.md,79,relative_link,EXISTS,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md
+wiki/Human-Practices.md,83,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Integrated-Validation.md,78,relative_link,EXISTS,./AI-Computational-Methods.md,./AI-Computational-Methods.md
+wiki/Integrated-Validation.md,84,relative_link,EXISTS,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md,../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md
+wiki/Integrated-Validation.md,85,relative_link,EXISTS,../results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json,../results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json
+wiki/Integrated-Validation.md,86,relative_link,EXISTS,./Wet-Lab-Experiments.md,./Wet-Lab-Experiments.md
+wiki/Integrated-Validation.md,87,relative_link,EXISTS,./Engineering-Cycle.md,./Engineering-Cycle.md
+wiki/Parts.md,14,relative_link,EXISTS,../parts/README.md,../parts/README.md
+wiki/Parts.md,47,relative_link,EXISTS,../parts/AISB26-045-001/metadata.yaml,../parts/AISB26-045-001/metadata.yaml
+wiki/Parts.md,48,relative_link,EXISTS,../parts/AISB26-045-001/characterization.md,../parts/AISB26-045-001/characterization.md
+wiki/Parts.md,74,relative_link,EXISTS,../parts/AISB26-045-002/sequence.fasta,../parts/AISB26-045-002/sequence.fasta
+wiki/Parts.md,75,relative_link,EXISTS,../parts/AISB26-045-002/metadata.yaml,../parts/AISB26-045-002/metadata.yaml
+wiki/Parts.md,76,relative_link,EXISTS,../parts/AISB26-045-002/characterization.md,../parts/AISB26-045-002/characterization.md
+wiki/Parts.md,89,relative_link,EXISTS,./Attributions.md,./Attributions.md
+wiki/Parts.md,89,relative_link,EXISTS,./AI-Ethics-Safety.md,./AI-Ethics-Safety.md
+wiki/Parts.md,98,relative_link,EXISTS,./Wet-Lab-Experiments.md,./Wet-Lab-Experiments.md
+wiki/Parts.md,98,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Project-Description.md,61,relative_link,EXISTS,./Design.md,./Design.md
+wiki/Project-Description.md,61,relative_link,EXISTS,./AI-Computational-Methods.md,./AI-Computational-Methods.md
+wiki/Project-Description.md,61,relative_link,EXISTS,./Wet-Lab-Experiments.md,./Wet-Lab-Experiments.md
+wiki/Verifiability.md,15,science_claim,SCIENCE_REVIEW_REQUIRED,,| 模型在测试集上的命中率 27% | 跑 `scripts/evaluate.py` | <30 分钟 |
+wiki/Verifiability.md,26,template,REVIEW_CONTEXT,,git clone <repo-url>
+wiki/Verifiability.md,27,template,REVIEW_CONTEXT,,cd <repo-dir>
+wiki/Verifiability.md,33,template,REVIEW_CONTEXT,,预期输出（截至 YYYY-MM-DD）：
+wiki/Verifiability.md,35,science_claim,SCIENCE_REVIEW_REQUIRED,,Top-K hit rate: 0.27 ± 0.03
+wiki/Verifiability.md,36,science_claim,SCIENCE_REVIEW_REQUIRED,,Pearson r:      0.61 ± 0.05
+wiki/Verifiability.md,55,template,REVIEW_CONTEXT,,| 训练集 | `data/processed/train.parquet` | `<hash>` |
+wiki/Verifiability.md,56,template,REVIEW_CONTEXT,,| 测试集 | `data/processed/test.parquet` | `<hash>` |
+wiki/Verifiability.md,64,science_claim,SCIENCE_REVIEW_REQUIRED,,- 重复次数：所有量化结果至少 n=3（生物学重复）
+wiki/Verifiability.md,80,template,REVIEW_CONTEXT,,- <例：训练数据中 X 这一类样本只有 3 条，模型在其上表现的方差较大。>
+wiki/Verifiability.md,81,template,REVIEW_CONTEXT,,- <例：湿实验中流式细胞仪的型号在 8 月发生过变更，对应数据已经标注。>
+wiki/Verifiability.md,96,template,REVIEW_CONTEXT,,*最后更新：YYYY-MM-DD*
+wiki/Verifiability.md,42,relative_link,EXISTS,../requirements.txt,../requirements.txt
+wiki/Verifiability.md,43,relative_link,EXISTS,../Dockerfile,../Dockerfile
+wiki/Verifiability.md,62,relative_link,EXISTS,./Wet-Lab-Experiments.md,./Wet-Lab-Experiments.md
+wiki/Verifiability.md,72,relative_link,EXISTS,./Wet-Lab-Experiments.md#6-实验记录--lab-notebook,./Wet-Lab-Experiments.md#6-实验记录--lab-notebook
+wiki/Wet-Lab-Experiments.md,55,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Wet-Lab-Experiments.md,98,relative_link,EXISTS,./Human-Practices.md,./Human-Practices.md
+wiki/Wet-Lab-Experiments.md,132,relative_link,EXISTS,./Integrated-Validation.md,./Integrated-Validation.md
+wiki/Wet-Lab-Experiments.md,138,relative_link,EXISTS,./AI-Ethics-Safety.md,./AI-Ethics-Safety.md
+wiki/Home.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Project-Description.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Design.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/AI-Computational-Methods.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Wet-Lab-Experiments.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Integrated-Validation.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Verifiability.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Engineering-Cycle.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Parts.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Human-Practices.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/AI-Ethics-Safety.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Education.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Collaboration.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+wiki/Attributions.md,0,wiki_page,EXISTS,,Required/recommended page inventory from repository README
+parts/AISB26-045-001/sequence.fasta,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-001/metadata.yaml,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-001/characterization.md,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-001/registry_export.gb,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-001/map.svg,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-002/sequence.fasta,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-002/metadata.yaml,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-002/characterization.md,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-002/registry_export.gb,0,part_file,EXISTS,,Required five-file inventory
+parts/AISB26-045-002/map.svg,0,part_file,EXISTS,,Required five-file inventory
+configs/fabric_ai/v1_glucose_reference.json,0,frozen_condition_relative_path,EXISTS,../config/protected_reaction_ids.json,../config/protected_reaction_ids.json
+configs/fabric_ai/v2a_historical_ethanol_stage.json,0,frozen_condition_relative_path,EXISTS,../config/protected_reaction_ids.json,../config/protected_reaction_ids.json

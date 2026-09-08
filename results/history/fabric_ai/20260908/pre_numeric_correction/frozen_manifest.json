@@ -1,0 +1,200 @@
+{
+  "freeze_status": "FABRIC_AI_V1_2_FRESH_DESIGN_MODE_FROZEN",
+  "created_at_utc": "2026-09-08T03:13:56.395239+00:00",
+  "source_repository": "bulbel-magnolia/guanghui-jiaoran",
+  "source_branch": "benchmark/fabric-ai-20260907",
+  "source_commit": "95401d4",
+  "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684",
+  "primary_candidate_pool_size": 235,
+  "prepare_status": "COMPLETED",
+  "v1_evaluation_status": "COMPLETED",
+  "v2a_evaluation_status": "COMPLETED",
+  "rank_status": "NON_DISCRIMINATING_GUARANTEED_PRODUCTION",
+  "topk_interpretation": "SECONDARY_FEASIBILITY_ORDER_ONLY",
+  "v2b_status": "DIAGNOSTIC_ONLY_NOT_PRIMARY_BENCHMARK",
+  "v2b_public_baseline_run": false,
+  "wiki_or_judging_form_modified": false,
+  "formal_wall_time_seconds": {
+    "prepare": 167.00901449999947,
+    "v1_evaluate": 217.52459499999532,
+    "v2a_evaluate": 251.340626899997,
+    "rank": 0.03646520001348108
+  },
+  "files": [
+    {
+      "path": "README_FABRIC_AI_DESIGN_MODE_FREEZE.md",
+      "bytes": 3556,
+      "sha256": "2c4030e4484d2059740c5c268a3177634b2e29547a9c5827b4f2afc5c218a662"
+    },
+    {
+      "path": "audit/execution_attempts.json",
+      "bytes": 1569,
+      "sha256": "db60563317e9fb451fff3873e207edc4b160430d736914df10bbde482ecd250c"
+    },
+    {
+      "path": "audit/final_verification.json",
+      "bytes": 960,
+      "sha256": "a0a09c662b49f395b5ca7c2d9939ab46d528262328430e4bbf7b783003b99056"
+    },
+    {
+      "path": "conditions/v1_glucose_reference.json",
+      "bytes": 280,
+      "sha256": "f8605f6d68f3a23be3da8fb37d5fb1134ad4d2d62c81d720f26fea36c01556a5"
+    },
+    {
+      "path": "conditions/v2a_historical_ethanol_stage.json",
+      "bytes": 464,
+      "sha256": "1e33446024972f882a0260cdd0e1efd06a9e708ad297952b7e926947919d0027"
+    },
+    {
+      "path": "config/protected_reaction_ids.json",
+      "bytes": 26476,
+      "sha256": "6373e8b8ea1af85f4e58819b6f7c42a2a15589106ef4f0dbefa16931c51e81cd"
+    },
+    {
+      "path": "diagnostics/v2b_existing/V2B_DIAGNOSTIC_SPEC_v1.md",
+      "bytes": 2619,
+      "sha256": "61da9ad57a5f1facb83a6d4f8c94f6c61e00c45b08023aafb7e06e3ee4b4ece6"
+    },
+    {
+      "path": "diagnostics/v2b_existing/v2b_bvitamin_panel_candidate_count_sweep_VALIDATED.csv",
+      "bytes": 241,
+      "sha256": "8c03b657a62d87991a5bdaa8be0cc501f6e296cad6552fac16523567b795d3fe"
+    },
+    {
+      "path": "freeze_inputs/common_candidate_space_237_HISTORICAL.json",
+      "bytes": 61998,
+      "sha256": "29562b603abd5d9088b7ba0feefd254ad5ad7175ad53f544e533de110795425f"
+    },
+    {
+      "path": "freeze_inputs/common_model_and_evaluation_contract.json",
+      "bytes": 6742,
+      "sha256": "eb2aded6eb45e340c29d5cf5b6e15fe3871b0957072d4ecc40b2e7709e829a61"
+    },
+    {
+      "path": "logs/01_prepare_v1.log",
+      "bytes": 1391,
+      "sha256": "ef9bf680e9b1c9b6d16370384f533760ecef52d5cc261e68ba12633a80857ca3"
+    },
+    {
+      "path": "logs/02_evaluate_v1.log",
+      "bytes": 2954,
+      "sha256": "8f3f8b721996f99b351a68c9651f0da05a0fc03833cc3b381d30669d2e3b63eb"
+    },
+    {
+      "path": "logs/03_evaluate_v2a.log",
+      "bytes": 3193,
+      "sha256": "279b8b60be92abf2886657b69d6ca38355c1123987212d6bfa7053377163804a"
+    },
+    {
+      "path": "logs/04_rank.log",
+      "bytes": 1338,
+      "sha256": "704bb231ee938df5fa70a8639dabd02ad3c04bf55e9fd57fb1041be0dbc3f505"
+    },
+    {
+      "path": "logs/05_tests.log",
+      "bytes": 952,
+      "sha256": "0d7e7856ef1331fec6a4de715612cbdb61ae35c788c738b851e340d3c53fe946"
+    },
+    {
+      "path": "model/common_model.json",
+      "bytes": 4556661,
+      "sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684"
+    },
+    {
+      "path": "optimizer/fabric_ai_benchmark.py",
+      "bytes": 41876,
+      "sha256": "810aea10b10c25221e98d5b812bc3475bb9af9ceff744d78b219f9b7c9260f71"
+    },
+    {
+      "path": "results/baseline/20260907/RUNBOOK.md",
+      "bytes": 6032,
+      "sha256": "aaf6bc469dc914d0bbc2fa9f7a212378b51bcee7c4a0bc081966dc05d13392f6"
+    },
+    {
+      "path": "results/baseline/20260907/V1_CANDIDATE_POOL_ERRATUM.md",
+      "bytes": 1840,
+      "sha256": "f5b35aa8b3b376eccd33198433918d387e1f9e99949e410516e2d478f739f3aa"
+    },
+    {
+      "path": "results/baseline/20260907/fastknock_235_contract.json",
+      "bytes": 677,
+      "sha256": "0212baf2ad9cdfb6edae0d66f54bfea5f1f19cad0201d0c168bfa7ac4d002ced"
+    },
+    {
+      "path": "results/fabric_ai_design_mode_final/design_mode_ranking.csv",
+      "bytes": 17763,
+      "sha256": "dda2807d1a80cc214fe3cc2f08a326582a16d91f1b5ff563a0ab6a1f9aeba9a3"
+    },
+    {
+      "path": "results/fabric_ai_design_mode_final/design_mode_topk.csv",
+      "bytes": 599,
+      "sha256": "f242e0286fd4a96d16a5a53183c83e761091ad46d43c275fcf4c7f2d6e275d39"
+    },
+    {
+      "path": "results/fabric_ai_design_mode_final/summary.json",
+      "bytes": 1482,
+      "sha256": "2a55c63a8ee3b8df1f20c88fdc9ef9e1a7f84eabc9bcc5120c9003e1b188f6e8"
+    },
+    {
+      "path": "results/fabric_ai_primary_prepare/candidate_space.json",
+      "bytes": 66429,
+      "sha256": "22b01bf95c4e6574aa87d21a8d47d29baeba6aeb3d6a8b0fdabe4e73c17caf80"
+    },
+    {
+      "path": "results/fabric_ai_primary_prepare/gene_admission_audit.csv",
+      "bytes": 142380,
+      "sha256": "ef8d52056eccf1787d4a2408a9adebff4d944520e709f3f8bb390ef17e5aba03"
+    },
+    {
+      "path": "results/fabric_ai_primary_prepare/reaction_fva.csv",
+      "bytes": 110877,
+      "sha256": "4d0589c52b150fa8e1707d92d813c1984ad291201452ae5fbbbcb30469fbd93e"
+    },
+    {
+      "path": "results/fabric_ai_primary_prepare/summary.json",
+      "bytes": 1213,
+      "sha256": "c6f95d4edc49d083ef498aeef3cc8dc85d16bd0978ca0f5ac3a0fd67b61fad71"
+    },
+    {
+      "path": "results/fabric_ai_v1_metrics/candidate_metrics.csv",
+      "bytes": 103985,
+      "sha256": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d"
+    },
+    {
+      "path": "results/fabric_ai_v1_metrics/summary.json",
+      "bytes": 3008,
+      "sha256": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22"
+    },
+    {
+      "path": "results/fabric_ai_v2a_metrics/candidate_metrics.csv",
+      "bytes": 106420,
+      "sha256": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150"
+    },
+    {
+      "path": "results/fabric_ai_v2a_metrics/summary.json",
+      "bytes": 3354,
+      "sha256": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e"
+    },
+    {
+      "path": "src/ai/fabric_ai_optimizer/FABRIC-AI_Production_Optimizer_SPEC_v1.2.md",
+      "bytes": 11255,
+      "sha256": "56cf30f68453dcca6a2a6ec342aed7476fb215dc8e4f0c0d06fb0a036366e848"
+    },
+    {
+      "path": "src/ai/fabric_ai_optimizer/fabric_ai_optimizer_contract_v1.2.json",
+      "bytes": 2293,
+      "sha256": "8e01f3be3fd49f1f95e4815b1f7f07eac802018ed2b899bc94087821b1475ad3"
+    },
+    {
+      "path": "tests/test_ranker.py",
+      "bytes": 2573,
+      "sha256": "bb858d0c7eff1470d92924bb1460c22be9a0b8bf3115258d8b5431c5e3d4f90e"
+    },
+    {
+      "path": "tools/verify_design_mode.py",
+      "bytes": 4049,
+      "sha256": "a5414640cc897761a29c5f4f8dd02502f9f9b1ab18889fea34a3754cb627fd86"
+    }
+  ]
+}

@@ -94,3 +94,13 @@ config/local.yaml
 # ============================
 *.bak
 *.orig
+
+# Isolated frozen-contract reproduction outputs.
+.reproduction/
+.runtime/
+.pytest_cache/
+# Required frozen evidence logs and closeout log are versioned.
+!results/fabric_ai/20260908/frozen_logs/*.log
+!results/history/fabric_ai/20260908/pre_numeric_correction/logs/
+!results/history/fabric_ai/20260908/pre_numeric_correction/logs/*.log
+!results/evidence/20260908/code_parts_sync/*.log

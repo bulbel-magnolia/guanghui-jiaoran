@@ -1,0 +1,106 @@
+{
+  "status": "PASSED",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies": {
+    "cobra": "0.30.0",
+    "scipy": "1.17.1",
+    "swiglpk": "5.0.13",
+    "pandas": "2.3.3",
+    "pytest": "8.3.5"
+  },
+  "tolerance": 1e-07,
+  "checks": {
+    "cli_exit_codes_zero": true,
+    "frozen_inputs_and_results_unchanged": true,
+    "prepare_235_gene_set_exact": true,
+    "prepare_gpr_footprints_exact": true,
+    "prepare_blocked_reactions_exact": true,
+    "v1_235_gene_set_exact": true,
+    "v1_completed_without_solver_failures": true,
+    "v1_residuals_within_1e_7": true,
+    "v1_metrics_byte_exact": true,
+    "v2a_235_gene_set_exact": true,
+    "v2a_completed_without_solver_failures": true,
+    "v2a_residuals_within_1e_7": true,
+    "v2a_metrics_byte_exact": true,
+    "rank_design_mode_ranking.csv_byte_exact": true,
+    "rank_design_mode_topk.csv_byte_exact": true
+  },
+  "exit_codes": {
+    "prepare": 0,
+    "evaluate_v1": 0,
+    "evaluate_v2a": 0,
+    "rank": 0
+  },
+  "frozen_hashes": {
+    "models\\fabric_ai\\common_model.json": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684",
+    "results\\fabric_ai\\20260908\\design_mode_ranking.csv": "64e7493450278d3b616a66b6dc1d109b7d503d175bc3ffef5c9c36517ec23206",
+    "results\\fabric_ai\\20260908\\design_mode_topk.csv": "ea440d8e8bc5f96a8bf88b1579c4074f54ef4f4146eed6330058ad0edc62c561",
+    "results\\fabric_ai\\20260908\\gene_admission_audit.csv": "ef8d52056eccf1787d4a2408a9adebff4d944520e709f3f8bb390ef17e5aba03",
+    "results\\fabric_ai\\20260908\\reaction_fva.csv": "4d0589c52b150fa8e1707d92d813c1984ad291201452ae5fbbbcb30469fbd93e",
+    "results\\fabric_ai\\20260908\\v1_candidate_metrics.csv": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d",
+    "results\\fabric_ai\\20260908\\v2a_candidate_metrics.csv": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150",
+    "results\\fabric_ai\\20260908\\candidate_space.json": "22b01bf95c4e6574aa87d21a8d47d29baeba6aeb3d6a8b0fdabe4e73c17caf80",
+    "results\\fabric_ai\\20260908\\DESIGN_MODE_FINAL_FREEZE.json": "a81da6cdf2c3ac4311a2db4a195f862df315952729b09bf5f26afdfe77101369",
+    "results\\fabric_ai\\20260908\\DESIGN_MODE_PRIMARY_RESULT.json": "7ea2934f57cf2336ab76d2a5e9f71de63c598514cf71c1548465bf06fee170bb",
+    "results\\fabric_ai\\20260908\\prepare_summary.json": "c6f95d4edc49d083ef498aeef3cc8dc85d16bd0978ca0f5ac3a0fd67b61fad71",
+    "results\\fabric_ai\\20260908\\ranking_numeric_correction_manifest.json": "a46b11762ffc84de6516e0a621d8ea436c37235aa8f8a197c010157117c0a784",
+    "results\\fabric_ai\\20260908\\ranking_numeric_correction_verification.json": "ad603d5ff65fb296b106e64624c48f912218406a1fe78040dc2d78c084e890bf",
+    "results\\fabric_ai\\20260908\\summary.json": "448ef091d9bd766a08fa637314e2d1c4e729fe3ba431d8423a102d07b2904ff9",
+    "results\\fabric_ai\\20260908\\v1_summary.json": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22",
+    "results\\fabric_ai\\20260908\\v2a_summary.json": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e",
+    "configs\\fabric_ai\\protected_reaction_ids.json": "6373e8b8ea1af85f4e58819b6f7c42a2a15589106ef4f0dbefa16931c51e81cd",
+    "configs\\fabric_ai\\v1_glucose_reference.json": "f8605f6d68f3a23be3da8fb37d5fb1134ad4d2d62c81d720f26fea36c01556a5",
+    "configs\\fabric_ai\\v2a_historical_ethanol_stage.json": "1e33446024972f882a0260cdd0e1efd06a9e708ad297952b7e926947919d0027"
+  }
+}
+
+$ C:\Users\zby\AppData\Local\Programs\Python\Python312\python.exe src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py prepare --model models/fabric_ai/common_model.json --condition configs/fabric_ai/v1_glucose_reference.json --outdir C:\Users\zby\Desktop\iGEM\天津大学合成生物学大赛\.worktrees\guanghui-jiaoran\code-parts-sync-20260908\.reproduction\smoke\prepare --tol 1e-7
+prepare FVA 250/2207
+prepare FVA 500/2207
+prepare FVA 750/2207
+prepare FVA 1000/2207
+prepare FVA 1250/2207
+prepare FVA 1500/2207
+prepare FVA 1750/2207
+prepare FVA 2000/2207
+prepare admission 250/1143
+prepare admission 500/1143
+prepare admission 750/1143
+prepare admission 1000/1143
+{"status": "COMPLETED", "command": "prepare", "condition_id": "v1_glucose_reference", "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684", "WT_mu_max": 0.08093801253215745, "growth_admission_floor": 0.008093801253215745, "gene_associated_internal_fva_count": 2207, "blocked_count": 600, "native_genes_total": 1143, "eligible_count": 235, "solver_failures": 0, "wall_time_seconds": 176.51062309999543, "solver": "optlang.glpk_interface", "solver_tolerance_requested": 1e-07, "solver_tolerance_readback": {"feasibility": 1e-07, "optimality": null, "integrality": 1e-07}, "FVA_solver_state": "GLPK basis reuse permitted only across objective switches at fixed bounds", "gene_growth_solver_details": {"solver": "scipy.optimize.linprog(method=highs)", "scipy_version": "1.17.1", "presolve": true, "primal_feasibility_tolerance": 1e-07, "dual_feasibility_tolerance": 1e-07}, "applied_condition_bounds": [], "cobra_version": "0.30.0", "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]", "platform": "Windows-11-10.0.26200-SP0"}
+
+exit_code=0
+
+$ C:\Users\zby\AppData\Local\Programs\Python\Python312\python.exe src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py evaluate --model models/fabric_ai/common_model.json --condition configs/fabric_ai/v1_glucose_reference.json --pool results/fabric_ai/20260908/candidate_space.json --outdir C:\Users\zby\Desktop\iGEM\天津大学合成生物学大赛\.worktrees\guanghui-jiaoran\code-parts-sync-20260908\.reproduction\smoke\v1 --floors 0.1,0.5,0.9 --mutant-growth-fraction 0.95 --tol 1e-7
+evaluate v1_glucose_reference 25/235
+evaluate v1_glucose_reference 50/235
+evaluate v1_glucose_reference 75/235
+evaluate v1_glucose_reference 100/235
+evaluate v1_glucose_reference 125/235
+evaluate v1_glucose_reference 150/235
+evaluate v1_glucose_reference 175/235
+evaluate v1_glucose_reference 200/235
+evaluate v1_glucose_reference 225/235
+{"status": "COMPLETED", "command": "evaluate", "condition_id": "v1_glucose_reference", "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684", "pool_sha256": "22b01bf95c4e6574aa87d21a8d47d29baeba6aeb3d6a8b0fdabe4e73c17caf80", "pool_count": 235, "evaluated_count": 235, "WT_mu_max": 0.08093802601848507, "WT_floor_metrics": {"0.1": {"absolute_growth_floor": 0.008093802601848507, "Pmin": 0.0, "Pmax": 0.06725532100612219, "minimum_status": "optimal", "maximum_status": "optimal", "finite": true, "max_mass_balance_residual": 9.712563465759903e-09, "max_bound_residual": 9.712563465759903e-09, "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"}, "0.5": {"absolute_growth_floor": 0.040469013009242535, "Pmin": 0.0, "Pmax": 0.045163825568614084, "minimum_status": "optimal", "maximum_status": "optimal", "finite": true, "max_mass_balance_residual": 4.856281732879951e-08, "max_bound_residual": 4.856281732879951e-08, "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"}, "0.9": {"absolute_growth_floor": 0.07284422341663657, "Pmin": 0.0, "Pmax": 0.00903276820011834, "minimum_status": "optimal", "maximum_status": "optimal", "finite": true, "max_mass_balance_residual": 8.741307119183913e-08, "max_bound_residual": 8.741307119183913e-08, "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"}}, "floors": [0.1, 0.5, 0.9], "mutant_growth_fraction": 0.95, "solver_failures": 0, "growth_floor_infeasible_count": 0, "max_mass_balance_residual": 9.712563669878637e-08, "max_bound_residual": 9.712563669878637e-08, "wall_time_seconds": 213.77340659999754, "solver": "scipy.optimize.linprog(method=highs)", "solver_details": {"solver": "scipy.optimize.linprog(method=highs)", "scipy_version": "1.17.1", "presolve": true, "primal_feasibility_tolerance": 1e-07, "dual_feasibility_tolerance": 1e-07}, "solver_tolerance_requested": 1e-07, "COBRA_GLPK_loader_tolerance_readback": {"feasibility": 1e-07, "optimality": null, "integrality": 1e-07}, "applied_condition_bounds": [], "cobra_version": "0.30.0", "scipy_version": "1.17.1", "WT_growth_solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "WT_growth_mass_balance_residual": 9.712563465759902e-08, "WT_growth_bound_residual": 9.712563465759902e-08}
+
+exit_code=0
+
+$ C:\Users\zby\AppData\Local\Programs\Python\Python312\python.exe src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py evaluate --model models/fabric_ai/common_model.json --condition configs/fabric_ai/v2a_historical_ethanol_stage.json --pool results/fabric_ai/20260908/candidate_space.json --outdir C:\Users\zby\Desktop\iGEM\天津大学合成生物学大赛\.worktrees\guanghui-jiaoran\code-parts-sync-20260908\.reproduction\smoke\v2a --floors 0.1,0.5,0.9 --mutant-growth-fraction 0.95 --tol 1e-7
+evaluate v2a_historical_ethanol_stage 25/235
+evaluate v2a_historical_ethanol_stage 50/235
+evaluate v2a_historical_ethanol_stage 75/235
+evaluate v2a_historical_ethanol_stage 100/235
+evaluate v2a_historical_ethanol_stage 125/235
+evaluate v2a_historical_ethanol_stage 150/235
+evaluate v2a_historical_ethanol_stage 175/235
+evaluate v2a_historical_ethanol_stage 200/235
+evaluate v2a_historical_ethanol_stage 225/235
+{"status": "COMPLETED", "command": "evaluate", "condition_id": "v2a_historical_ethanol_stage", "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684", "pool_sha256": "22b01bf95c4e6574aa87d21a8d47d29baeba6aeb3d6a8b0fdabe4e73c17caf80", "pool_count": 235, "evaluated_count": 235, "WT_mu_max": 0.010416437798675585, "WT_floor_metrics": {"0.1": {"absolute_growth_floor": 0.0010416437798675584, "Pmin": 0.0, "Pmax": 0.010432184360870107, "minimum_status": "optimal", "maximum_status": "optimal", "finite": true, "max_mass_balance_residual": 6.604021829532044e-08, "max_bound_residual": 1.2499725800536715e-09, "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"}, "0.5": {"absolute_growth_floor": 0.005208218899337792, "Pmin": 0.0, "Pmax": 0.005902246017675004, "minimum_status": "optimal", "maximum_status": "optimal", "finite": true, "max_mass_balance_residual": 5.208218767767116e-08, "max_bound_residual": 6.249862900268358e-09, "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"}, "0.9": {"absolute_growth_floor": 0.009374794018808027, "Pmin": 0.0, "Pmax": 0.0011805027730672425, "minimum_status": "optimal", "maximum_status": "optimal", "finite": true, "max_mass_balance_residual": 9.374793781980809e-08, "max_bound_residual": 1.1249753220483046e-08, "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"}}, "floors": [0.1, 0.5, 0.9], "mutant_growth_fraction": 0.95, "solver_failures": 0, "growth_floor_infeasible_count": 32, "max_mass_balance_residual": 9.89561565875752e-08, "max_bound_residual": 9.895618012783092e-08, "wall_time_seconds": 205.33810919999087, "solver": "scipy.optimize.linprog(method=highs)", "solver_details": {"solver": "scipy.optimize.linprog(method=highs)", "scipy_version": "1.17.1", "presolve": true, "primal_feasibility_tolerance": 1e-07, "dual_feasibility_tolerance": 1e-07}, "solver_tolerance_requested": 1e-07, "COBRA_GLPK_loader_tolerance_readback": {"feasibility": 1e-07, "optimality": null, "integrality": 1e-07}, "applied_condition_bounds": [{"reaction": "r_1714", "before": [-1.0, 1000.0], "after": [0.0, 1000.0]}, {"reaction": "r_1761", "before": [0.0, 1000.0], "after": [-0.447596, 1000.0]}], "cobra_version": "0.30.0", "scipy_version": "1.17.1", "WT_growth_solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)", "WT_growth_mass_balance_residual": 1.2499725800536716e-08, "WT_growth_bound_residual": 1.2499725800536716e-08}
+
+exit_code=0
+
+$ C:\Users\zby\AppData\Local\Programs\Python\Python312\python.exe src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py rank --metrics v1_glucose_reference=results/fabric_ai/20260908/v1_candidate_metrics.csv v2a_historical_ethanol_stage=results/fabric_ai/20260908/v2a_candidate_metrics.csv --summaries v1_glucose_reference=results/fabric_ai/20260908/v1_summary.json v2a_historical_ethanol_stage=results/fabric_ai/20260908/v2a_summary.json --primary v1_glucose_reference --outdir C:\Users\zby\Desktop\iGEM\天津大学合成生物学大赛\.worktrees\guanghui-jiaoran\code-parts-sync-20260908\.reproduction\smoke\rank --top-k 6 --tol 1e-7
+{"status": "NON_DISCRIMINATING_GUARANTEED_PRODUCTION", "command": "rank", "primary_condition": "v1_glucose_reference", "reported_conditions": ["v1_glucose_reference", "v2a_historical_ethanol_stage"], "candidate_count": 235, "top_k": 6, "topk_rows": 6, "topk_interpretation": "SECONDARY_FEASIBILITY_ORDER_ONLY", "production_superiority_claim_allowed_from_topk": false, "ranking_order": ["Robust_GCP_desc", "Median_GCP_desc", "Primary_Pmin95_desc", "Robust_GR_desc", "Primary_PCR_at_0.1WT_desc", "footprint_size_asc", "gene_id_asc"], "numeric_equivalence": {"native_unit_solver_tolerance": 1e-07, "GR": "GR_equiv=1 iff abs(mutant_mu_max-WT_mu_max)<=tol; reject mutant>WT+tol", "Primary_PCR_0.1": "PCR_equiv=1 iff abs(Pmax_mutant-Pmax_WT)<=tol; reject mutant>WT+tol", "GCP_and_Pmin95": "existing absolute-zero handling preserved"}, "equivalence_audit": {"native_unit_tolerance": 1e-07, "growth_equivalent_to_WT_counts": {"v1_glucose_reference": 204, "v2a_historical_ethanol_stage": 201}, "primary_PCR_0.1_equivalent_to_WT_count": 214, "native_objective_inconsistency_count": 0}, "source_metrics": {"v1_glucose_reference": {"path": "C:\\Users\\zby\\Desktop\\iGEM\\����ѧ�ϳ�����ѧ����\\.worktrees\\guanghui-jiaoran\\code-parts-sync-20260908\\results\\fabric_ai\\20260908\\v1_candidate_metrics.csv", "sha256": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d", "rows": 235, "summary_path": "C:\\Users\\zby\\Desktop\\iGEM\\����ѧ�ϳ�����ѧ����\\.worktrees\\guanghui-jiaoran\\code-parts-sync-20260908\\results\\fabric_ai\\20260908\\v1_summary.json", "summary_sha256": "a2592d738b36ad299d7ba64d7084284d00d60cad707c8cb9ead2663976f30c22"}, "v2a_historical_ethanol_stage": {"path": "C:\\Users\\zby\\Desktop\\iGEM\\����ѧ�ϳ�����ѧ����\\.worktrees\\guanghui-jiaoran\\code-parts-sync-20260908\\results\\fabric_ai\\20260908\\v2a_candidate_metrics.csv", "sha256": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150", "rows": 235, "summary_path": "C:\\Users\\zby\\Desktop\\iGEM\\����ѧ�ϳ�����ѧ����\\.worktrees\\guanghui-jiaoran\\code-parts-sync-20260908\\results\\fabric_ai\\20260908\\v2a_summary.json", "summary_sha256": "8d21cfa35bc4757e5317e0c397347cb8f938ebb38e4aac7bd934f9c30ed8677e"}}, "wall_time_seconds": 0.04260020000219811, "dependency_layer": "pandas only", "pandas_version": "2.3.3"}
+
+exit_code=0

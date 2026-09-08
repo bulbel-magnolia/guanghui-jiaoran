@@ -1,0 +1,57 @@
+{
+  "method_id": "FABRIC-AI_Production_Optimizer_benchmark_v1.2",
+  "status": "EXECUTABLE_DESIGN_MODE_V1_2_NONDISCRIMINATING_ON_CURRENT_V1_V2A",
+  "relationship_to_history": "New executable 2026 benchmark implementation aligned with the documented FABRIC-AI candidate-screening and feedback workflow; not a reconstruction of unrecovered 2025 ranking code.",
+  "design_mode": {
+    "max_gene_knockouts": 1,
+    "top_k": 6,
+    "primary_condition": "v1_glucose_reference",
+    "hard_admissibility_conditions": ["v1_glucose_reference"],
+    "reported_sensitivity_conditions": ["v2a_historical_ethanol_stage"],
+    "diagnostic_only_conditions": [
+      "v2b_bvitamin_panel_1e-6",
+      "v2b_bvitamin_panel_1e-5",
+      "v2b_bvitamin_panel_1e-4",
+      "v2b_bvitamin_panel_1e-3"
+    ],
+    "growth_admissibility_fraction_primary_WT": 0.1,
+    "growth_fractions_absolute_WT": [0.1, 0.5, 0.9],
+    "mutant_near_optimal_growth_fraction": 0.95,
+    "solver_tolerance": 1e-7,
+    "epsilon_division_only": 1e-12,
+    "infeasible_absolute_growth_floor_rule": {
+      "GCP_component": 0,
+      "PCR": "N/A",
+      "status": "growth_floor_infeasible"
+    },
+    "numeric_equivalence_before_ranking": {
+      "native_unit_solver_tolerance": 1e-7,
+      "GCP_and_Pmin95_abs_x_le_tol": 0,
+      "GR_equiv": "1.0 when abs(mutant_mu_max - WT_mu_max) <= native_unit_solver_tolerance",
+      "PCR_0.1_equiv": "1.0 when abs(Pmax_mutant - Pmax_WT) <= native_unit_solver_tolerance",
+      "KO_above_WT_beyond_tolerance": "reject_and_flag_inconsistency"
+    },
+    "historical_outcomes_allowed_as_features": false,
+    "historical_target_identity_allowed_as_rule": false,
+    "ranking": [
+      "Robust_GCP_desc",
+      "Median_GCP_desc",
+      "Primary_Pmin95_desc",
+      "Robust_GR_desc",
+      "Primary_PCR_at_0.1WT_desc",
+      "footprint_size_asc",
+      "gene_id_asc"
+    ],
+    "non_discriminating_rule": "If all primary-condition eligible candidates have GCP=0 and Pmin95=0, label NON_DISCRIMINATING_GUARANTEED_PRODUCTION and prohibit production-superiority claims from secondary ordering.",
+    "non_discriminating_output": "Rows may be emitted only as SECONDARY_FEASIBILITY_ORDER_ONLY; they are not production recommendations and cannot support production-superiority claims."
+  },
+  "learn_mode": {
+    "benchmark_comparison": false,
+    "uses_versioned_feedback_rules": true,
+    "design_mode_backfill_prohibited": true
+  },
+  "dependency_layers": {
+    "rank": "pandas only",
+    "prepare_evaluate": "COBRApy + SciPy + swiglpk"
+  }
+}

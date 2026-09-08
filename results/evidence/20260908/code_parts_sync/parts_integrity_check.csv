@@ -1,0 +1,35 @@
+﻿part_id,check,status,detail
+AISB26-045-001,file_exists:sequence.fasta,PASS,parts\AISB26-045-001\sequence.fasta
+AISB26-045-001,sha256:sequence.fasta,RECORDED,7f8ace367de86e3a3eae18b4df088506a508a1edfc53a83bc601f3091ff946e6
+AISB26-045-001,signed_source:sequence.fasta,PASS,parts/AISB26-045-001/sequence.fasta
+AISB26-045-001,file_exists:registry_export.gb,PASS,parts\AISB26-045-001\registry_export.gb
+AISB26-045-001,sha256:registry_export.gb,RECORDED,aa52c10bc4ef813d65a8f2619db7820e1c48865a9d4126c5b52744ed52a32784
+AISB26-045-001,signed_source:registry_export.gb,PASS,parts/AISB26-045-001/registry_export.gb
+AISB26-045-001,file_exists:map.svg,PASS,parts\AISB26-045-001\map.svg
+AISB26-045-001,sha256:map.svg,RECORDED,a31f59a3d9cc450eb5116b0e9c779825857e0ce62b15322a692f3de69c3cc5f2
+AISB26-045-001,signed_source:map.svg,PASS,parts/AISB26-045-001/map.svg
+AISB26-045-001,file_exists:metadata.yaml,PASS,parts\AISB26-045-001\metadata.yaml
+AISB26-045-001,sha256:metadata.yaml,RECORDED,cc66dcc5aca8606c3fb562cf94627a78f26e5c430f49c45ddc29120295ddbc40
+AISB26-045-001,file_exists:characterization.md,PASS,parts\AISB26-045-001\characterization.md
+AISB26-045-001,sha256:characterization.md,RECORDED,3a38d8baf05a32e30bbe50fa4dcbf8d4658512c468340e08760d4a6c313fb7c1
+AISB26-045-001,fasta_length,PASS,12584
+AISB26-045-001,fasta_genbank_sequence,PASS,FASTA 12584 bp; GenBank 12584 bp
+AISB26-045-001,svg_document,PASS,XML parsed
+AISB26-045-001,svg_relative_paths,PASS,"{""relative_references"": [], ""missing"": []}"
+AISB26-045-002,file_exists:sequence.fasta,PASS,parts\AISB26-045-002\sequence.fasta
+AISB26-045-002,sha256:sequence.fasta,RECORDED,5e096c8f446ff71f067bf25634623c10e8831fce932d6fec7f98e3b0709a6a69
+AISB26-045-002,file_exists:registry_export.gb,PASS,parts\AISB26-045-002\registry_export.gb
+AISB26-045-002,sha256:registry_export.gb,RECORDED,82f42b1b6628ac78bd596d2b1069d54d45eb9e1b02e930792a39e390ada58686
+AISB26-045-002,signed_source:registry_export.gb,PASS,parts/AISB26-045-002/registry_export.gb
+AISB26-045-002,file_exists:map.svg,PASS,parts\AISB26-045-002\map.svg
+AISB26-045-002,sha256:map.svg,RECORDED,419ab3726695ca976578bd3d5cbf5ff2b40649338548a290dff1341e9d494a89
+AISB26-045-002,signed_source:map.svg,PASS,parts/AISB26-045-002/map.svg
+AISB26-045-002,file_exists:metadata.yaml,PASS,parts\AISB26-045-002\metadata.yaml
+AISB26-045-002,sha256:metadata.yaml,RECORDED,7e2fb792363a10982941547f4968e2cf313a385abbb920dd37e5091b6eb47a89
+AISB26-045-002,file_exists:characterization.md,PASS,parts\AISB26-045-002\characterization.md
+AISB26-045-002,sha256:characterization.md,RECORDED,af3519e2867367ea7b42b782c393e2fae65cb808bd6984a9785da6fa3407b913
+AISB26-045-002,fasta_length,PASS,690
+AISB26-045-002,fasta_genbank_sequence,PASS,FASTA 690 bp; GenBank 690 bp
+AISB26-045-002,full_length_CDS_1_690,PASS,"[""1..690""]"
+AISB26-045-002,svg_document,PASS,XML parsed
+AISB26-045-002,svg_relative_paths,PASS,"{""relative_references"": [], ""missing"": []}"

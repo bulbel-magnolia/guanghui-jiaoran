@@ -1,0 +1,25 @@
+LOCUS       BBa_251P300A             690 bp    DNA     linear   SYN 04-OCT-2025
+DEFINITION  bmCBP Carotenoid Binding Protein.
+ACCESSION   BBa_251P300A
+VERSION     BBa_251P300A
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     source          1..690
+                     /mol_type="genomic DNA"
+     CDS             1..690
+                     /label="CDS"
+                     /note="SO:0000316 CDS"
+ORIGIN
+        1 agcattgatg aatacaagag ccaggcaaat gaaagtatgg caaatgcatg gcgcattatt
+       61 accctgccga attggaccgt ggaaaaacgc ggtaccgttc gcggcgatgt tgttgaaagc
+      121 cgtaaagttg aaggttttgg taaagtttat cgttttaccg gtgttgtgaa ttgtccggca
+      181 cgttttctgt atgaagaatt taaaaacaac ctgaccaagc tgccggaatg gaatccgacc
+      241 attctgaaat gcgaaattat taaagagatc ggcgatggcg tggatctgag ctatcaggtg
+      301 accgcaggcg gcggccgcgg tattattacc ccgcgcgatt ttgttattct gcgtcgcacc
+      361 gccctgctga gccgtgaagg ccgtgtggtt gatgataatc cgcatggcta tattagcagc
+      421 ggcgtgagcg ttcaggtgcc gggctatccg ccgctgaaag aaatggtgcg tggccataat
+      481 aaagttggtt gctggtatct gcagccgcgt accgtgcaga ccccgggtgg taaaattgaa
+      541 gatcaggcac tgtttcagtg gctgatgtgc tgcgatctga aaggtaaaat tccgcagttt
+      601 gtgctggatg tggcctttgc caccgttatg ctggattata ttgtgcatgt tcgcaaattt
+      661 gttgcagaag caaaagcccg tgcagaaatt
+//
