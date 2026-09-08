@@ -196,7 +196,7 @@ Design mode 冻结后，实验结果可以进入已有的版本化 feedback rule
 
 ## 15. 数值容差下的排序等价类
 
-排序前对数值指标使用与求解一致的 `1e-7` 等价判据：`abs(x) <= 1e-7` 视为 0，`abs(x-1) <= 1e-7` 视为 1。该处理只消除 LP 数值噪声，不改变超过容差的生物学差异。禁止利用 `1 ± 1e-8` 一类求解噪声打破候选并列。
+排序前保留 GCP/Pmin95 的绝对零处理：`abs(x) <= 1e-7` 视为 0。GR 与 primary PCR@0.1WT 必须在求解器原生通量单位上判断等价：若 `abs(mutant_mu_max - WT_mu_max) <= 1e-7`，则 `GR_equiv = 1`；若 `abs(Pmax_mutant - Pmax_WT) <= 1e-7`，则 `PCR_equiv = 1`。KO 原生目标值若高于对应 WT 超过 `1e-7`，必须标记为不一致并拒绝排序。只有原生差值超过容差且方向合法时才沿用记录的归一化比值。该处理只消除 LP 数值噪声，不改变超过容差的生物学差异。
 
 ## 16. sensitivity condition 不得隐式缩小 primary candidate pool
 
