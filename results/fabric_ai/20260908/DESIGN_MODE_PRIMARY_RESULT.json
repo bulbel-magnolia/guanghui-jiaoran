@@ -1,0 +1,23 @@
+{
+  "status": "NON_DISCRIMINATING_GUARANTEED_PRODUCTION",
+  "package_internal_freeze_status": "FABRIC_AI_V1_2_FRESH_DESIGN_MODE_FROZEN",
+  "independent_review_status": "PRIMARY_RESULT_FROZEN_SECONDARY_ORDER_PENDING_NUMERIC_EQUIVALENCE_CORRECTION",
+  "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684",
+  "primary_condition": "v1_glucose_reference",
+  "sensitivity_condition": "v2a_historical_ethanol_stage",
+  "primary_candidate_pool_size": 235,
+  "blocked_reactions": 600,
+  "v1_evaluated": 235,
+  "v2a_evaluated": 235,
+  "footprint_mismatches": 0,
+  "solver_failures": 0,
+  "v2a_infeasible_mutants": ["YMR303C"],
+  "v2a_growth_floor_infeasible_cells": 32,
+  "all_primary_GCP_zero": true,
+  "all_primary_Pmin95_zero": true,
+  "production_superiority_claim_allowed": false,
+  "secondary_topk_scope": "SECONDARY_FEASIBILITY_ORDER_ONLY",
+  "secondary_topk_order_frozen": false,
+  "reason_secondary_topk_not_frozen": "derived PCR ranking currently uses ratio-space tolerance and is affected by native Pmax differences smaller than the frozen 1e-7 LP tolerance",
+  "deliverable_zip_sha256": "ab6e65cce6d2358f75a687cae065ac72de57b5dc16329cf4a764a4c5dbb2764e"
+}
