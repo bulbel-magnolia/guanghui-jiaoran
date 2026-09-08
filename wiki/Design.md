@@ -1,35 +1,94 @@
-# Design
+# Design · 系统设计
 
-> 项目的整体设计逻辑——把"大目标"拆解成"具体可执行的子任务"。
->
-> 实施细节请放到对应的 AI-Computational-Methods / Wet-Lab-Experiments 页面。
+FABRIC 采用模块化架构，把生物色素生产、材料固色和可编程光控拆分为 P0/P1/P2 三个技术模块，并通过 Evidence & Feedback Layer 统一记录来源、实验结果、模型输出和下一轮动作。
 
 ---
 
-## 1. 设计原则 / Design Principles
+## 1. 设计原则
 
-（例：模块化、可逆改、与已有工具兼容…）
+### 模块化
 
-## 2. 系统架构 / System Architecture
+P0、P1、P2 可以分别积累实验和计算证据，又通过统一的数据结构和反馈层连接。单个模块更新时，不改变其他模块已经冻结的证据。
 
-```
-[嵌入系统架构图：../results/figures/system_design.png]
-```
+### 可验证
 
-## 3. 关键技术决策 / Key Decisions
+每个关键结论都对应具体数据、代码或实验记录。模型建议在进入湿实验前经过人工生物学审核，实验结果进入版本化规则而不是只保留文字结论。
 
-| 决策 | 候选方案 | 我们的选择 | 理由 |
-|---|---|---|---|
-| 序列生成方式 | LSTM / Transformer / Diffusion | Diffusion | … |
-| 表达宿主 | E. coli / B. subtilis | E. coli BL21 | … |
-| | | | |
+### 可迭代
 
-## 4. 风险与缓解 / Risks & Mitigations
+系统输出不仅包含候选，还记录为什么选择、当前证据等级和下一步动作。Design mode 与 Learn mode 分开，使公开 benchmark 和后验实验反馈保持清晰边界。
 
-| 风险 | 影响 | 我们的对策 |
+---
+
+## 2. 四层架构
+
+| 层级 | 输入 | 输出 |
 |---|---|---|
-| | | |
+| **P0 Production Optimizer** | Round 0、共同模型、GPR、Round 1 | 全候选表型、候选优先级、证据等级、下一轮动作 |
+| **P1 Material Interface Optimizer** | BmCBP、结合测量、洗涤与基材 | 结合趋势、材料优先级、固色方案 |
+| **P2 Color & Light Translator** | 颜色、混色、光响应、数字图案 | 颜色候选、光参数、投光接口 |
+| **Evidence & Feedback Layer** | 来源、版本、实验状态、规则 | 可追溯输入、计算轨迹、冲突记录和发布检查 |
 
 ---
 
-*最后更新：YYYY-MM-DD*
+## 3. P0 关键设计
+
+### 3.1 共同模型与候选空间
+
+2026 benchmark 使用 Yeast-GEM v9.1.0 与 FABRIC 异源产色通路建立共同模型。corrected primary candidate space 包含 **235 个单基因敲除**，每个候选通过完整 Boolean GPR 转换为真实失活反应集合。
+
+### 3.2 两阶段决策
+
+**Design mode** 负责公开 benchmark 和实验前候选评价，不读取 Round 1 PAN5/MDE1 结果。系统计算生长保持、不同生长要求下的 Pmin/Pmax、近最优生长下的 Pmin95/Pmax95、GCP、PCR 和 knockout footprint。
+
+**Learn mode** 在 Design 结果冻结后读取湿实验终点产量、持续性、生物量与可实施性，更新证据等级和下一轮动作。
+
+### 3.3 非区分检测
+
+如果 primary condition 中全部候选的 GCP 与 Pmin95 均为 0，系统标记 `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`，随后进入预先固定的可实施性排序层。该机制避免使用求解器数值噪声人为拉开候选差异。
+
+---
+
+## 4. P1 关键设计
+
+P1 以实验链形成材料判断：
+
+`蛋白候选 → 表达纯化 → astaxanthin 结合 → 织物实验 → 材料优先级`
+
+BmCBP 的分子对接承担候选支持，A480 和游离色素记录承担结合证据，丝绸/棉/聚酯承担跨基材评价。产业反馈进一步加入壳聚糖物理保护层，形成“蛋白媒染 + 物理保护”的双层固色方向。
+
+---
+
+## 5. P2 关键设计
+
+P2 把颜色与光控信息拆成三个接口：
+
+1. **颜色候选池**：保存已观察单色、混色、培养物/提取物和基材状态；
+2. **光响应参数**：保存 PhiReX 等光控系统的波长、光强、pulse 和归一化读出；
+3. **硬件执行层**：将数字图案转换为空间化或时序化光输入，并通过光传感、GUI、4G 通信和远程控制实现参数调整。
+
+---
+
+## 6. 关键技术决策
+
+| 决策 | 采用方案 | 设计依据 |
+|---|---|---|
+| 生产优化候选空间 | 统一 235-gene 单基因 KO 空间 | 便于与近期公开基线进行公平 gene-level 评价 |
+| 生产评价 | GCP/Pmin95 + growth/PCR/footprint | 同时记录 guaranteed production、生长和理论产能保留 |
+| 多条件评价 | v1 主条件 + v2A 生产阶段敏感性 | 保持同一 primary pool，观察生产阶段依赖 |
+| 排序 | 固定 lexicographic 规则 | 避免事后调权重，保证结果确定性 |
+| BmCBP 验证 | 表达纯化 + 结合 + 织物 | 直接评价材料接口功能 |
+| 光控读出 | EGFP/OD600 | 同时考虑表达信号和生物量 |
+| 硬件控制 | 光传感 + GUI + 4G | 支持监测、调整和远程控制 |
+
+---
+
+## 7. 安全与人工审核接口
+
+模型输出先进入团队人工复核，再转化为实验对象。软件不自动下发菌株构建、培养或实验设备命令。当前公开 Production Optimizer 处理既定共同模型和候选空间，不生成新的生物序列。
+
+详细计算流程见 [AI / 计算方法](./AI-Computational-Methods.md)，工程迭代见 [Engineering Cycle](./Engineering-Cycle.md)。
+
+---
+
+*最后更新：2026-09-08*
