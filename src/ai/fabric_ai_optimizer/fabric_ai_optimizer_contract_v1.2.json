@@ -25,8 +25,11 @@
       "status": "growth_floor_infeasible"
     },
     "numeric_equivalence_before_ranking": {
-      "abs_x_le_tol": 0,
-      "abs_x_minus_1_le_tol": 1
+      "native_unit_solver_tolerance": 1e-7,
+      "GCP_and_Pmin95_abs_x_le_tol": 0,
+      "GR_equiv": "1.0 when abs(mutant_mu_max - WT_mu_max) <= native_unit_solver_tolerance",
+      "PCR_0.1_equiv": "1.0 when abs(Pmax_mutant - Pmax_WT) <= native_unit_solver_tolerance",
+      "KO_above_WT_beyond_tolerance": "reject_and_flag_inconsistency"
     },
     "historical_outcomes_allowed_as_features": false,
     "historical_target_identity_allowed_as_rule": false,
