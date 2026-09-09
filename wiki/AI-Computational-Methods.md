@@ -36,6 +36,11 @@
 
 > **数据边界**：历史 Round 1 的 PAN5、MDE1 等实验结果不进入 Design mode 的候选生成、阈值或排序。实验结果仅在 Design mode 冻结后进入 Learn mode。
 
+<p align="center">
+  <img src="./assets/figures/fabric-ai-p0-workflow.webp" alt="FABRIC-AI P0 算法流程" width="88%">
+</p>
+<p align="center"><em>FABRIC-AI P0 计算流程：共同模型与 235-gene 候选空间经 GPR 干预映射、多条件表型评价和目标区分度判断后形成实验优先级输出。</em></p>
+
 ---
 
 ## 2. 四方法 Benchmark
@@ -64,6 +69,11 @@
 | **FABRIC-AI v1.2** | **235 / 235 基因完成显式表型计算与确定性排序** | **v1：235 / 235；v2A：同一 235 / 235** | **自动识别 `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`** | **完整 phenotype table + 可实施性 Top-6** | **635.91 s** |
 
 运行时间用于记录正式执行成本和复现环境；四种方法的原生工作负载不同。
+
+<p align="center">
+  <img src="./assets/figures/benchmark-coverage.webp" alt="四方法表型评价覆盖率" width="86%">
+</p>
+<p align="center"><em>统一 235-gene 空间中的表型评价覆盖率。Coverage 表示完成显式 phenotype evaluation 的候选比例，不代表增产成功率。</em></p>
 
 完整冻结表：[`FOUR_METHOD_BENCHMARK_FINAL.md`](../results/baseline/20260908/FOUR_METHOD_BENCHMARK_FINAL.md)
 
