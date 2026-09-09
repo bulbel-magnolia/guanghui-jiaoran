@@ -16,6 +16,11 @@
 
 > **闭环核心**：计算模型用于缩小设计空间并形成实验优先级；湿实验提供真实结果；版本化反馈规则把结果重新写回下一轮设计依据。P0、P1、P2 三条主线分别对应生产优化、材料接口和光控工程。
 
+<p align="center">
+  <img src="./assets/figures/dbtl-307-14-6.webp" alt="P0 DBTL 候选收缩与反馈流程" width="96%">
+</p>
+<p align="center"><em>P0 的候选收缩与实验反馈链：307 个候选反应 → 14 个方案 → 6 个实验靶点 → 湿实验验证 → 证据更新 → 下一轮设计。</em></p>
+
 | 闭环 | Design | Build / Test | Learn / 下一步 |
 |---|---|---|---|
 | **P0 Production Optimizer** | `307 → 14 → 6` | ΔPAN5、ΔMDE1 定量发酵 + 其余四靶点可实施性记录 | feedback tier 与下一轮优先级 |
@@ -45,6 +50,11 @@ Round 0 发酵数据进入 Yeast9/FBA/OptKnock 分析。历史模型页面记录
 | **ΔPAN5** | 120 h 约 `0.67 mg/L`；同批 AST 约 `0.47 mg/L`，提升约 **42.6%** | 保留为高优先级证据 |
 | **ΔMDE1** | 96–120 h 由约 `0.42 mg/L` 降至 `0.36 mg/L` | 进入后期持续性评价 |
 | RIB2 / MRI1 / SPE2 / FUM1 | 构建或培养可实施性状态 | 进入工程可实施性反馈 |
+
+<p align="center">
+  <img src="./assets/figures/p0-astaxanthin-fermentation.webp" alt="Round 1 虾青素浓度时间序列" width="88%">
+</p>
+<p align="center"><em>同批次 AST、ΔPAN5、ΔMDE1 的虾青素浓度曲线。72、96、120 h 数值为历史同批次曲线的数字化读取值。</em></p>
 
 ### Learn：实验结果更新证据等级
 
