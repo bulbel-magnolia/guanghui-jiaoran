@@ -58,7 +58,7 @@ Production Optimizer v1.2 在 corrected **235-gene** 共同空间中完成 v1 �
 
 在 primary condition 中，235 个候选的 guaranteed-production 下界均为 0，系统自动识别 `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`，随后进入预先固定的可实施性排序层。该机制把“当前目标是否真正有区分力”本身纳入实验决策，而不是从数值噪声中制造候选差异。
 
-[查看四方法 Benchmark →](./AI-Computational-Methods.md#4-四方法-benchmark-结果)
+[查看四方法 Benchmark →](./AI-Computational-Methods.md)
 
 ---
 
@@ -74,7 +74,7 @@ BmCBP 路线从功能分析和分子对接进入湿实验。团队表达并纯�
 
 平均 A480 随 BmCBP 浓度增加而下降，支持 BmCBP 与虾青素结合。丝绸、棉和聚酯的比较用于更新材料优先级，Human Practices 的产业反馈进一步推动“**BmCBP 蛋白媒染 + 壳聚糖物理保护**”的双层固色方向。
 
-[查看 BmCBP 元件与表征 →](./Parts.md#3-aisb26-045-002--密码子优化的截短-bmcbp-编码序列)
+[查看 BmCBP 元件与表征 →](./Parts.md)
 
 ---
 
@@ -84,7 +84,7 @@ PhiReX 红光实验采用约 `630 nm`、`200 μW/cm²`、`2 h pulse`，总培养
 
 硬件将数字图案转换为空间化或时序化光输入，并通过光传感、GUI、4G 通信和远程参数调整连接培养状态与光照控制。
 
-[查看 PhiReX 元件与表征 →](./Parts.md#2-aisb26-045-001--phirex-红光调控表达系统)
+[查看 PhiReX 元件与表征 →](./Parts.md)
 
 ---
 
