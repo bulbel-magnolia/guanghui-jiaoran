@@ -1,6 +1,28 @@
+<div align="center">
+
 # Human Practices · 人类实践
 
-FABRIC 的人类实践围绕一个明确目标展开：让真实的产业、工程、文化和公众反馈进入技术设计。团队以 3R（Reflection、Responsibility、Responsiveness）作为价值框架，以 PDCA（Plan、Do、Check、Act）组织调研、交流和设计调整，使 Human Practices 直接影响生物路线、材料选择、固色工艺、硬件集成和公众沟通。
+**让真实反馈进入技术设计**
+
+`3R：Reflection · Responsibility · Responsiveness` · `PDCA：Plan · Do · Check · Act`
+
+</div>
+
+<div align="center">
+
+[← Wiki 首页](./Home.md) · [干湿结合验证](./Integrated-Validation.md) · [Education](./Education.md) · [Collaboration](./Collaboration.md)
+
+</div>
+
+> **核心判断**：Human Practices 在 FABRIC 中承担设计输入角色。专家、产业、同行与公众反馈直接改变了 BmCBP 验证路线、固色方案、硬件远程控制、跨基材实验和公众沟通方式。
+
+| 反馈来源 | 原问题 | 实际设计改变 |
+|---|---|---|
+| 蛋白/结构专家 | BmCBP—丝蛋白结构模拟难以形成可靠判断 | **验证重点转入表达纯化、A480 和织物实验** |
+| 产业交流 | 虾青素真实产品中的稳定性 | **形成“BmCBP 蛋白媒染 + 壳聚糖物理保护”双层固色方向** |
+| 机械/自动化与团队交流 | 固定照射装置缺少监测和远程调节 | **加入光传感、GUI、4G 通信和远程参数调整** |
+| CCiC 团队交流 | 工艺可行性与标准化 | **新增丝绸、棉、聚酯跨基材比较** |
+| 公众调查 | 技术信任与理解门槛 | **强化样品体验、公开数据和可验证沟通** |
 
 ---
 
@@ -23,31 +45,39 @@ FABRIC 的人类实践围绕一个明确目标展开：让真实的产业、工�
 
 团队最初以 AutoDock 对 BmCBP 与类胡萝卜素进行分子对接，并尝试使用 AlphaFold 等工具评估 BmCBP 与丝蛋白的结合。丝蛋白结构大且不规则，使这一计算路线难以形成可靠判断。Yu Yang 老师建议把验证重点转入实验。
 
-团队据此完成 BmCBP 的异源表达与纯化，设计色素结合和织物实验，并将 A480、游离色素和洗后结果纳入 Material Interface Optimizer。三组 BmCBP 浓度条件的平均 A480 依次为 2.19190、2.00360、1.84980，结果支持 BmCBP 与虾青素结合。丝绸、棉和聚酯的比较进一步确定了当前基材优先级。
+团队据此完成 BmCBP 的异源表达与纯化，设计色素结合和织物实验，并将 A480、游离色素和洗后结果纳入 Material Interface Optimizer。
 
-这一反馈直接改变了验证路径：BmCBP 从计算候选进入可测量的蛋白表达、色素结合和织物实验。
+| BmCBP 浓度 | 平均 A480 |
+|---:|---:|
+| 0 mol/L | **2.19190** |
+| `5.5×10^-7 mol/L` | **2.00360** |
+| `1.1×10^-6 mol/L` | **1.84980** |
+
+结果支持 BmCBP 与虾青素结合。丝绸、棉和聚酯的比较进一步确定当前基材优先级。
+
+> **设计改变**：BmCBP 从计算候选进入可测量的蛋白表达、色素结合和织物实验。
 
 ### 2.2 固色方案：加入壳聚糖物理保护层
 
-产业交流中，团队讨论了虾青素在真实产品中的稳定性问题。Wuhan Canbiopharm Synthetic Biology Co., Ltd. 的 Liu Yang 结合商业案例提出，可在蛋白媒染之外增加壳聚糖保护层，为固定后的色素提供非毒性物理屏障。
+产业交流中，团队讨论虾青素在真实产品中的稳定性问题。Wuhan Canbiopharm Synthetic Biology Co., Ltd. 的 Liu Yang 结合商业案例提出，可在蛋白媒染之外增加壳聚糖保护层，为固定后的色素提供非毒性物理屏障。
 
-项目随后形成“**BmCBP 蛋白媒染 + 壳聚糖物理保护**”的双层固色方向，将分子结合与产品稳定性放在同一工艺链中评价。
+> **设计改变**：项目形成“**BmCBP 蛋白媒染 + 壳聚糖物理保护**”的双层固色方向，将分子结合与产品稳定性放在同一工艺链中评价。
 
 ### 2.3 光控硬件：从固定装置扩展为远程可调系统
 
 机械工程交流推动团队比较 3D 打印材料、支架强度和遮光结构，并通过多轮设计—打印—测试优化反应器支撑和遮光板。CCiC 交流中，SUSTechOCEAN 的远程监测方案进一步启发团队加入 4G 通信与远程参数调整。
 
-P2 系统随后将光传感、GUI、4G 通信和远程控制纳入统一接口，使实验人员可以监测培养状态并调整光照参数。自动化专家提出的系统集成意见也被纳入后续模块化设计。
+> **设计改变**：P2 系统将光传感、GUI、4G 通信和远程控制纳入统一接口，使实验人员能够监测培养状态并调整光照参数。
 
 ### 2.4 工艺可行性：由团队交流触发跨基材比较
 
 在 CCiC 展示 FABRIC 后，多支队伍关注工艺可行性和标准化。团队随后对棉、丝绸和聚酯开展比较实验，用实际基材差异评价色素固定效果。
 
-这一变化使基材选择从单一示例扩展为可比较的实验变量，并直接进入 P1 的材料优先级更新。
+> **设计改变**：基材选择从单一示例扩展为可比较的实验变量，并直接进入 P1 材料优先级更新。
 
 ### 2.5 传统染色文化：影响清洁工艺和视觉表达
 
-非遗蓝染展示了依靠天然原料、发酵环境和微生物还原完成染色的技术逻辑，为 FABRIC 的清洁生物过程提供了重要文化参照。团队同时调研苗、侗、瑶等传统服饰和染色文化，并与相关从业者交流。
+非遗蓝染展示了依靠天然原料、发酵环境和微生物还原完成染色的技术逻辑，为 FABRIC 的清洁生物过程提供文化参照。团队同时调研苗、侗、瑶等传统服饰和染色文化，并与相关从业者交流。
 
 传统点染、扎染和蜡染的自然边界也改变了团队对“像素化”的判断。光控微生物染色形成的离散纹理被纳入个性化图案设计，使生物制造的视觉特征成为项目设计语言的一部分。
 
@@ -55,35 +85,48 @@ P2 系统随后将光传感、GUI、4G 通信和远程控制纳入统一接口�
 
 ## 3. 公共调查：从环境价值转向可验证信任
 
-项目开展公众调查并获得 **391 份有效问卷**。超过一半受访者在日常服装购买中较少关注“环保与可持续”属性；在团队介绍 FABRIC 后，约 **80%** 的受访者表示接受该技术。受访者重点关注：
+项目开展公众调查并获得 **391 份有效问卷**。
 
-- 降低纺织染色产生的水污染；
-- 减少化学染料残留可能带来的皮肤刺激；
-- 通过天然染料和生物固色推动服装产业绿色转型；
-- 通过样品体验、第三方检测和公开实验数据建立信任。
+| 调研结果 | 对项目沟通的启示 |
+|---|---|
+| 超过一半受访者日常购衣较少关注“环保与可持续”属性 | 需要从水污染、皮肤刺激、服装安全等具体场景切入 |
+| 团队介绍 FABRIC 后，约 **80%** 受访者表示接受该技术 | 可持续技术在清楚解释后具有较高接受基础 |
+| 受访者强调样品体验、第三方检测和公开数据 | “可验证性”和“透明沟通”进入项目传播设计 |
 
-这些反馈使“技术可验证性”和“透明沟通”成为项目社会传播的重要组成部分，并与当前代码、实验记录和可复现 benchmark 的公开方式一致。
+这些反馈与当前代码、实验记录和可复现 benchmark 的公开方式保持一致。
 
 ---
 
 ## 4. 从 Human Practices 到 FABRIC 2.0
 
-专家、产业、环保组织和公众反馈共同推动项目从单一染色环节扩展到全生命周期视角。团队将染料生产、固色、个性化图案、硬件控制、材料选择和废弃物处理放在同一可持续设计框架中，并形成 FABRIC 2.0 的长期方向：以合成生物学连接材料生产、产品使用和废弃物处理。
+专家、产业、环保组织和公众反馈共同推动项目从单一染色环节扩展到全生命周期视角。团队将染料生产、固色、个性化图案、硬件控制、材料选择和废弃物处理放在同一可持续设计框架中。
 
-Human Practices 在本项目中承担的是设计输入角色。当前 P0/P1/P2 的关键工程决策均可以追溯到具体的专家、产业、团队或公众反馈。
+<div align="center">
+
+**技术反馈 → 设计改变 → 实验验证 → 工程整合 → FABRIC 2.0**
+
+</div>
 
 ---
 
 ## 5. 公开证据
 
-- [`Human Practices 设计影响证据摘要`](../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md)
-- BIT-China 2025 Human Practices：https://2025.igem.wiki/bit-china/human-practices
-- BIT-China 2025 Hardware：https://2025.igem.wiki/bit-china/hardware
-- BIT-China 2025 Sustainability：https://2025.igem.wiki/bit-china/sustainability
-- [干湿结合验证](./Integrated-Validation.md)
+| 证据 | 入口 |
+|---|---|
+| Human Practices 设计影响摘要 | [`DBTL_AND_HP_EVIDENCE.md`](../results/evidence/20260908/DBTL_AND_HP_EVIDENCE.md) |
+| BIT-China 2025 Human Practices | https://2025.igem.wiki/bit-china/human-practices |
+| BIT-China 2025 Hardware | https://2025.igem.wiki/bit-china/hardware |
+| BIT-China 2025 Sustainability | https://2025.igem.wiki/bit-china/sustainability |
+| 干湿结合验证 | [Integrated Validation](./Integrated-Validation.md) |
 
-本页所列调研与交流发生于 2025 FABRIC 项目阶段；2026 赛事版本沿用这些已经形成的设计决策，并将其落实到 P0 Production Optimizer、P1 Material Interface Optimizer 和 P2 Color & Light Translator。
+本页所列调研与交流发生于 2025 FABRIC 项目阶段；2026 赛事版本沿用已经形成的设计决策，并将其落实到 P0 Production Optimizer、P1 Material Interface Optimizer 和 P2 Color & Light Translator。
 
 ---
 
-*最后更新：2026-09-08*
+<div align="center">
+
+[← Wiki 首页](./Home.md) · [干湿结合验证](./Integrated-Validation.md) · [Education](./Education.md) · [Collaboration](./Collaboration.md) · [AI 伦理与安全](./AI-Ethics-Safety.md)
+
+</div>
+
+*最后更新：2026-09-09*
