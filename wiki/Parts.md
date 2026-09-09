@@ -41,10 +41,16 @@
 <p align="center">
   <img src="../parts/AISB26-045-001/map.svg" alt="PhiReX map" width="92%">
 </p>
+<p align="center"><em>PhiReX 正式线性元件图谱，由 `registry_export.gb` 的 feature 坐标生成；全长 12,584 bp。</em></p>
 
 ### 2.2 设计逻辑
 
 PhiReX 为多单元复合调控系统。TDH3 promoter 驱动 HY1 与 PcyA，提供 PhyB 光敏色素所需的胆色素合成模块；TEF2 promoter 驱动 PIF3-NLS-VP16 与 PhyBNT-Zif268。红光诱导 PhyB 与 PIF3 相互作用，将 VP16 激活结构域定位到 GalZifBSp promoter 邻近区域，从而促进下游 EGFP 表达。
+
+<p align="center">
+  <img src="./assets/figures/phirex-mechanism.webp" alt="PhiReX 红光调控机制" width="94%">
+</p>
+<p align="center"><em>PhiReX 红光调控机制示意：约 630 nm 红光促进 PhyB–PIF3-VP16 相互作用，并增强下游转录表达。</em></p>
 
 元件还包含 YPRC3L、TEF1 terminator、tENO2、FBA1 terminator、KanMX 和 YPRC3R 等结构，用于形成完整的酵母红光调控表达系统。
 
@@ -65,6 +71,11 @@ PhiReX 为多单元复合调控系统。TDH3 promoter 驱动 HY1 与 PcyA，提�
 
 R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对照的归一化 EGFP 信号。
 
+<p align="center">
+  <img src="./assets/figures/phirex-expression.webp" alt="PhiReX 红光与对照表达结果" width="84%">
+</p>
+<p align="center"><em>R5、R11、R13 的红光/对照归一化 EGFP/OD600 数字化读取值。重复类型、n 与误差线类型仍按原始记录中的人工确认字段管理。</em></p>
+
 ### 2.4 证据文件
 
 - [`sequence.fasta`](../parts/AISB26-045-001/sequence.fasta)
@@ -82,10 +93,16 @@ R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对�
 <p align="center">
   <img src="../parts/AISB26-045-002/map.svg" alt="BmCBP map" width="72%">
 </p>
+<p align="center"><em>截短 BmCBP 正式元件图谱：690 bp CDS，对应 UniProt Q8MYA9 aa 68–297。</em></p>
 
 ### 3.2 元件设计
 
 该元件对应 UniProt Q8MYA9 第 68–297 位氨基酸，去除 N 端第 1–67 位预测无序区。CDS 经密码子优化，长度为 **690 bp**。实际表达使用 pET-28a-BmCBP，在 *E. coli* BL21(DE3) 中完成。
+
+<p align="center">
+  <img src="./assets/figures/bmcbp-dual-fixation.webp" alt="BmCBP 双层固色机制示意" width="92%">
+</p>
+<p align="center"><em>P1 材料接口机制示意：BmCBP 蛋白媒染连接色素与织物；壳聚糖物理保护层为 Human Practices 驱动的后续双层固色设计方向，不作为已完成的定量验证。</em></p>
 
 ### 3.3 表达与结合表征
 
@@ -98,6 +115,11 @@ R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对�
 | 0 | **2.19190** | `1.6×10^-6` |
 | `5.5×10^-7` | **2.00360** | `1.4×10^-6` |
 | `1.1×10^-6` | **1.84980** | `1.2×10^-6` |
+
+<p align="center">
+  <img src="./assets/figures/bmcbp-a480.webp" alt="BmCBP 浓度与平均 A480" width="82%">
+</p>
+<p align="center"><em>BmCBP 浓度与平均 A480 的关系。每个条件记录 3 次测量；当前结构化记录仅保存条件平均值，因此图中不显示误差线。</em></p>
 
 平均 A480 与游离虾青素记录随 BmCBP 浓度增加而下降，支持 BmCBP 与虾青素结合。丝绸、棉和聚酯比较进一步支持将丝绸作为当前优先基材。
 
