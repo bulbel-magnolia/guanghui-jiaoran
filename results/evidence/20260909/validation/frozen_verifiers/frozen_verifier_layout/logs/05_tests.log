@@ -1,0 +1,8 @@
+.....                                                                    [100%]
+============================== warnings summary ===============================
+..\..\..\..\..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\cacheprovider.py:475
+  C:\Users\zby\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\cacheprovider.py:475: PytestCacheWarning: could not create cache path C:\Users\zby\Desktop\iGEM\����ѧ�ϳ�����ѧ����\.worktrees\guanghui-jiaoran\fabric-ai-20260907-run\.pytest_cache\v\cache\nodeids: [WinError 5] �ܾ����ʡ�: 'C:\\Users\\zby\\Desktop\\iGEM\\����ѧ�ϳ�����ѧ����\\.worktrees\\guanghui-jiaoran\\fabric-ai-20260907-run\\pytest-cache-files-37l7e_md'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+5 passed, 1 warning in 0.04s

@@ -1,0 +1,25 @@
+$ python tools/fabric_ai/audit_phirex_features.py --outdir /mnt/data/fabric_repair/results/evidence/20260909/validation/feature_audit
+{
+  "status": "PASSED",
+  "checks": {
+    "AISB26-045-001_sequence_equal": true,
+    "AISB26-045-001_DNA_bytes_unchanged": true,
+    "AISB26-045-001_five_files_exist": true,
+    "AISB26-045-001_PIF3-NLS-VP16_frame": true,
+    "AISB26-045-001_PhyBNT-Zif268_frame": true,
+    "AISB26-045-002_sequence_equal": true,
+    "AISB26-045-002_DNA_bytes_unchanged": true,
+    "AISB26-045-002_five_files_exist": true,
+    "AISB26-045-002_CDS_frame": true,
+    "revised_genbank_matches_declared_hash": true,
+    "four_unresolved_regions_are_misc_feature": true
+  },
+  "unresolved": [
+    "HY1",
+    "PcyA",
+    "EGFP",
+    "KanMX"
+  ]
+}
+
+exit_code=0

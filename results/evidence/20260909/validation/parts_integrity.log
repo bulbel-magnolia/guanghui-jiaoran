@@ -1,0 +1,4 @@
+$ python tools/fabric_ai/check_parts_integrity.py --out /mnt/data/fabric_repair/results/evidence/20260909/validation/parts_integrity.csv
+{"status": "PASSED", "checks": 28}
+
+exit_code=0

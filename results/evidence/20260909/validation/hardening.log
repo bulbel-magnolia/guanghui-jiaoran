@@ -1,0 +1,5 @@
+$ python -m pytest tests/fabric_ai/test_ranker_input_validation.py -q -p no:cacheprovider
+........................................                                 [100%]
+40 passed in 0.72s
+
+exit_code=0

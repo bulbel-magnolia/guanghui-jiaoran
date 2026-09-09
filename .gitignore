@@ -104,3 +104,8 @@ config/local.yaml
 !results/history/fabric_ai/20260908/pre_numeric_correction/logs/
 !results/history/fabric_ai/20260908/pre_numeric_correction/logs/*.log
 !results/evidence/20260908/code_parts_sync/*.log
+
+# Submission-repair evidence logs are required deliverables, not scratch logs.
+!results/evidence/20260909/**/logs/
+!results/evidence/20260909/**/*.log
+!results/fabric_ai/20260909/**/*.log

@@ -1,0 +1,5 @@
+$ python -m pytest tests/fabric_ai/test_learn_mode.py -q -p no:cacheprovider
+...................                                                      [100%]
+19 passed in 0.27s
+
+exit_code=0

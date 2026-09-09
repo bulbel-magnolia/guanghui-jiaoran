@@ -19,3 +19,6 @@
 
 /results/evidence/20260909/recovered_v08/** -text whitespace=cr-at-eol
 /results/evidence/20260909/phirex_annotation/original/** -text whitespace=cr-at-eol
+/results/evidence/20260909/validation/** -text whitespace=cr-at-eol
+/results/evidence/20260909/phirex_annotation/phirex_digitized_records.csv -text whitespace=cr-at-eol
+/results/fabric_ai/20260909/** -text whitespace=cr-at-eol
