@@ -16,6 +16,11 @@
 
 > **核心判断**：Human Practices 在 FABRIC 中承担设计输入角色。专家、产业、同行与公众反馈直接改变了 BmCBP 验证路线、固色方案、硬件远程控制、跨基材实验和公众沟通方式。
 
+<p align="center">
+  <img src="./assets/figures/human-practices-design-change.webp" alt="Human Practices 反馈推动设计改变" width="92%">
+</p>
+<p align="center"><em>Human Practices 对设计的直接影响：专家、应用需求与团队交流分别推动实验验证路线、材料方案与光控硬件发生具体改变。</em></p>
+
 | 反馈来源 | 原问题 | 实际设计改变 |
 |---|---|---|
 | 蛋白/结构专家 | BmCBP—丝蛋白结构模拟难以形成可靠判断 | **验证重点转入表达纯化、A480 和织物实验** |
