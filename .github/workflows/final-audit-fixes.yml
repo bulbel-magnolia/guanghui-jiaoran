@@ -1,0 +1,51 @@
+name: Final audit fixes validation
+on:
+  push:
+    branches: [final-audit-fixes-20260909]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: final-audit-fixes-validation
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Export exact source and reachable history
+        run: |
+          mkdir -p /tmp/fabric-source
+          git archive --format=zip HEAD -o /tmp/fabric-source/checkout.zip
+          git bundle create /tmp/fabric-source/reachable-history.bundle --all
+          git show-ref > /tmp/fabric-source/refs.txt
+          git log --all --format='%H %aI %s' > /tmp/fabric-source/history.txt
+          sha256sum /tmp/fabric-source/* > /tmp/fabric-source/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exact-repair-branch-source
+          path: /tmp/fabric-source/
+          retention-days: 7
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install validation dependencies
+        run: python -m pip install -r src/ai/fabric_ai_optimizer/requirements-frozen.txt biopython==1.85 PyYAML==6.0.2 cairosvg==2.8.2
+      - name: Validate current repair checkout
+        run: |
+          if test -f tools/fabric_ai/validate_submission_fixes.py; then
+            python tools/fabric_ai/validate_submission_fixes.py --outdir .reproduction/final-audit-fixes
+          else
+            mkdir -p .reproduction/final-audit-fixes
+            python -m pytest tests/fabric_ai/test_ranker.py -q | tee .reproduction/final-audit-fixes/bootstrap-ranking-tests.log
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: final-audit-fixes-validation
+          path: .reproduction/final-audit-fixes/
+          retention-days: 30
