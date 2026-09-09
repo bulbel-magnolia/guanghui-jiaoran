@@ -6,6 +6,11 @@
 
 光绘酵染以工程化酵母为生产底盘，以 BmCBP 连接色素与织物，以光控表达和数字投光连接颜色目标与空间图案。FABRIC-AI 进一步把代谢计算、材料实验、光控数据和湿实验反馈组织为统一的设计—验证—学习流程。
 
+<p align="center">
+  <img src="./assets/figures/fabric-ai-overview.webp" alt="FABRIC-AI 总体架构" width="96%">
+</p>
+<p align="center"><em>FABRIC-AI 总体架构：P0 生产优化、P1 材料固色和 P2 光控表达由 DBTL 反馈闭环连接。</em></p>
+
 ---
 
 ## 2. P0：Production Optimizer
@@ -62,4 +67,4 @@ P0 提供完整的 Design–Build–Test–Learn 主闭环；P1 与 P2 将相同
 
 ---
 
-*最后更新：2026-09-08*
+*最后更新：2026-09-09*
