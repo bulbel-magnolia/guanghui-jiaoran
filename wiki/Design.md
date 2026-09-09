@@ -2,6 +2,11 @@
 
 FABRIC 采用模块化架构，把生物色素生产、材料固色和可编程光控拆分为 P0/P1/P2 三个技术模块，并通过 Evidence & Feedback Layer 统一记录来源、实验结果、模型输出和下一轮动作。
 
+<p align="center">
+  <img src="./assets/figures/fabric-ai-overview.webp" alt="FABRIC-AI 总体架构" width="96%">
+</p>
+<p align="center"><em>FABRIC-AI 的模块化设计：P0 负责生产优化，P1 负责材料固色，P2 负责光控表达，实验结果通过 DBTL 进入下一轮设计。</em></p>
+
 ---
 
 ## 1. 设计原则
@@ -91,4 +96,4 @@ P2 把颜色与光控信息拆成三个接口：
 
 ---
 
-*最后更新：2026-09-08*
+*最后更新：2026-09-09*
