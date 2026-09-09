@@ -64,6 +64,11 @@ Round 0 在 0–144 h 记录 OD600，并在相应时间点记录葡萄糖和乙�
 | ΔPAN5 | — | **约 0.67 mg/L** | 相对同批 AST 提升约 **42.6%** |
 | ΔMDE1 | **约 0.42 mg/L** | **约 0.36 mg/L** | 后期持续性下降 |
 
+<p align="center">
+  <img src="./assets/figures/p0-astaxanthin-fermentation.webp" alt="P0 Round 1 虾青素浓度曲线" width="88%">
+</p>
+<p align="center"><em>同批次 AST、ΔPAN5、ΔMDE1 的虾青素浓度时间序列。72、96、120 h 数值均为历史实验曲线的数字化读取值。</em></p>
+
 这些结果与其余四个靶点的可实施性状态共同进入反馈规则。反馈后的证据等级与后续动作见 [干湿结合验证](./Integrated-Validation.md)。
 
 ---
@@ -95,6 +100,11 @@ BmCBP 使用密码子优化的截短编码序列，对应 UniProt Q8MYA9 第 68�
 | `5.5×10^-7` | **2.00360** | `1.4×10^-6` |
 | `1.1×10^-6` | **1.84980** | `1.2×10^-6` |
 
+<p align="center">
+  <img src="./assets/figures/bmcbp-a480.webp" alt="BmCBP 浓度与平均 A480" width="82%">
+</p>
+<p align="center"><em>BmCBP 浓度与平均 A480 的关系。每个条件记录 3 次测量；当前结构化记录仅保存条件平均值，因此图中不显示误差线。</em></p>
+
 平均 A480 和游离虾青素记录随 BmCBP 浓度增加而下降，支持 BmCBP 与虾青素结合。该结果进入 P1 Material Interface Optimizer，用于连接蛋白候选、色素结合与织物结果。
 
 ---
@@ -122,6 +132,11 @@ Human Practices 的产业反馈进一步推动“**BmCBP 蛋白媒染 + 壳聚�
 | 归一化 | EGFP / OD600 |
 
 R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对照的归一化 EGFP 信号。
+
+<p align="center">
+  <img src="./assets/figures/phirex-expression.webp" alt="PhiReX 红光与对照归一化 EGFP" width="84%">
+</p>
+<p align="center"><em>R5、R11、R13 的红光/对照归一化 EGFP/OD600 数字化读取值。重复类型、n 与误差线类型仍按原始记录中的人工确认字段管理，因此此图不额外生成误差线。</em></p>
 
 > **P2 实验接口**：固定光参数 → EGFP / OD600 → 结构化光控记录 → Color & Light Translator。
 
