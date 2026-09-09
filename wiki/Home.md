@@ -10,6 +10,11 @@
 
 > **项目目标**：围绕生物色素“产得出、留得住、可编程”三个问题，构建从菌株设计、材料固色到光控图案输出的一体化 FABRIC 系统，并用 FABRIC-AI 将计算设计与湿实验反馈组织成可执行的 DBTL 决策流程。
 
+<p align="center">
+  <img src="./assets/figures/fabric-ai-overview.webp" alt="FABRIC-AI 总体架构" width="96%">
+</p>
+<p align="center"><em>FABRIC-AI 总体架构：P0 生产优化、P1 材料固色和 P2 光控表达共同连接到实验验证与 DBTL 学习反馈。</em></p>
+
 | 计算设计空间 | 近期公开基线 | 本届新元件 | 工程闭环 |
 |:---:|:---:|:---:|:---:|
 | **235 / 235** 基因完成全量表型评价 | **3** 种：FastKnock、CFSA、OptEnvelope | **2** 项 AISB26 元件 | **P0 / P1 / P2** 三条主线 |
@@ -47,6 +52,11 @@ Round 0 发酵数据进入 Yeast9/FBA/OptKnock 分析，形成 **307 个候选�
 
 **307 个候选反应 → 14 个 Plan → 6 个实验靶点 → Round 1 → feedback tier**
 
+<p align="center">
+  <img src="./assets/figures/dbtl-307-14-6.webp" alt="307 到 14 到 6 的 DBTL 流程" width="96%">
+</p>
+<p align="center"><em>P0 的候选收缩与实验反馈链：307 个候选反应 → 14 个方案 → 6 个实验靶点 → 湿实验验证 → 证据更新 → 下一轮设计。</em></p>
+
 | Round 1 关键结果 | 数值 | 对下一轮的作用 |
 |---|---:|---|
 | ΔPAN5，120 h | **约 0.67 mg/L** | 同批 AST 约 0.47 mg/L，进入高优先级证据 |
@@ -57,6 +67,11 @@ Round 0 发酵数据进入 Yeast9/FBA/OptKnock 分析，形成 **307 个候选�
 Production Optimizer v1.2 在 corrected **235-gene** 共同空间中完成 v1 与 v2A 各 **235/235** 的表型评价，并与 FastKnock 2024、CFSA 2024、OptEnvelope 2023 完成冻结 benchmark。
 
 在 primary condition 中，235 个候选的 guaranteed-production 下界均为 0，系统自动识别 `NON_DISCRIMINATING_GUARANTEED_PRODUCTION`，随后进入预先固定的可实施性排序层。该机制把“当前目标是否真正有区分力”本身纳入实验决策，而不是从数值噪声中制造候选差异。
+
+<p align="center">
+  <img src="./assets/figures/benchmark-coverage.webp" alt="四方法表型评价覆盖率比较" width="88%">
+</p>
+<p align="center"><em>统一 235-gene 空间中的表型评价覆盖率。这里的 coverage 表示完成显式 phenotype evaluation 的候选比例，不代表增产成功率。</em></p>
 
 [查看四方法 Benchmark →](./AI-Computational-Methods.md)
 
