@@ -1,0 +1,7 @@
+gene,orf,before_evidence_tier,after_evidence_tier,before_action,after_action,action_changed,fold_vs_ast,persistence_change_percent,biomass_fold_vs_ast
+RIB2,YOL066C,,3,selected_for_round1,record_construction_or_cultivation_redesign_direction,True,,,
+PAN5,YHR063C,,1,selected_for_round1,prioritize_for_next_cycle,True,1.4255319148936172,9.836065573770503,1.1196581196581197
+MDE1,YJR024C,,2,selected_for_round1,deprioritize_and_review_mechanism,True,0.7659574468085106,-14.28571428571429,1.1025641025641026
+MRI1,YPR118W,,3,selected_for_round1,record_construction_or_cultivation_redesign_direction,True,,,
+SPE2,YOL052C,,3,selected_for_round1,record_construction_or_cultivation_redesign_direction,True,,,
+FUM1,YPL262W,,3,selected_for_round1,record_construction_or_cultivation_redesign_direction,True,,,

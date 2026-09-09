@@ -1,0 +1,12 @@
+{
+  "source_commit": "88082e13d1a9e715f63a24d2b53c7e0fe9bbb523",
+  "checks": {
+    "parts/AISB26-045-001/sequence.fasta": true,
+    "parts/AISB26-045-001/registry_export.gb": true,
+    "parts/AISB26-045-001/map.svg": true,
+    "parts/AISB26-045-002/sequence.fasta": true,
+    "parts/AISB26-045-002/registry_export.gb": true,
+    "parts/AISB26-045-002/map.svg": true
+  },
+  "status": "PASSED"
+}

@@ -1,0 +1,29 @@
+﻿part_id,check,status,detail
+AISB26-045-001,exists:sequence.fasta,PASS,parts/AISB26-045-001/sequence.fasta
+AISB26-045-001,exists:registry_export.gb,PASS,parts/AISB26-045-001/registry_export.gb
+AISB26-045-001,exists:metadata.yaml,PASS,parts/AISB26-045-001/metadata.yaml
+AISB26-045-001,exists:characterization.md,PASS,parts/AISB26-045-001/characterization.md
+AISB26-045-001,exists:map.svg,PASS,parts/AISB26-045-001/map.svg
+AISB26-045-001,source_archive_hash:sequence.fasta,PASS,7f8ace367de86e3a3eae18b4df088506a508a1edfc53a83bc601f3091ff946e6
+AISB26-045-001,source_archive_hash:registry_export.gb,PASS,aa52c10bc4ef813d65a8f2619db7820e1c48865a9d4126c5b52744ed52a32784
+AISB26-045-001,source_archive_hash:map.svg,PASS,a31f59a3d9cc450eb5116b0e9c779825857e0ce62b15322a692f3de69c3cc5f2
+AISB26-045-001,sequence_length,PASS,12584
+AISB26-045-001,FASTA_equals_GenBank,PASS,Per-base comparison
+AISB26-045-001,DNA_equals_original,PASS,No nucleotide edits
+AISB26-045-001,declared_annotation_hash,PASS,PHIREX_ANNOTATION_ONLY_20260909
+AISB26-045-001,declared_coordinate_map_hash,PASS,Regenerated from revised feature types; coordinates unchanged
+AISB26-045-001,SVG_parses,PASS,XML parse
+AISB26-045-002,exists:sequence.fasta,PASS,parts/AISB26-045-002/sequence.fasta
+AISB26-045-002,exists:registry_export.gb,PASS,parts/AISB26-045-002/registry_export.gb
+AISB26-045-002,exists:metadata.yaml,PASS,parts/AISB26-045-002/metadata.yaml
+AISB26-045-002,exists:characterization.md,PASS,parts/AISB26-045-002/characterization.md
+AISB26-045-002,exists:map.svg,PASS,parts/AISB26-045-002/map.svg
+AISB26-045-002,source_archive_hash:sequence.fasta,PASS,011d31abae37febe1ab573824bac71c703a426407b8d90fb372821b90762068f
+AISB26-045-002,source_archive_hash:registry_export.gb,PASS,82f42b1b6628ac78bd596d2b1069d54d45eb9e1b02e930792a39e390ada58686
+AISB26-045-002,source_archive_hash:map.svg,PASS,419ab3726695ca976578bd3d5cbf5ff2b40649338548a290dff1341e9d494a89
+AISB26-045-002,sequence_length,PASS,690
+AISB26-045-002,FASTA_equals_GenBank,PASS,Per-base comparison
+AISB26-045-002,DNA_equals_original,PASS,No nucleotide edits
+AISB26-045-002,unchanged_GenBank,PASS,BmCBP GenBank not edited
+AISB26-045-002,CDS_1_690,PASS,Vector fusion context retained
+AISB26-045-002,SVG_parses,PASS,XML parse

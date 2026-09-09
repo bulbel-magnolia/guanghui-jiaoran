@@ -1,0 +1,2 @@
+"record_id","round_label","decision_stage","strain_or_target","condition","value","unit","time_h","data_status","source_figure","source_file_internal","feedback_label","notes","reaction_id","candidate_count"
+"GSMM-CAND-SUMMARY","AI_Learn","candidate_screening","Yeast9_astaxanthin_model","FBA zero-flux and relevance and growth-essential filters","307","reactions","","evidence_summary","Figure 4j Selected Reactions","docs/evidence/gsmm-model-evidence.md","","Full 307-reaction list and original model file were not recovered; no reaction rows are fabricated","","307"

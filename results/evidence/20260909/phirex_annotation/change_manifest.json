@@ -1,0 +1,59 @@
+{
+  "revision_id": "PHIREX_ANNOTATION_ONLY_20260909",
+  "source_commit": "88082e13d1a9e715f63a24d2b53c7e0fe9bbb523",
+  "original_genbank_sha256": "aa52c10bc4ef813d65a8f2619db7820e1c48865a9d4126c5b52744ed52a32784",
+  "revised_genbank_sha256": "8d8834c5137799fdc65968d5af49cfb5027ac7ffaf4a0babfcaea66b84b06112",
+  "sequence_fasta_sha256": "7f8ace367de86e3a3eae18b4df088506a508a1edfc53a83bc601f3091ff946e6",
+  "DNA_changed": false,
+  "CDS_coordinates_guessed": false,
+  "changes": [
+    {
+      "label": "HY1",
+      "before_type": "CDS",
+      "after_type": "misc_feature",
+      "start_1based": 1599,
+      "end_1based": 2333,
+      "strand": 1,
+      "reason": "Original interval includes noncoding flanks / stop-following sequence; exact CDS boundaries not independently confirmed."
+    },
+    {
+      "label": "PcyA",
+      "before_type": "CDS",
+      "after_type": "misc_feature",
+      "start_1based": 2334,
+      "end_1based": 3092,
+      "strand": 1,
+      "reason": "Original interval includes noncoding flanks / stop-following sequence; exact CDS boundaries not independently confirmed."
+    },
+    {
+      "label": "EGFP",
+      "before_type": "CDS",
+      "after_type": "misc_feature",
+      "start_1based": 9377,
+      "end_1based": 10089,
+      "strand": 1,
+      "reason": "Original 713 nt interval is not divisible by three; exact complete CDS boundaries not confirmed."
+    },
+    {
+      "label": "KanMX",
+      "before_type": "CDS",
+      "after_type": "misc_feature",
+      "start_1based": 10590,
+      "end_1based": 11945,
+      "strand": 1,
+      "reason": "Original interval contains multiple in-frame stop codons as a single CDS; retained as a cassette region, not a verified coding sequence."
+    }
+  ],
+  "CDS_retained": [
+    "PIF3-NLS-VP16",
+    "PhyBNT-Zif268"
+  ],
+  "unresolved_CDS_intervals": [
+    "HY1",
+    "PcyA",
+    "EGFP",
+    "KanMX"
+  ],
+  "structural_check_is_not_experimental_sequence_verification": true,
+  "revised_map_sha256": "ae1a0667a85d31c9d84b3d02ebbe530a44f3d9281ca7b1eda308d80d4c432154"
+}

@@ -1,0 +1,23 @@
+{
+  "rules_version": "v0.8",
+  "threshold_role": "project_level_decision_thresholds",
+  "threshold_rationale": "These thresholds organize the current small-sample evidence for project decisions; they are not statistical-significance criteria or universal biological cutoffs.",
+  "terminal_time_h": 120,
+  "persistence_start_h": 96,
+  "positive_terminal_fold_min": 1.05,
+  "negative_terminal_fold_max": 0.95,
+  "persistence_change_percent_min": 0.0,
+  "biomass_fold_min": 0.9,
+  "sensitivity_grid": {
+    "positive_terminal_fold_min": [1.02, 1.05, 1.08, 1.1],
+    "negative_terminal_fold_max": [0.9, 0.93, 0.95, 0.98],
+    "persistence_change_percent_min": [-5.0, 0.0, 5.0],
+    "biomass_fold_min": [0.85, 0.9, 0.95]
+  },
+  "decision_order": [
+    "feasibility_not_passed_in_current_round -> tier 3",
+    "terminal positive AND persistence maintained AND biomass maintained -> tier 1",
+    "terminal below control OR persistence negative -> tier 2",
+    "otherwise -> tier 2"
+  ]
+}

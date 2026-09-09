@@ -1,0 +1,6 @@
+metric,before,after,delta
+target_count,6,6,0
+classified_target_count,0,6,6
+unassessed_target_count,6,0,-6
+quantified_target_count,0,2,2
+next_action_class_count,1,3,2

@@ -25,9 +25,15 @@
 
 ---
 
-## 1. 核心 Collaboration：三队联合教育手册
+## 本届 C.3.5 核查
 
-2025 年 8–9 月，BIT-China、NUDT-CHINA 与 SCU-China 围绕“合成生物学如何参与可持续发展目标”共同编写主题手册。三队将不同项目经验组织为面向公众和跨领域读者的案例材料，使合成生物学与 SDGs 建立更直接的联系。
+**当前证据不足。** 团队已确认 NUDT-CHINA 和 SCU-China 不是本届参赛队伍，三队手册保留为真实的教育与合作成果，不作为 C.3.5“与其他参赛队伍合作”的资格性佐证。本轮未核实到同时具备本届队伍身份与双向合作记录的其他对象。
+
+[资格核查记录](../results/evidence/20260909/C3_5_COLLABORATION_STATUS.md)。
+
+## 1. 三队联合教育手册
+
+BIT-China、NUDT-CHINA 与 SCU-China 围绕“合成生物学如何参与可持续发展目标”共同编写主题手册。三队将不同项目经验组织为面向公众和跨领域读者的案例材料，使合成生物学与 SDGs 建立更直接的联系。
 
 | 队伍 | 主要贡献 |
 |---|---|
@@ -37,7 +43,7 @@
 
 ### 双向 / 多方互证
 
-> **NUDT-CHINA** 在其 Collaboration 页面独立记录三队合作，明确说明 2025 年 8–9 月由 NUDT-CHINA、BIT-CHINA 与 SCU-China 共同完成该手册。
+> **NUDT-CHINA** 在其 Collaboration 页面独立记录三队合作，记录 NUDT-CHINA、BIT-CHINA 与 SCU-China 共同完成该手册；精确时间见 Attributions 和原页面。
 
 - NUDT-CHINA Collaboration：https://2025.igem.wiki/nudt-china/collaboration
 - NUDT-CHINA Education：https://2025.igem.wiki/nudt-china/education

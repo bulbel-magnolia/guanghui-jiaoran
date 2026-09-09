@@ -3,6 +3,13 @@ DEFINITION  PhiRex Red Light-Regulated Gene Expression System.
 ACCESSION   BBa_25UFORFE
 VERSION     BBa_25UFORFE
 KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     Submission annotation revision 2026-09-09. Original BBa_25UFORFE
+            sequence and source date retained. Four unresolved coding intervals
+            are now misc_feature; no nucleotide edits. Original export archived
+            in results/evidence/20260909/phirex_annotation/original/.
 FEATURES             Location/Qualifiers
      source          1..12584
                      /mol_type="genomic DNA"
@@ -15,12 +22,20 @@ FEATURES             Location/Qualifiers
      promoter        599..1598
                      /label="TDH3p"
                      /note="SO:0000167 Promoter"
-     CDS             1599..2333
+     misc_feature    1599..2333
                      /label="HY1"
-                     /note="SO:0000316 CDS"
-     CDS             2334..3092
+                     /note="Original interval includes noncoding flanks /
+                     stop-following sequence; exact CDS boundaries not
+                     independently confirmed."
+                     /note="Original label, interval and strand retained. No DNA
+                     sequence or inferred CDS boundary was substituted."
+     misc_feature    2334..3092
                      /label="PcyA"
-                     /note="SO:0000316 CDS"
+                     /note="Original interval includes noncoding flanks /
+                     stop-following sequence; exact CDS boundaries not
+                     independently confirmed."
+                     /note="Original label, interval and strand retained. No DNA
+                     sequence or inferred CDS boundary was substituted."
      terminator      3093..3492
                      /label="TEF1t"
                      /note="SO:0000141 Terminator"
@@ -29,25 +44,66 @@ FEATURES             Location/Qualifiers
                      /note="SO:0000167 Promoter"
      CDS             4493..6328
                      /label="PIF3-NLS-VP16"
-                     /note="SO:0000316 CDS"
+                     /note="Original CDS coordinates retained;
+                     reading-frame/start/stop consistency checked on submitted
+                     sequence. This check does not replace experimental sequence
+                     verification."
+                     /translation="MPLFELFRLTKAKLESAQDRNPSPPVDEVVELVWENGQISTQSQS
+                     SRSRNIPPPQANSSRAREIGNGSKTTMVDEIPMSVPSLMTGLSQDDDFVPWLNHHPSLD
+                     GYCSDFLRDVSSPVTVNEQESDMAVNQTAFPLFQRRKDGNESAPAASSSQYNGFQSHSL
+                     YGSDRARDLPSQQTNPDRFTQTQEPLITSNKPSLVNFSHFLRPATFAKTTNNNLHDTKE
+                     KSPQSPPNVFQTRVLGAKDSEDKVLNESVASATPKDNQKACLISEDSCRKDQESEKAVV
+                     CSSVGSGNSLDGPSESPSLSLKRKHSNIQDIDCHSEDVEEESGDGRKEAGPSRTGLGSK
+                     RSRSAEVHNLSERRRRDRINEKMRALQELIPNCNKVDKASMLDEAIEYLKSLQLQVQIM
+                     SMASGYYLPPAVMFPPGMGHYPAAAAAMAMGMGMPYAMGLPDLSRGGSSVNHGPQFQVS
+                     GMQQQPVAMGIPRVSGGGIFAGSSTIGNGSTRDLSGSKDQTTTNNNSNLKPIKRKQGSS
+                     DQFCGSSPKKKRKVGSAPPTDVSLGDELHLDGEDVAMAHADALDDFDLDMLGDGDSPGP
+                     GFTPHDSAPYGALDMADFEFEQMFTDALGIDEYGG"
+                     /codon_start=1
+                     /transl_table=1
      CDS             6329..8467
                      /label="PhyBNT-Zif268"
-                     /note="SO:0000316 CDS"
+                     /note="Original CDS coordinates retained;
+                     reading-frame/start/stop consistency checked on submitted
+                     sequence. This check does not replace experimental sequence
+                     verification."
+                     /translation="MVSGVGGSGGGRGGGRGGEEEPSSSHTPNNRRGGEQAQSSGTKSL
+                     RPRSNTESMSKAIQQYTVDARLHAVFEQSGESGKSFDYSQSLKTTTYGSSVPEQQITAY
+                     LSRIQRGGYIQPFGCMIAVDESSFRIIGYSENAREMLGIMPQSVPTLEKPEILAMGTDV
+                     RSLFTSSSSILLERAFVAREITLLNPVWIHSKNTGKPFYAILHRIDVGVVIDLEPARTE
+                     DPALSIAGAVQSQKLAVRAISQLQALPGGDIKLLCDTVVESVRDLTGYDRVMVYKFHED
+                     EHGEVVAESKRDDLEPYIGLHYPATDIPQASRFLFKQNRVRMIVDCNATPVLVVQDDRL
+                     TQSMCLVGSTLRAPHGCHSQYMANMGSIASLAMAVIINGNEDDGSNVASGRSSMRLWGL
+                     VVCHHTSSRCIPFPLRYACEFLMQAFGLQLNMELQLALQMSEKRVLRTQTLLCDMLLRD
+                     SPAGIVTQSPSIMDLVKCDGAAFLYHGKYYPLGVAPSEVQIKDVVEWLLANHADSTGLS
+                     TDSLGDAGYPGAAALGDAVCGMAVAYITKRDFLFWFRSHTAKEIKWGGAKHHPEDKDDG
+                     QRMHPRSSFQAFQEVVKSRSQPWETAEMDAIHSLQLILRDSFKESGSGTRPYACPVESC
+                     DRRFSRSDELTRHIRIHTGQKPFQCRICMRNFSRSDHLTTHIRTHTGEKPFACDICGRK
+                     FARSDERKRHTKIHTGGS"
+                     /codon_start=1
+                     /transl_table=1
      terminator      8468..8692
                      /label="tENO2"
                      /note="SO:0000141 Terminator"
      promoter        8693..9376
                      /label="GalZifBSp"
                      /note="SO:0000167 Promoter"
-     CDS             9377..10089
+     misc_feature    9377..10089
                      /label="EGFP"
-                     /note="SO:0000316 CDS"
+                     /note="Original 713 nt interval is not divisible by three;
+                     exact complete CDS boundaries not confirmed."
+                     /note="Original label, interval and strand retained. No DNA
+                     sequence or inferred CDS boundary was substituted."
      terminator      10090..10589
                      /label="FBA1t"
                      /note="SO:0000141 Terminator"
-     CDS             10590..11945
+     misc_feature    10590..11945
                      /label="KanMX"
-                     /note="SO:0000316 CDS"
+                     /note="Original interval contains multiple in-frame stop
+                     codons as a single CDS; retained as a cassette region, not
+                     a verified coding sequence."
+                     /note="Original label, interval and strand retained. No DNA
+                     sequence or inferred CDS boundary was substituted."
      misc_feature    11947..12584
                      /label="YPRC3R"
                      /note="SO:0001953 Restriction Enzyme Assembly Scar"

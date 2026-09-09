@@ -148,7 +148,9 @@ Design mode 对 primary condition 中的 235 个可实施单基因敲除逐一�
 
 Design mode 冻结后，湿实验结果进入 Learn mode。版本化反馈规则读取终点产量、96–120 h 持续性、生物量保持和构建/培养可实施性，更新证据等级和下一轮动作。
 
-**Design → Build → Test → Learn** 的完整实例见 [干湿结合验证](./Integrated-Validation.md)。
+恢复的 v0.8 引擎现在由独立 `learn_mode.py` 执行状态转移：同一六靶点的已评定状态为 **0/6→6/6**，下一轮动作分为 **1 项优先推进、1 项机制复核、4 项构建/培养调整**。规则阈值原样保留，运行前后校验 Design 冻结文件哈希。
+
+[Learn 定量迭代与复现](../results/evidence/20260909/C3_1_QUANTITATIVE_ITERATION.md) · [干湿结合验证](./Integrated-Validation.md)。
 
 ---
 
@@ -184,6 +186,12 @@ FABRIC-AI 的项目级架构还包含两个实验决策接口：
 P1 / P2 的湿实验结果与工程迭代见 [湿实验](./Wet-Lab-Experiments.md) 和 [干湿结合验证](./Integrated-Validation.md)。
 
 ---
+
+### 提交版输入校验
+
+公开排序入口先校验非有限指标、求解状态、模型和候选池来源、GPR 集合，以及原通量单位中的 GR/PCR 一致性。明确标记的 v2A 不可行状态保留；异常输入被拒绝。新增校验在真实冻结数据上复现完全相同的排序、范围标签和 Top-6。
+
+[40 项输入校验测试](../tests/fabric_ai/test_ranker_input_validation.py)。历史 9 项合成排序用例继续单独验证同一排序内核，未改写原测试文件或历史日志。
 
 ## 6. 复现与证据入口
 

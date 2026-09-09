@@ -1,0 +1,19 @@
+legacy_status,controlled_status,meaning
+exact_from_protocol_table,exact_transcription,Exact value transcribed from a preserved table
+exact_from_protocol_text,exact_transcription,Exact value transcribed from preserved prose
+transcribed_from_model_page,exact_transcription,Exact value transcribed from a model-page image
+transcribed_from_existing_records,exact_transcription,Exact categorical statement transcribed from a preserved record
+approx_digitized_from_figure,approximate_digitization,Approximate numeric value read from a figure
+approx_digitized_from_screenshot,approximate_digitization,Approximate numeric value read from a screenshot
+approx_from_screenshot,approximate_digitization,Approximate numeric value read from a screenshot
+approximate_digitization_from_screenshot,approximate_digitization,Approximate numeric value read from a screenshot
+numeric_from_screenshot,approximate_digitization,Approximate numeric value read from a screenshot
+from_screenshot,evidence_summary,Non-numeric evidence summarized from a screenshot
+qualitative_from_photo,qualitative_observation,Qualitative observation from a photograph
+qualitative_from_image,qualitative_observation,Qualitative observation from an image
+derived_from_validation_records,computed_rule_output,Value calculated from Round 1 records by configured rules
+derived_from_approx_digitized_figure,derived_calculation,Calculation based on approximate figure readings
+count_only_from_existing_records,evidence_summary,Only a reported count is available
+internal_record_only,internal_record_only,Row cannot be independently checked in the public package
+unresolved_source_detail,unresolved_source_detail,Source detail remains unresolved
+not_applicable,evidence_summary,Field is descriptive rather than a direct measurement

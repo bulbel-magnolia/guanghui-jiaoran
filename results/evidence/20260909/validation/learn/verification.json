@@ -1,0 +1,51 @@
+{
+  "status": "PASSED",
+  "checks": {
+    "source_members_byte_exact": true,
+    "rules_unchanged": true,
+    "before_uses_selection_only": true,
+    "same_six_targets": true,
+    "original_v08_full_output_reproduced": true,
+    "all_six_actions_updated": true,
+    "tier_counts_1_1_4": true,
+    "design_guard_unchanged": true,
+    "no_invented_prior_numeric_tiers": true
+  },
+  "config_sha256": "58b63ffa89f971b04e3bb84b1ff84997eeea017d530e7160c53921685639ec80",
+  "engine_sha256": "bacbc2122fd0d0f496871053a3702c6995dbbcea7576c1627fa583d68bfbddad",
+  "before_state_id": "before:a97a2652af3f933468a6d37f9b664dd0dc5c1c5d0a5db7769228f3f804b8308a",
+  "after_state_id": "after:9ef28ce69476a54b2def9b292259ebc43824d76514ce57804f66f45eb09bc9f7",
+  "metric_interpretation": "Evidence-state update counts; not predictive accuracy or production improvement",
+  "quantitative_delta": [
+    {
+      "metric": "target_count",
+      "before": 6,
+      "after": 6,
+      "delta": 0
+    },
+    {
+      "metric": "classified_target_count",
+      "before": 0,
+      "after": 6,
+      "delta": 6
+    },
+    {
+      "metric": "unassessed_target_count",
+      "before": 6,
+      "after": 0,
+      "delta": -6
+    },
+    {
+      "metric": "quantified_target_count",
+      "before": 0,
+      "after": 2,
+      "delta": 2
+    },
+    {
+      "metric": "next_action_class_count",
+      "before": 1,
+      "after": 3,
+      "delta": 2
+    }
+  ]
+}

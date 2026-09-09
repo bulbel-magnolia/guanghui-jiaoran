@@ -894,7 +894,7 @@ def command_evaluate_highs(args: argparse.Namespace) -> int:
     return 0
 
 
-def build_ranking(
+def _rank_validated_frames(
     metrics: dict[str, pd.DataFrame],
     summaries: dict[str, dict[str, Any]],
     primary: str,
@@ -983,6 +983,135 @@ def build_ranking(
         "native_objective_inconsistency_count": 0,
     }
     return ranking, top, non_discriminating, scope, equivalence_audit
+
+
+def validate_ranking_inputs(
+    metrics: dict[str, pd.DataFrame],
+    summaries: dict[str, dict[str, Any]],
+    primary: str,
+    tol: float,
+) -> None:
+    """Reject damaged inputs, preserving explicitly declared infeasible states.
+
+    Ratios are checked after multiplication by their WT denominator, in the
+    original flux units. Legacy synthetic ranking fixtures exercise the private
+    ordering kernel separately; public entry points always use this validation.
+    """
+    if not math.isfinite(tol) or tol <= 0:
+        raise ValueError("Invalid solver tolerance")
+    if not metrics or primary not in metrics or set(metrics) != set(summaries):
+        raise ValueError("metrics and summaries must have the same labels and primary")
+    required = {"gene", "GCP", "Pmin95", "GR", "mutant_mu_max", "Pmax_0.1",
+                "PCR_0.1", "footprint_size", "footprint", "actual_footprint_match",
+                "growth_status", "status_0.1", "status_95mut", "condition", "WT_mu_max"}
+    provenance = {"model_sha256": set(), "pool_sha256": set()}
+    gene_sets = []
+    footprints = []
+    for label, frame in metrics.items():
+        missing = required - set(frame.columns)
+        if missing or frame.empty:
+            raise ValueError(f"Missing/empty metrics for {label}: {sorted(missing)}")
+        if frame['gene'].isna().any() or frame['gene'].astype(str).str.strip().eq('').any() or frame['gene'].duplicated().any():
+            raise ValueError(f"Duplicate or missing gene in {label}")
+        gene_sets.append(set(frame['gene']))
+        summary = summaries[label]
+        if summary.get('status') != 'COMPLETED' or summary.get('solver_failures') != 0:
+            raise ValueError(f"Summary is not completed without solver failures: {label}")
+        if summary.get('command') != 'evaluate' or summary.get('condition_id') != label or not frame['condition'].eq(label).all():
+            raise ValueError(f"Condition/command mismatch: {label}")
+        if summary.get('pool_count') != len(frame) or summary.get('evaluated_count') != len(frame):
+            raise ValueError(f"Summary row count mismatch: {label}")
+        if summary.get('floors') != [0.1, 0.5, 0.9] or summary.get('mutant_growth_fraction') != 0.95:
+            raise ValueError(f"Evaluation contract mismatch: {label}")
+        if summary.get('solver_tolerance_requested') != tol:
+            raise ValueError(f"Tolerance mismatch: {label}")
+        for key in provenance:
+            value = summary.get(key)
+            if not isinstance(value, str) or len(value) != 64 or any(c not in '0123456789abcdefABCDEF' for c in value):
+                raise ValueError(f"Missing/invalid {key}: {label}")
+            provenance[key].add(value.lower())
+        def finite(value, name):
+            try:
+                x = float(value)
+            except (TypeError, ValueError) as exc:
+                raise ValueError(f"Non-numeric {name}: {label}") from exc
+            if not math.isfinite(x):
+                raise ValueError(f"Non-finite {name}: {label}")
+            return x
+        wt = finite(summary.get('WT_mu_max'), 'WT_mu_max')
+        try:
+            wt_pmax = finite(summary['WT_floor_metrics']['0.1']['Pmax'], 'WT Pmax')
+        except KeyError as exc:
+            raise ValueError(f"Missing WT product reference: {label}") from exc
+        if wt <= EPS or wt_pmax <= EPS:
+            raise ValueError(f"Nonpositive WT denominator: {label}")
+        for key in ['max_mass_balance_residual', 'max_bound_residual']:
+            residual = finite(summary.get(key), key)
+            if residual < 0 or residual > tol:
+                raise ValueError(f"Summary residual outside tolerance: {label}")
+        fp = {}
+        for _, row in frame.iterrows():
+            gene = str(row['gene'])
+            values = {key: finite(row[key], f"{gene}/{key}") for key in ['GCP', 'GR', 'mutant_mu_max', 'footprint_size', 'WT_mu_max']}
+            if any(values[k] < -tol for k in ['GCP', 'GR', 'mutant_mu_max']):
+                raise ValueError(f"Negative metric: {label}/{gene}")
+            size = values['footprint_size']
+            if isinstance(row['footprint_size'], bool) or size < 1 or size != int(size):
+                raise ValueError(f"Invalid footprint size: {label}/{gene}")
+            if not isinstance(row['footprint'], str):
+                raise ValueError(f"Invalid footprint: {label}/{gene}")
+            reactions = row['footprint'].split(';')
+            if '' in reactions or len(reactions) != len(set(reactions)) or len(reactions) != int(size) or row['actual_footprint_match'] != True:
+                raise ValueError(f"Footprint mismatch: {label}/{gene}")
+            fp[gene] = tuple(sorted(reactions))
+            if abs(values['WT_mu_max'] - wt) > tol:
+                raise ValueError(f"Row WT reference mismatch: {label}/{gene}")
+            slack = tol + 1e-12 * max(abs(wt), 1.0)
+            if abs(values['GR'] * wt - values['mutant_mu_max']) > slack:
+                raise ValueError(f"Derived GR inconsistent in native units: {label}/{gene}")
+            if values['mutant_mu_max'] > wt + tol:
+                raise ValueError(f"Growth exceeds WT by more than tolerance: {label}/{gene}")
+            growth = row['growth_status']
+            if growth not in ['optimal', 'infeasible']:
+                raise ValueError(f"Unexpected growth status: {label}/{gene}")
+            if growth == 'infeasible':
+                if label == primary or any(abs(values[k]) > tol for k in ['GCP', 'GR', 'mutant_mu_max']):
+                    raise ValueError(f"Invalid infeasible-state metrics: {label}/{gene}")
+                if row['status_95mut'] != 'mutant_infeasible' or not pd.isna(row['Pmin95']):
+                    raise ValueError(f"Invalid infeasible Pmin95: {label}/{gene}")
+            else:
+                if row['status_95mut'] != 'optimal':
+                    raise ValueError(f"Unexpected near-growth status: {label}/{gene}")
+                if finite(row['Pmin95'], f'{gene}/Pmin95') < -tol:
+                    raise ValueError(f"Negative Pmin95: {label}/{gene}")
+            if row['status_0.1'] == 'growth_floor_infeasible':
+                if label == primary or values['mutant_mu_max'] + tol >= 0.1 * wt:
+                    raise ValueError(f"Inconsistent growth-floor infeasibility: {label}/{gene}")
+                if not (pd.isna(row['Pmax_0.1']) and pd.isna(row['PCR_0.1'])):
+                    raise ValueError(f"Infeasible product values must be missing: {label}/{gene}")
+            elif row['status_0.1'] == 'optimal' and growth == 'optimal':
+                pmax = finite(row['Pmax_0.1'], f'{gene}/Pmax_0.1')
+                pcr = finite(row['PCR_0.1'], f'{gene}/PCR_0.1')
+                if pmax < -tol or pcr < -tol or pmax > wt_pmax + tol:
+                    raise ValueError(f"Invalid product capacity: {label}/{gene}")
+                if abs(pcr * wt_pmax - pmax) > tol + 1e-12 * max(abs(wt_pmax), 1.0):
+                    raise ValueError(f"Derived PCR inconsistent in native units: {label}/{gene}")
+            else:
+                raise ValueError(f"Unexpected product status: {label}/{gene}")
+        footprints.append(fp)
+    if any(s != gene_sets[0] for s in gene_sets[1:]):
+        raise ValueError('Condition gene sets differ; silent intersection is prohibited')
+    if any(f != footprints[0] for f in footprints[1:]):
+        raise ValueError('Cross-condition GPR footprint mismatch')
+    for key, values in provenance.items():
+        if len(values) != 1:
+            raise ValueError(f'Cross-condition {key} mismatch')
+
+
+def build_ranking(metrics, summaries, primary, top_k, tol):
+    """Public validated entry used by CLI and downstream callers."""
+    validate_ranking_inputs(metrics, summaries, primary, tol)
+    return _rank_validated_frames(metrics, summaries, primary, top_k, tol)
 
 
 def command_rank(args: argparse.Namespace) -> int:

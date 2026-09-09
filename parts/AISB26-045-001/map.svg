@@ -1,67 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
-<rect width="100%" height="100%" fill="#f8fafc"/>
-<text x="80" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">AISB26-045-001 · PhiReX red-light-regulated gene expression system</text>
-<text x="80" y="88" font-family="Arial, sans-serif" font-size="18" fill="#475569">Linear feature map derived from registry_export.gb · 12,584 bp · not a single ORF</text>
-<line x1="90" y1="320" x2="1510" y2="320" stroke="#0f172a" stroke-width="5"/>
-<rect x="90.0" y="293" width="67.5" height="54" rx="5" fill="#94a3b8" stroke="#0f172a" stroke-width="1"/>
-<line x1="123.7" y1="293" x2="123.7" y2="175" stroke="#64748b" stroke-width="1.5"/>
-<text x="123.7" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">YPRC3L</text>
-<text x="123.7" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">1–598</text>
-<rect x="157.5" y="293" width="112.8" height="54" rx="5" fill="#22c55e" stroke="#0f172a" stroke-width="1"/>
-<line x1="213.9" y1="347" x2="213.9" y2="390" stroke="#64748b" stroke-width="1.5"/>
-<text x="213.9" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">TDH3 promoter</text>
-<text x="213.9" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">599–1598</text>
-<rect x="270.3" y="293" width="82.9" height="54" rx="5" fill="#2563eb" stroke="#0f172a" stroke-width="1"/>
-<line x1="311.8" y1="293" x2="311.8" y2="235" stroke="#64748b" stroke-width="1.5"/>
-<text x="311.8" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">HY1</text>
-<text x="311.8" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">1599–2333</text>
-<rect x="353.3" y="293" width="85.6" height="54" rx="5" fill="#2563eb" stroke="#0f172a" stroke-width="1"/>
-<line x1="396.1" y1="347" x2="396.1" y2="460" stroke="#64748b" stroke-width="1.5"/>
-<text x="396.1" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">PcyA</text>
-<text x="396.1" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">2334–3092</text>
-<rect x="438.9" y="293" width="45.1" height="54" rx="5" fill="#f59e0b" stroke="#0f172a" stroke-width="1"/>
-<line x1="461.5" y1="293" x2="461.5" y2="175" stroke="#64748b" stroke-width="1.5"/>
-<text x="461.5" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">TEF1 terminator</text>
-<text x="461.5" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">3093–3492</text>
-<rect x="484.0" y="293" width="112.8" height="54" rx="5" fill="#22c55e" stroke="#0f172a" stroke-width="1"/>
-<line x1="540.5" y1="347" x2="540.5" y2="390" stroke="#64748b" stroke-width="1.5"/>
-<text x="540.5" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">TEF2 promoter</text>
-<text x="540.5" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">3493–4492</text>
-<rect x="596.9" y="293" width="207.2" height="54" rx="5" fill="#2563eb" stroke="#0f172a" stroke-width="1"/>
-<line x1="700.5" y1="293" x2="700.5" y2="235" stroke="#64748b" stroke-width="1.5"/>
-<text x="700.5" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">PIF3-NLS-VP16</text>
-<text x="700.5" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">4493–6328</text>
-<rect x="804.1" y="293" width="241.4" height="54" rx="5" fill="#2563eb" stroke="#0f172a" stroke-width="1"/>
-<line x1="924.7" y1="347" x2="924.7" y2="460" stroke="#64748b" stroke-width="1.5"/>
-<text x="924.7" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">PhyBNT-Zif268</text>
-<text x="924.7" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">6329–8467</text>
-<rect x="1045.4" y="293" width="25.4" height="54" rx="5" fill="#f59e0b" stroke="#0f172a" stroke-width="1"/>
-<line x1="1058.1" y1="293" x2="1058.1" y2="175" stroke="#64748b" stroke-width="1.5"/>
-<text x="1058.1" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">tENO2</text>
-<text x="1058.1" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">8468–8692</text>
-<rect x="1070.8" y="293" width="77.2" height="54" rx="5" fill="#22c55e" stroke="#0f172a" stroke-width="1"/>
-<line x1="1109.4" y1="347" x2="1109.4" y2="390" stroke="#64748b" stroke-width="1.5"/>
-<text x="1109.4" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">GalZifBSp promoter</text>
-<text x="1109.4" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">8693–9376</text>
-<rect x="1148.0" y="293" width="80.5" height="54" rx="5" fill="#2563eb" stroke="#0f172a" stroke-width="1"/>
-<line x1="1188.2" y1="293" x2="1188.2" y2="235" stroke="#64748b" stroke-width="1.5"/>
-<text x="1188.2" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">EGFP</text>
-<text x="1188.2" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">9377–10089</text>
-<rect x="1228.5" y="293" width="56.4" height="54" rx="5" fill="#f59e0b" stroke="#0f172a" stroke-width="1"/>
-<line x1="1256.7" y1="347" x2="1256.7" y2="460" stroke="#64748b" stroke-width="1.5"/>
-<text x="1256.7" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">FBA1 terminator</text>
-<text x="1256.7" y="522" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">10090–10589</text>
-<rect x="1284.9" y="293" width="153.0" height="54" rx="5" fill="#2563eb" stroke="#0f172a" stroke-width="1"/>
-<line x1="1361.4" y1="293" x2="1361.4" y2="175" stroke="#64748b" stroke-width="1.5"/>
-<text x="1361.4" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">KanMX</text>
-<text x="1361.4" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">10590–11945</text>
-<rect x="1438.0" y="293" width="72.0" height="54" rx="5" fill="#94a3b8" stroke="#0f172a" stroke-width="1"/>
-<line x1="1474.0" y1="347" x2="1474.0" y2="390" stroke="#64748b" stroke-width="1.5"/>
-<text x="1474.0" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#0f172a">YPRC3R</text>
-<text x="1474.0" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">11947–12584</text>
-<rect x="80" y="535" width="20" height="20" fill="#22c55e"/><text x="108" y="551" font-family="Arial, sans-serif" font-size="15">promoter</text>
-<rect x="230" y="535" width="20" height="20" fill="#2563eb"/><text x="258" y="551" font-family="Arial, sans-serif" font-size="15">CDS</text>
-<rect x="340" y="535" width="20" height="20" fill="#f59e0b"/><text x="368" y="551" font-family="Arial, sans-serif" font-size="15">terminator</text>
-<rect x="495" y="535" width="20" height="20" fill="#94a3b8"/><text x="523" y="551" font-family="Arial, sans-serif" font-size="15">flanking / assembly feature</text>
-<text x="80" y="590" font-family="Arial, sans-serif" font-size="14" fill="#64748b">Source Registry ID: BBa_25UFORFE · CC BY-SA 4.0 · VP16 nomenclature retained</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 611" role="img" aria-label="PhiReX annotated sequence intervals">
+<rect width="1450" height="611" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#202020} .muted{fill:#595959}</style>
+<text x="28" y="32" font-size="24">AISB26-045-001 | PhiReX | 12,584 bp</text>
+<text x="28" y="57" font-size="15">Coordinate-derived map. CDS: frame-consistent; region: coding boundaries unresolved. DNA unchanged.</text>
+<text x="28" y="100" font-size="17">YPRC3L</text>
+<text x="236" y="100" font-size="14" class="muted">1–598 | misc_feature</text>
+<line x1="470" x2="1370" y1="95" y2="95" stroke="#e0e3e5"/>
+<rect x="470.000" y="85" width="42.769" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="134" font-size="17">TDH3p</text>
+<text x="236" y="134" font-size="14" class="muted">599–1598 | promoter</text>
+<line x1="470" x2="1370" y1="129" y2="129" stroke="#e0e3e5"/>
+<rect x="512.769" y="119" width="71.519" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="168" font-size="17">HY1</text>
+<text x="236" y="168" font-size="14" class="muted">1599–2333 | misc_feature</text>
+<line x1="470" x2="1370" y1="163" y2="163" stroke="#e0e3e5"/>
+<rect x="584.288" y="153" width="52.567" height="20" fill="#edf0f2" stroke="#7a8288" stroke-dasharray="5 3"/>
+<text x="28" y="202" font-size="17">PcyA</text>
+<text x="236" y="202" font-size="14" class="muted">2334–3092 | misc_feature</text>
+<line x1="470" x2="1370" y1="197" y2="197" stroke="#e0e3e5"/>
+<rect x="636.855" y="187" width="54.283" height="20" fill="#edf0f2" stroke="#7a8288" stroke-dasharray="5 3"/>
+<text x="28" y="236" font-size="17">TEF1t</text>
+<text x="236" y="236" font-size="14" class="muted">3093–3492 | terminator</text>
+<line x1="470" x2="1370" y1="231" y2="231" stroke="#e0e3e5"/>
+<rect x="691.138" y="221" width="28.608" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="270" font-size="17">TEF2p</text>
+<text x="236" y="270" font-size="14" class="muted">3493–4492 | promoter</text>
+<line x1="470" x2="1370" y1="265" y2="265" stroke="#e0e3e5"/>
+<rect x="719.746" y="255" width="71.519" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="304" font-size="17">PIF3-NLS-VP16</text>
+<text x="236" y="304" font-size="14" class="muted">4493–6328 | CDS</text>
+<line x1="470" x2="1370" y1="299" y2="299" stroke="#e0e3e5"/>
+<rect x="791.265" y="289" width="131.310" height="20" fill="#596877" stroke="#3b4752"/>
+<text x="28" y="338" font-size="17">PhyBNT-Zif268</text>
+<text x="236" y="338" font-size="14" class="muted">6329–8467 | CDS</text>
+<line x1="470" x2="1370" y1="333" y2="333" stroke="#e0e3e5"/>
+<rect x="922.575" y="323" width="152.980" height="20" fill="#596877" stroke="#3b4752"/>
+<text x="28" y="372" font-size="17">tENO2</text>
+<text x="236" y="372" font-size="14" class="muted">8468–8692 | terminator</text>
+<line x1="470" x2="1370" y1="367" y2="367" stroke="#e0e3e5"/>
+<rect x="1075.555" y="357" width="16.092" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="406" font-size="17">GalZifBSp</text>
+<text x="236" y="406" font-size="14" class="muted">8693–9376 | promoter</text>
+<line x1="470" x2="1370" y1="401" y2="401" stroke="#e0e3e5"/>
+<rect x="1091.647" y="391" width="48.919" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="440" font-size="17">EGFP</text>
+<text x="236" y="440" font-size="14" class="muted">9377–10089 | misc_feature</text>
+<line x1="470" x2="1370" y1="435" y2="435" stroke="#e0e3e5"/>
+<rect x="1140.566" y="425" width="50.993" height="20" fill="#edf0f2" stroke="#7a8288" stroke-dasharray="5 3"/>
+<text x="28" y="474" font-size="17">FBA1t</text>
+<text x="236" y="474" font-size="14" class="muted">10090–10589 | terminator</text>
+<line x1="470" x2="1370" y1="469" y2="469" stroke="#e0e3e5"/>
+<rect x="1191.559" y="459" width="35.760" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="28" y="508" font-size="17">KanMX</text>
+<text x="236" y="508" font-size="14" class="muted">10590–11945 | misc_feature</text>
+<line x1="470" x2="1370" y1="503" y2="503" stroke="#e0e3e5"/>
+<rect x="1227.319" y="493" width="96.980" height="20" fill="#edf0f2" stroke="#7a8288" stroke-dasharray="5 3"/>
+<text x="28" y="542" font-size="17">YPRC3R</text>
+<text x="236" y="542" font-size="14" class="muted">11947–12584 | misc_feature</text>
+<line x1="470" x2="1370" y1="537" y2="537" stroke="#e0e3e5"/>
+<rect x="1324.371" y="527" width="45.629" height="20" fill="#edf0f2" stroke="#7a8288"/>
+<text x="470.000" y="567" text-anchor="middle" font-size="13">0</text>
+<text x="613.039" y="567" text-anchor="middle" font-size="13">2000</text>
+<text x="756.078" y="567" text-anchor="middle" font-size="13">4000</text>
+<text x="899.116" y="567" text-anchor="middle" font-size="13">6000</text>
+<text x="1042.155" y="567" text-anchor="middle" font-size="13">8000</text>
+<text x="1185.194" y="567" text-anchor="middle" font-size="13">10000</text>
+<text x="1370.000" y="567" text-anchor="middle" font-size="13">12584</text>
 </svg>

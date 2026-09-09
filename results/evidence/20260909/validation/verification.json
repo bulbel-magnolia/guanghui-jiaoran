@@ -1,0 +1,139 @@
+{
+  "status": "PASSED",
+  "checks": {
+    "frozen9_exit_zero": true,
+    "frozen9_expected_count": true,
+    "hardening_exit_zero": true,
+    "hardening_expected_count": true,
+    "learn_tests_exit_zero": true,
+    "learn_tests_expected_count": true,
+    "frozen_verifiers_exit_zero": true,
+    "original_final_verification_15_of_15": true,
+    "parts_integrity_exit_zero": true,
+    "feature_audit_exit_zero": true,
+    "learn_reproduction_exit_zero": true,
+    "learn_reproduction_byte_exact": true,
+    "strict_rank_reproduction_exit_zero": true,
+    "strict_rank_all_frozen_cells_exact": true,
+    "scope_unchanged": true,
+    "frozen_inputs_results_configs_baselines_unchanged": true,
+    "historical9_test_source_bytes_unchanged": true,
+    "sorting_kernel_ast_unchanged": true,
+    "targeted_stale_claims_corrected": true,
+    "relative_file_links_exist": true,
+    "figure_outside_edit_mask_unchanged": true,
+    "figure_matches_declared_edit_hash": true,
+    "SVG_render_created": true
+  },
+  "tests": {
+    "frozen9": 9,
+    "hardening": 40,
+    "learn_tests": 19
+  },
+  "original_final_verification": "15/15",
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "dependencies": {
+      "pandas": "2.2.3",
+      "pytest": "9.0.2",
+      "biopython": "1.86",
+      "PyYAML": "6.0.3",
+      "CairoSVG": "2.8.2",
+      "Pillow": "12.3.0",
+      "numpy": "2.3.5"
+    }
+  },
+  "commands": {
+    "frozen9": {
+      "args": [
+        "-m",
+        "pytest",
+        "tests/fabric_ai/test_ranker.py",
+        "-q",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "exit_code": 0
+    },
+    "hardening": {
+      "args": [
+        "-m",
+        "pytest",
+        "tests/fabric_ai/test_ranker_input_validation.py",
+        "-q",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "exit_code": 0
+    },
+    "learn_tests": {
+      "args": [
+        "-m",
+        "pytest",
+        "tests/fabric_ai/test_learn_mode.py",
+        "-q",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "exit_code": 0
+    },
+    "frozen_verifiers": {
+      "args": [
+        "tools/fabric_ai/verify_repo_freeze.py",
+        "--outdir",
+        "/mnt/data/fabric_repair/results/evidence/20260909/validation/frozen_verifiers"
+      ],
+      "exit_code": 0
+    },
+    "parts_integrity": {
+      "args": [
+        "tools/fabric_ai/check_parts_integrity.py",
+        "--out",
+        "/mnt/data/fabric_repair/results/evidence/20260909/validation/parts_integrity.csv"
+      ],
+      "exit_code": 0
+    },
+    "feature_audit": {
+      "args": [
+        "tools/fabric_ai/audit_phirex_features.py",
+        "--outdir",
+        "/mnt/data/fabric_repair/results/evidence/20260909/validation/feature_audit"
+      ],
+      "exit_code": 0
+    },
+    "learn_reproduction": {
+      "args": [
+        "src/ai/fabric_ai_optimizer/learn_mode.py",
+        "--outdir",
+        "/mnt/data/fabric_repair/results/evidence/20260909/validation/learn"
+      ],
+      "exit_code": 0
+    },
+    "strict_rank_reproduction": {
+      "args": [
+        "src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py",
+        "rank",
+        "--metrics",
+        "v1_glucose_reference=results/fabric_ai/20260908/v1_candidate_metrics.csv",
+        "v2a_historical_ethanol_stage=results/fabric_ai/20260908/v2a_candidate_metrics.csv",
+        "--summaries",
+        "v1_glucose_reference=results/fabric_ai/20260908/v1_summary.json",
+        "v2a_historical_ethanol_stage=results/fabric_ai/20260908/v2a_summary.json",
+        "--primary",
+        "v1_glucose_reference",
+        "--outdir",
+        "/mnt/data/fabric_repair/results/evidence/20260909/validation/rank",
+        "--top-k",
+        "6",
+        "--tol",
+        "1e-7"
+      ],
+      "exit_code": 0
+    }
+  },
+  "scope": "Submission hardening + recovered Learn replay. No 235x2 metabolic re-evaluation; no new wet-lab data; no remote submission.",
+  "relative_links": {
+    "references_checked": 302,
+    "missing_count": 0
+  }
+}

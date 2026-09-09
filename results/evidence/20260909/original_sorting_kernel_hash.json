@@ -1,0 +1,6 @@
+{
+  "source_commit": "88082e13d1a9e715f63a24d2b53c7e0fe9bbb523",
+  "original_test_file_sha256": "df1d9037c7e7143feb9ce6ffaf8a1d885c2bc773431d35289fc503ee07804526",
+  "original_function_ast_sha256": "ca4b2970d7e2d284fc617574eb275e8ac588af3a31169c0496a6ddac5e7cd312",
+  "function_name_normalization": "_rank_validated_frames -> build_ranking"
+}

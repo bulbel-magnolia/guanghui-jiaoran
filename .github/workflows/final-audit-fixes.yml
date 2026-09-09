@@ -32,9 +32,9 @@ jobs:
           retention-days: 7
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13'
       - name: Install validation dependencies
-        run: python -m pip install -r src/ai/fabric_ai_optimizer/requirements-frozen.txt biopython==1.85 PyYAML==6.0.2 cairosvg==2.8.2
+        run: python -m pip install -r requirements-submission-validation.txt
       - name: Validate current repair checkout
         run: |
           if test -f tools/fabric_ai/validate_submission_fixes.py; then

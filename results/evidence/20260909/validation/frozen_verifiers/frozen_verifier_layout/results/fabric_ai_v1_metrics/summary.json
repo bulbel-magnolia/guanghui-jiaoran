@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETED",
+  "command": "evaluate",
+  "condition_id": "v1_glucose_reference",
+  "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684",
+  "pool_sha256": "22b01bf95c4e6574aa87d21a8d47d29baeba6aeb3d6a8b0fdabe4e73c17caf80",
+  "pool_count": 235,
+  "evaluated_count": 235,
+  "WT_mu_max": 0.08093802601848507,
+  "WT_floor_metrics": {
+    "0.1": {
+      "absolute_growth_floor": 0.008093802601848507,
+      "Pmin": 0.0,
+      "Pmax": 0.06725532100612219,
+      "minimum_status": "optimal",
+      "maximum_status": "optimal",
+      "finite": true,
+      "max_mass_balance_residual": 9.712563465759903e-09,
+      "max_bound_residual": 9.712563465759903e-09,
+      "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    },
+    "0.5": {
+      "absolute_growth_floor": 0.040469013009242535,
+      "Pmin": 0.0,
+      "Pmax": 0.045163825568614084,
+      "minimum_status": "optimal",
+      "maximum_status": "optimal",
+      "finite": true,
+      "max_mass_balance_residual": 4.856281732879951e-08,
+      "max_bound_residual": 4.856281732879951e-08,
+      "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    },
+    "0.9": {
+      "absolute_growth_floor": 0.07284422341663657,
+      "Pmin": 0.0,
+      "Pmax": 0.00903276820011834,
+      "minimum_status": "optimal",
+      "maximum_status": "optimal",
+      "finite": true,
+      "max_mass_balance_residual": 8.741307119183913e-08,
+      "max_bound_residual": 8.741307119183913e-08,
+      "minimum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "maximum_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    }
+  },
+  "floors": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "mutant_growth_fraction": 0.95,
+  "solver_failures": 0,
+  "growth_floor_infeasible_count": 0,
+  "max_mass_balance_residual": 9.712563669878637e-08,
+  "max_bound_residual": 9.712563669878637e-08,
+  "wall_time_seconds": 217.52459499999532,
+  "solver": "scipy.optimize.linprog(method=highs)",
+  "solver_details": {
+    "solver": "scipy.optimize.linprog(method=highs)",
+    "scipy_version": "1.17.1",
+    "presolve": true,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07
+  },
+  "solver_tolerance_requested": 1e-07,
+  "COBRA_GLPK_loader_tolerance_readback": {
+    "feasibility": 1e-07,
+    "optimality": null,
+    "integrality": 1e-07
+  },
+  "applied_condition_bounds": [],
+  "cobra_version": "0.30.0",
+  "scipy_version": "1.17.1",
+  "WT_growth_solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "WT_growth_mass_balance_residual": 9.712563465759902e-08,
+  "WT_growth_bound_residual": 9.712563465759902e-08
+}

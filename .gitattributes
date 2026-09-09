@@ -16,3 +16,6 @@
 /parts/AISB26-045-001/map.svg -text whitespace=cr-at-eol
 /parts/AISB26-045-002/registry_export.gb -text whitespace=cr-at-eol
 /parts/AISB26-045-002/map.svg -text whitespace=cr-at-eol
+
+/results/evidence/20260909/recovered_v08/** -text whitespace=cr-at-eol
+/results/evidence/20260909/phirex_annotation/original/** -text whitespace=cr-at-eol

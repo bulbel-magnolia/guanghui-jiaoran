@@ -1,0 +1,186 @@
+{
+  "status": "PASSED",
+  "checks": {
+    "AISB26-045-001_sequence_equal": true,
+    "AISB26-045-001_DNA_bytes_unchanged": true,
+    "AISB26-045-001_five_files_exist": true,
+    "AISB26-045-001_PIF3-NLS-VP16_frame": true,
+    "AISB26-045-001_PhyBNT-Zif268_frame": true,
+    "AISB26-045-002_sequence_equal": true,
+    "AISB26-045-002_DNA_bytes_unchanged": true,
+    "AISB26-045-002_five_files_exist": true,
+    "AISB26-045-002_CDS_frame": true,
+    "revised_genbank_matches_declared_hash": true,
+    "four_unresolved_regions_are_misc_feature": true
+  },
+  "parts": {
+    "AISB26-045-001": {
+      "features": [
+        {
+          "label": "source",
+          "type": "source",
+          "start_1based": 1,
+          "end_1based": 12584,
+          "strand": 1,
+          "length": 12584
+        },
+        {
+          "label": "Translational Unit",
+          "type": "misc_feature",
+          "start_1based": 1,
+          "end_1based": 12584,
+          "strand": 1,
+          "length": 12584
+        },
+        {
+          "label": "YPRC3L",
+          "type": "misc_feature",
+          "start_1based": 1,
+          "end_1based": 598,
+          "strand": 1,
+          "length": 598
+        },
+        {
+          "label": "TDH3p",
+          "type": "promoter",
+          "start_1based": 599,
+          "end_1based": 1598,
+          "strand": 1,
+          "length": 1000
+        },
+        {
+          "label": "HY1",
+          "type": "misc_feature",
+          "start_1based": 1599,
+          "end_1based": 2333,
+          "strand": 1,
+          "length": 735
+        },
+        {
+          "label": "PcyA",
+          "type": "misc_feature",
+          "start_1based": 2334,
+          "end_1based": 3092,
+          "strand": 1,
+          "length": 759
+        },
+        {
+          "label": "TEF1t",
+          "type": "terminator",
+          "start_1based": 3093,
+          "end_1based": 3492,
+          "strand": 1,
+          "length": 400
+        },
+        {
+          "label": "TEF2p",
+          "type": "promoter",
+          "start_1based": 3493,
+          "end_1based": 4492,
+          "strand": 1,
+          "length": 1000
+        },
+        {
+          "label": "PIF3-NLS-VP16",
+          "type": "CDS",
+          "start_1based": 4493,
+          "end_1based": 6328,
+          "strand": 1,
+          "length": 1836,
+          "reading_frame_check": true,
+          "translation_sha256": "768563b04eb60a9159408e7ed5aaa00715c21c396f378ef869201214f59e5feb"
+        },
+        {
+          "label": "PhyBNT-Zif268",
+          "type": "CDS",
+          "start_1based": 6329,
+          "end_1based": 8467,
+          "strand": 1,
+          "length": 2139,
+          "reading_frame_check": true,
+          "translation_sha256": "21cc6a2d314c0c6814e2c49bb2c8e4f1ee02b45a9652d5ab75c7eee8fbdfa4c5"
+        },
+        {
+          "label": "tENO2",
+          "type": "terminator",
+          "start_1based": 8468,
+          "end_1based": 8692,
+          "strand": 1,
+          "length": 225
+        },
+        {
+          "label": "GalZifBSp",
+          "type": "promoter",
+          "start_1based": 8693,
+          "end_1based": 9376,
+          "strand": 1,
+          "length": 684
+        },
+        {
+          "label": "EGFP",
+          "type": "misc_feature",
+          "start_1based": 9377,
+          "end_1based": 10089,
+          "strand": 1,
+          "length": 713
+        },
+        {
+          "label": "FBA1t",
+          "type": "terminator",
+          "start_1based": 10090,
+          "end_1based": 10589,
+          "strand": 1,
+          "length": 500
+        },
+        {
+          "label": "KanMX",
+          "type": "misc_feature",
+          "start_1based": 10590,
+          "end_1based": 11945,
+          "strand": 1,
+          "length": 1356
+        },
+        {
+          "label": "YPRC3R",
+          "type": "misc_feature",
+          "start_1based": 11947,
+          "end_1based": 12584,
+          "strand": 1,
+          "length": 638
+        }
+      ],
+      "sequence_length": 12584
+    },
+    "AISB26-045-002": {
+      "features": [
+        {
+          "label": "source",
+          "type": "source",
+          "start_1based": 1,
+          "end_1based": 690,
+          "strand": 1,
+          "length": 690
+        },
+        {
+          "label": "CDS",
+          "type": "CDS",
+          "start_1based": 1,
+          "end_1based": 690,
+          "strand": 1,
+          "length": 690,
+          "context": "vector-provided initiation/fusion context; no independent start/stop required",
+          "reading_frame_check": true,
+          "translation_sha256": "db54c6dc571ed4ae4c228b8447d2c11c56fd06989f4f17e1b9dc5483a437b13b"
+        }
+      ],
+      "sequence_length": 690
+    }
+  },
+  "unresolved_coding_regions": [
+    "HY1",
+    "PcyA",
+    "EGFP",
+    "KanMX"
+  ],
+  "interpretation": "Sequence/file consistency and feature integrity only; does not establish identities of assay samples or validate protein expression."
+}

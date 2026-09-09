@@ -1,0 +1,47 @@
+record_id,measurement,strain,time_h,replicate,value,unit,source_record,data_status,notes
+R0-OD-R1-000,OD600,initial_AST,0,1,0.2,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-000,OD600,initial_AST,0,2,0.2,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-003,OD600,initial_AST,3,1,0.878,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-003,OD600,initial_AST,3,2,0.902,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-006,OD600,initial_AST,6,1,2.61,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-006,OD600,initial_AST,6,2,2.58,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-009,OD600,initial_AST,9,1,4.96,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-009,OD600,initial_AST,9,2,5.06,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-012,OD600,initial_AST,12,1,5.89,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-012,OD600,initial_AST,12,2,6.15,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-024,OD600,initial_AST,24,1,6.96,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-024,OD600,initial_AST,24,2,8.34,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-048,OD600,initial_AST,48,1,10.78,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-048,OD600,initial_AST,48,2,12.82,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-072,OD600,initial_AST,72,1,11.24,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-072,OD600,initial_AST,72,2,12.02,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-096,OD600,initial_AST,96,1,12.68,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-096,OD600,initial_AST,96,2,13.16,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-120,OD600,initial_AST,120,1,12.4,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-120,OD600,initial_AST,120,2,13.42,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R1-144,OD600,initial_AST,144,1,14.14,OD600,team_fermentation_record,exact_transcription,
+R0-OD-R2-144,OD600,initial_AST,144,2,15.34,OD600,team_fermentation_record,exact_transcription,
+R0-GLU-R1-003,glucose,initial_AST,3,1,16.8,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R2-003,glucose,initial_AST,3,2,17.2,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R1-006,glucose,initial_AST,6,1,12.1,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R2-006,glucose,initial_AST,6,2,12.2,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R1-009,glucose,initial_AST,9,1,4.1,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R2-009,glucose,initial_AST,9,2,4.1,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R1-012,glucose,initial_AST,12,1,0,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-GLU-R2-012,glucose,initial_AST,12,2,0,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-009,ethanol,initial_AST,9,1,7.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-009,ethanol,initial_AST,9,2,7.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-012,ethanol,initial_AST,12,1,10,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-012,ethanol,initial_AST,12,2,10,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-024,ethanol,initial_AST,24,1,8.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-024,ethanol,initial_AST,24,2,8.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-048,ethanol,initial_AST,48,1,5.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-048,ethanol,initial_AST,48,2,5.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-072,ethanol,initial_AST,72,1,3,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-072,ethanol,initial_AST,72,2,2,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-096,ethanol,initial_AST,96,1,1,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-096,ethanol,initial_AST,96,2,0.5,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-120,ethanol,initial_AST,120,1,0,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-120,ethanol,initial_AST,120,2,0,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R1-144,ethanol,initial_AST,144,1,0,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly
+R0-ETH-R2-144,ethanol,initial_AST,144,2,0,reported_scale_unit_not_explicit,team_fermentation_record,exact_transcription,Original record does not state the unit explicitly

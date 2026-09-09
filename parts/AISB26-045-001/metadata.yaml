@@ -1,42 +1,59 @@
 schema_version: '1.0'
-part_id: 'AISB26-045-001'
-name: 'PhiReX red-light-regulated gene expression system'
-part_type: 'Composite Part'
+part_id: AISB26-045-001
+name: PhiReX red-light-regulated gene expression system
+part_type: Composite Part
 length_bp: 12584
-characterization_status: 'characterized'
-submission_status: 'formally_submitted_to_aisb26_2026'
+characterization_status: characterized
+submission_status: formally_submitted_to_aisb26_2026
 counts_toward_aisb26_part_total: true
 created_by_team: true
 first_aisb26_format_submission: true
 team:
   team_no: '045'
-  team_name: 'BIT-CHINA'
-  contact: '1120240849@bit.edu.cn'
+  team_name: BIT-CHINA
+  contact: 1120240849@bit.edu.cn
 original_constructed_year: 2025
 submitted_to_aisb26_year: 2026
-source_team: 'BIT-China 2025'
-source_registry_id: 'BBa_25UFORFE'
-source_license: 'CC-BY-SA-4.0'
-license: 'CC-BY-SA-4.0'
+source_team: BIT-China 2025
+source_registry_id: BBa_25UFORFE
+source_license: CC-BY-SA-4.0
+license: CC-BY-SA-4.0
 confidential: false
 registry:
-  host_field: 'not specified'
+  host_field: not specified
   documentation_present: true
 team_testing:
-  host: 'Saccharomyces cerevisiae BY4742'
-  reporter: 'EGFP'
-  light_center_wavelength_nm: 'approximately 630'
+  host: Saccharomyces cerevisiae BY4742
+  reporter: EGFP
+  light_center_wavelength_nm: approximately 630
   light_intensity_uW_cm2: 200
-  illumination_protocol: '2 h pulse'
+  illumination_protocol: 2 h pulse
   total_culture_time_h: 24
   fluorescence_excitation_nm: 485
   fluorescence_emission_nm: 528
-  normalization: 'EGFP/OD600'
-  sample_ids: ['R5', 'R11', 'R13']
-  sample_identity: 'manual_confirmation_required'
-  replicate_type_and_n: 'manual_confirmation_required'
-  error_bar_type: 'manual_confirmation_required'
+  normalization: EGFP/OD600
+  sample_ids:
+  - R5
+  - R11
+  - R13
+  sample_identity: manual_confirmation_required
+  replicate_type_and_n: manual_confirmation_required
+  error_bar_type: manual_confirmation_required
 design:
   ai_assisted: false
   sequence_changed_for_aisb26: false
   composite_sequence_is_single_orf: false
+annotation_revision:
+  revision_id: PHIREX_ANNOTATION_ONLY_20260909
+  source_sequence_unchanged: true
+  ai_assisted_annotation_review: true
+  retained_CDS:
+  - PIF3-NLS-VP16
+  - PhyBNT-Zif268
+  unresolved_regions_as_misc_feature:
+  - HY1
+  - PcyA
+  - EGFP
+  - KanMX
+  coordinate_policy: Original intervals and strands retained; no guessed coding boundaries
+  evidence: results/evidence/20260909/phirex_annotation/change_manifest.json

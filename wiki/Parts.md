@@ -41,7 +41,9 @@
 <p align="center">
   <img src="../parts/AISB26-045-001/map.svg" alt="PhiReX map" width="92%">
 </p>
-<p align="center"><em>PhiReX 正式线性元件图谱，由 `registry_export.gb` 的 feature 坐标生成；全长 12,584 bp。</em></p>
+<p align="center"><em>PhiReX 线性元件区段图，由当前 GenBank 的真实 feature 坐标生成，全长 12,584 bp。实心 CDS 通过阅读框检查；虚线区段保留原始位置，按 `misc_feature` 表示。</em></p>
+
+当前保留 PIF3-NLS-VP16、PhyBNT-Zif268 两个 CDS。HY1、PcyA、EGFP、KanMX 的原区段暂记 `misc_feature`，没有猜测编码边界或改动 DNA。[原导出、逐区段检查和修订记录](../results/evidence/20260909/phirex_annotation/README.md)。
 
 ### 2.2 设计逻辑
 
@@ -69,12 +71,16 @@ PhiReX 为多单元复合调控系统。TDH3 promoter 驱动 HY1 与 PcyA，提�
 | EGFP Ex / Em | `485 / 528 nm` |
 | 归一化 | EGFP / OD600 |
 
-R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对照的归一化 EGFP 信号。
+Fig.12 中 R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对照的归一化 EGFP 信号。
 
 <p align="center">
   <img src="./assets/figures/phirex-expression.webp" alt="PhiReX 红光与对照表达结果" width="84%">
 </p>
-<p align="center"><em>R5、R11、R13 的红光/对照归一化 EGFP/OD600 数字化读取值。重复类型、n 与误差线类型仍按原始记录中的人工确认字段管理。</em></p>
+<p align="center"><em>Fig.12 中 R5、R11、R13 的红光/对照归一化 EGFP/OD600 数字化读取值；未展示统计显著性。重复类型、n 与误差线类型仍按原始记录中的人工确认字段管理。</em></p>
+
+原记录的 Fig.13 中，R11 与 R13 低于对照；两组图记录分开保存，不合并为重复。
+
+[Fig.12 与 Fig.13 的分开记录](../results/evidence/20260909/phirex_annotation/phirex_digitized_records.csv)。R5/R11/R13 的构建身份、重复类型、n 和误差线类型保持人工确认；展示图不再使用显著性星号。
 
 ### 2.4 证据文件
 
@@ -135,12 +141,12 @@ R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对�
 
 ## 4. 溯源与许可
 
-| AISB26 编号 | 原 Registry 编号 | 原创建年份 | AISB26 提交年份 | 许可 |
-|---|---|---:|---:|---|
-| AISB26-045-001 | BBa_25UFORFE | 2025 | 2026 | CC BY-SA 4.0 |
-| AISB26-045-002 | BBa_251P300A | 2025 | 2026 | CC BY-SA 4.0 |
+| AISB26 编号 | 原 Registry 编号 | 许可 |
+|---|---|---|
+| AISB26-045-001 | BBa_25UFORFE | CC BY-SA 4.0 |
+| AISB26-045-002 | BBa_251P300A | CC BY-SA 4.0 |
 
-两项元件均由 BIT-China 团队创建，保留 2025 年 Registry 来源信息，并于 2026 年首次按 AISB26 格式提交。元件序列在 AISB26 提交过程中未由 AI 修改；AI 主要用于资料整理、计算分析和文档生成，具体披露见 [Attributions](./Attributions.md) 与 [AI Ethics & Safety](./AI-Ethics-Safety.md)。
+两项元件均由 BIT-China 团队创建，具体来源、创建与提交年份保留于 metadata、characterization 和 Attributions。元件序列在 AISB26 提交过程中未由 AI 修改；AI 主要用于资料整理、计算分析和文档生成，具体披露见 [Attributions](./Attributions.md) 与 [AI Ethics & Safety](./AI-Ethics-Safety.md)。
 
 ---
 

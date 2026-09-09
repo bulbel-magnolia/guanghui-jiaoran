@@ -34,6 +34,8 @@
 
 ---
 
+本届工作在团队已有实验、元件与项目成果基础上继续迭代。
+
 ## 1. 项目架构
 
 | 模块 | 核心问题 | 已完成工作 | 结果如何进入下一步 |
@@ -62,7 +64,7 @@ Round 0 发酵数据进入 Yeast9/FBA/OptKnock 分析，形成 **307 个候选�
 | ΔPAN5，120 h | **约 0.67 mg/L** | 同批 AST 约 0.47 mg/L，进入高优先级证据 |
 | ΔMDE1，96 → 120 h | **约 0.42 → 0.36 mg/L** | 进入后期持续性评价 |
 
-### 2026 可执行 FABRIC-AI
+### 可执行 FABRIC-AI
 
 Production Optimizer v1.2 在 corrected **235-gene** 共同空间中完成 v1 与 v2A 各 **235/235** 的表型评价，并与 FastKnock 2024、CFSA 2024、OptEnvelope 2023 完成冻结 benchmark。
 
@@ -74,6 +76,8 @@ Production Optimizer v1.2 在 corrected **235-gene** 共同空间中完成 v1 �
 <p align="center"><em>统一 235-gene 空间中的表型评价覆盖率。这里的 coverage 表示完成显式 phenotype evaluation 的候选比例，不代表增产成功率。</em></p>
 
 [查看四方法 Benchmark →](./AI-Computational-Methods.md)
+
+**实验反馈的定量更新：**同一六靶点的已评定状态由 **0/6→6/6**，下一轮动作分为 **1 项优先推进、1 项机制复核、4 项构建/培养调整**。新增可执行 Learn 状态转移重放原 v0.8 规则，并保持 Design benchmark 冻结。[查看前后对照与复现证据 →](../results/evidence/20260909/C3_1_QUANTITATIVE_ITERATION.md)
 
 ---
 
@@ -95,7 +99,7 @@ BmCBP 路线从功能分析和分子对接进入湿实验。团队表达并纯�
 
 ## 4. P2 · 颜色、光与硬件
 
-PhiReX 红光实验采用约 `630 nm`、`200 μW/cm²`、`2 h pulse`，总培养时间 24 h；培养结束后测量 EGFP Ex/Em `485/528 nm` 和 OD600。R5、R11、R13 三个编号样品在红光条件下均高于无光对照。
+PhiReX 红光实验采用约 `630 nm`、`200 μW/cm²`、`2 h pulse`，总培养时间 24 h；培养结束后测量 EGFP Ex/Em `485/528 nm` 和 OD600。Fig.12 中 R5、R11、R13 三个编号样品在红光条件下均高于无光对照。
 
 硬件将数字图案转换为空间化或时序化光输入，并通过光传感、GUI、4G 通信和远程参数调整连接培养状态与光照控制。
 

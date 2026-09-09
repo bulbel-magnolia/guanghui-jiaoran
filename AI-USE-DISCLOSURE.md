@@ -10,6 +10,10 @@ FABRIC-AI 基于 Round 0 发酵数据和 Yeast9/FBA/OptKnock 分析形成候选�
 
 2026 Production Optimizer v1.2 将 Design mode 与 Learn mode 分开：公开 benchmark 的候选生成、阈值与排序不读取历史 PAN5/MDE1 实验结果；Design 结果冻结后，湿实验反馈再进入 Learn mode。
 
+## 本轮修复辅助范围
+
+AI 辅助实现 Learn 状态转移与排序器防错、恢复来源文件、编写测试、检查元件注释并生成坐标图谱。PhiReX 的四个区段改为 `misc_feature`，DNA 未改动；表达图仅删除统计依据未恢复的显著性标记。修复分支供团队与 Primary PI 复核，不代表已完成最终人工批准。
+
 ## 人工责任
 
 - 实验记录、数据真实性与生物安全由团队和 Primary PI 负责；

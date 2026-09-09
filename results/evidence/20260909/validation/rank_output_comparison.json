@@ -1,0 +1,13 @@
+{
+  "tables": {
+    "design_mode_ranking.csv": {
+      "all_cells_exact": true,
+      "bytes_exact": false
+    },
+    "design_mode_topk.csv": {
+      "all_cells_exact": true,
+      "bytes_exact": false
+    }
+  },
+  "scope": "SECONDARY_FEASIBILITY_ORDER_ONLY"
+}

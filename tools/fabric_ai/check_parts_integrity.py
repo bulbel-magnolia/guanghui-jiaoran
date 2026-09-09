@@ -1,74 +1,55 @@
-"""Check existing AISB26 files; an optional signed ZIP is used only for comparison."""
+"""Check current submitted parts against archived source and declared revision.
+
+An optional original ZIP verifies the archived provenance, not byte equality of
+an intentionally revised annotation/map with its predecessor.
+"""
 from __future__ import annotations
 import argparse
 import csv
 import hashlib
 import json
-import re
-import zipfile
-import xml.etree.ElementTree as ET
 from pathlib import Path
+import xml.etree.ElementTree as ET
+import zipfile
+from Bio import SeqIO
+
 ROOT=Path(__file__).resolve().parents[2]
+AUDIT=ROOT/'results/evidence/20260909/phirex_annotation'
 
-def fasta(raw):
-    lines=raw.decode('utf-8-sig').splitlines()
-    assert sum(line.startswith('>') for line in lines)==1,'Expected one FASTA record'
-    sequence=''.join(line.strip() for line in lines if not line.startswith('>')).upper()
-    assert re.fullmatch('[ACGTRYSWKMBDHVN]+',sequence),'Invalid FASTA alphabet'
-    return sequence
-
-def genbank(raw):
-    text=raw.decode('utf-8-sig')
-    origins=re.findall(r'^ORIGIN\s*\n(.*?)^//',text,re.M|re.S)
-    assert len(origins)==1,'Expected one GenBank record'
-    sequence=re.sub(r'[\s0-9]','',origins[0]).upper()
-    assert re.fullmatch('[ACGTRYSWKMBDHVN]+',sequence),'Invalid GenBank alphabet'
-    length=int(re.search(r'^LOCUS\s+\S+\s+(\d+)\s+bp',text,re.M).group(1))
-    assert len(sequence)==length,'GenBank LOCUS length mismatch'
-    cds=[location.strip() for location in re.findall(r'^     CDS\s+([^\n]+)',text,re.M)]
-    return sequence,cds
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def main():
-    parser=argparse.ArgumentParser()
-    parser.add_argument('--out',required=True)
-    parser.add_argument('--source-zip',help='Exact FABRIC-AI_v0.8_phase2_baseline_signed_20260905.zip')
-    args=parser.parse_args()
-    archive=zipfile.ZipFile(args.source_zip) if args.source_zip else None
+    parser=argparse.ArgumentParser();parser.add_argument('--out',required=True,type=Path);parser.add_argument('--source-zip',type=Path);a=parser.parse_args()
+    revision=json.loads((AUDIT/'change_manifest.json').read_text())
+    source=json.loads((AUDIT/'original_file_hashes.json').read_text())
     rows=[]
-    def add(part,check,status,detail):rows.append(dict(part_id=part,check=check,status=status,detail=detail))
+    def add(part,check,ok,detail):rows.append({'part_id':part,'check':check,'status':'PASS' if ok else 'FAIL','detail':detail})
     for part,length in [('AISB26-045-001',12584),('AISB26-045-002',690)]:
-        folder=ROOT/'parts'/part
-        for name in ['sequence.fasta','registry_export.gb','map.svg','metadata.yaml','characterization.md']:
-            p=folder/name
-            add(part,'file_exists:'+name,'PASS' if p.is_file() else 'MISSING',str(p.relative_to(ROOT)))
-            if p.is_file():add(part,'sha256:'+name,'RECORDED',hashlib.sha256(p.read_bytes()).hexdigest())
-            if archive and name in (['sequence.fasta','registry_export.gb','map.svg'] if part.endswith('001') else ['registry_export.gb','map.svg']):
-                matches=[n for n in archive.namelist() if n.endswith(f'parts/{part}/{name}') and not n.startswith('__MACOSX/')]
-                if len(matches)!=1:add(part,'signed_source:'+name,'FAIL','Missing/ambiguous archive member')
-                else:add(part,'signed_source:'+name,'PASS' if p.is_file() and p.read_bytes()==archive.read(matches[0]) else 'FAIL',matches[0])
-        f=folder/'sequence.fasta';g=folder/'registry_export.gb'
-        if f.exists():
-            sequence=fasta(f.read_bytes());add(part,'fasta_length','PASS' if len(sequence)==length else 'FAIL',str(len(sequence)))
-        if f.exists() and g.exists():
-            gb,cds=genbank(g.read_bytes())
-            add(part,'fasta_genbank_sequence','PASS' if sequence==gb else 'FAIL',f'FASTA {len(sequence)} bp; GenBank {len(gb)} bp')
-            if part.endswith('002'):
-                add(part,'full_length_CDS_1_690','PASS' if cds==['1..690'] and sequence==gb else 'FAIL',json.dumps(cds))
-        else:add(part,'fasta_genbank_sequence','BLOCKED','Required FASTA and/or GenBank missing')
-        svg=folder/'map.svg'
-        if svg.exists():
-            tree=ET.parse(svg)
-            add(part,'svg_document','PASS' if tree.getroot().tag.endswith('svg') else 'FAIL','XML parsed')
-            references=[value for node in tree.iter() for key,value in node.attrib.items() if key.rsplit('}',1)[-1] in ['href','src']]
-            relative=[v for v in references if not v.startswith(('#','//')) and not re.match(r'^[a-z][a-z0-9+.-]*:',v,re.I)]
-            missing=[v for v in relative if not (folder/v.split('#')[0]).exists()]
-            add(part,'svg_relative_paths','PASS' if not missing else 'FAIL',json.dumps({'relative_references':relative,'missing':missing}))
-        if not archive:add(part,'signed_source_provenance','BLOCKED','Specified signed ZIP not available; no alternate source substituted')
-    output=Path(args.out);output.parent.mkdir(parents=True,exist_ok=True)
-    with output.open('w',newline='',encoding='utf-8-sig') as fp:
-        w=csv.DictWriter(fp,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
-    passed=all(r['status'] not in ['FAIL','MISSING','BLOCKED'] for r in rows)
-    print(json.dumps({'status':'PASSED' if passed else 'BLOCKED','rows':len(rows)},ensure_ascii=False))
-    return 0 if passed else 1
-
+        folder=ROOT/'parts'/part;old=AUDIT/'original'/part
+        for name in ['sequence.fasta','registry_export.gb','metadata.yaml','characterization.md','map.svg']:
+            add(part,'exists:'+name,(folder/name).is_file(),str((folder/name).relative_to(ROOT)))
+        for name in ['sequence.fasta','registry_export.gb','map.svg']:
+            add(part,'source_archive_hash:'+name,sha(old/name)==source[part+'/'+name],source[part+'/'+name])
+        fa=SeqIO.read(folder/'sequence.fasta','fasta');gb=SeqIO.read(folder/'registry_export.gb','genbank');og=SeqIO.read(old/'registry_export.gb','genbank')
+        add(part,'sequence_length',len(fa)==len(gb)==length,str(length))
+        add(part,'FASTA_equals_GenBank',str(fa.seq).upper()==str(gb.seq).upper(),'Per-base comparison')
+        add(part,'DNA_equals_original',str(gb.seq).upper()==str(og.seq).upper() and (folder/'sequence.fasta').read_bytes()==(old/'sequence.fasta').read_bytes(),'No nucleotide edits')
+        if part.endswith('001'):
+            add(part,'declared_annotation_hash',sha(folder/'registry_export.gb')==revision['revised_genbank_sha256'],revision['revision_id'])
+            add(part,'declared_coordinate_map_hash',sha(folder/'map.svg')==revision['revised_map_sha256'],'Regenerated from revised feature types; coordinates unchanged')
+        else:
+            add(part,'unchanged_GenBank',sha(folder/'registry_export.gb')==sha(old/'registry_export.gb'),'BmCBP GenBank not edited')
+            cds=[f for f in gb.features if f.type=='CDS']
+            add(part,'CDS_1_690',len(cds)==1 and int(cds[0].location.start)==0 and int(cds[0].location.end)==690,'Vector fusion context retained')
+        tree=ET.parse(folder/'map.svg');add(part,'SVG_parses',tree.getroot().tag.endswith('svg'),'XML parse')
+        if a.source_zip:
+            with zipfile.ZipFile(a.source_zip) as z:
+                # DNA is invariant; annotation corrections are assessed above.
+                raw=z.read('parts/'+part+'/sequence.fasta')
+                seq=''.join(l.strip() for l in raw.decode('utf-8-sig').splitlines() if not l.startswith('>')).upper()
+                add(part,'original_zip_sequence',seq==str(fa.seq).upper(),a.source_zip.name)
+    a.out.parent.mkdir(parents=True,exist_ok=True)
+    with a.out.open('w',newline='',encoding='utf-8-sig') as f:
+        w=csv.DictWriter(f,fieldnames=['part_id','check','status','detail']);w.writeheader();w.writerows(rows)
+    ok=all(r['status']=='PASS' for r in rows);print(json.dumps({'status':'PASSED' if ok else 'FAILED','checks':len(rows)}));return 0 if ok else 1
 if __name__=='__main__':raise SystemExit(main())

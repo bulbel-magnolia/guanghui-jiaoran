@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "phase": "before_feedback",
+  "scope": "historical_six_target_evidence_state",
+  "origin": "2026 explicit representation of recovered pre-validation selection; not a fabricated historical executable model",
+  "selection_sha256": "611f04ae1b9d90d55c9db2b0f7cf42bd75a650568f99fe4fe2ead24d626270ea",
+  "targets": [
+    {
+      "gene": "RIB2",
+      "orf": "YOL066C",
+      "reaction_id": "r_0014",
+      "plan_id": 3,
+      "selection_record_id": "SEL-RIB2",
+      "evidence_tier": null,
+      "evidence_status": "NOT_YET_ASSESSED",
+      "next_cycle_action": "selected_for_round1"
+    },
+    {
+      "gene": "PAN5",
+      "orf": "YHR063C",
+      "reaction_id": "r_0019",
+      "plan_id": 7,
+      "selection_record_id": "SEL-PAN5",
+      "evidence_tier": null,
+      "evidence_status": "NOT_YET_ASSESSED",
+      "next_cycle_action": "selected_for_round1"
+    },
+    {
+      "gene": "MDE1",
+      "orf": "YJR024C",
+      "reaction_id": "r_0086",
+      "plan_id": 6,
+      "selection_record_id": "SEL-MDE1",
+      "evidence_tier": null,
+      "evidence_status": "NOT_YET_ASSESSED",
+      "next_cycle_action": "selected_for_round1"
+    },
+    {
+      "gene": "MRI1",
+      "orf": "YPR118W",
+      "reaction_id": "r_0087",
+      "plan_id": 12,
+      "selection_record_id": "SEL-MRI1",
+      "evidence_tier": null,
+      "evidence_status": "NOT_YET_ASSESSED",
+      "next_cycle_action": "selected_for_round1"
+    },
+    {
+      "gene": "SPE2",
+      "orf": "YOL052C",
+      "reaction_id": "r_0145",
+      "plan_id": 8,
+      "selection_record_id": "SEL-SPE2",
+      "evidence_tier": null,
+      "evidence_status": "NOT_YET_ASSESSED",
+      "next_cycle_action": "selected_for_round1"
+    },
+    {
+      "gene": "FUM1",
+      "orf": "YPL262W",
+      "reaction_id": "r_0452",
+      "plan_id": 11,
+      "selection_record_id": "SEL-FUM1",
+      "evidence_tier": null,
+      "evidence_status": "NOT_YET_ASSESSED",
+      "next_cycle_action": "selected_for_round1"
+    }
+  ],
+  "metrics": {
+    "target_count": 6,
+    "classified_target_count": 0,
+    "unassessed_target_count": 6,
+    "quantified_target_count": 0,
+    "next_action_class_count": 1
+  },
+  "state_id": "before:a97a2652af3f933468a6d37f9b664dd0dc5c1c5d0a5db7769228f3f804b8308a"
+}

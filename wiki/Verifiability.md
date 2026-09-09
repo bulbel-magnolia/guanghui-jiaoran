@@ -137,8 +137,8 @@ python tools/fabric_ai/verify_repo_freeze.py --outdir .reproduction/verification
 湿实验结果以现有实验记录和元件表征文件为准：
 
 - P0 发酵闭环：ΔPAN5、ΔMDE1 及其余四个靶点的 Round 1 记录见 [干湿结合验证](./Integrated-Validation.md)；
-- BmCBP：三档浓度条件各记录 3 次测量，A480 原始值与平均值见元件表征；
-- PhiReX：R5、R11、R13 的红光 / 无光 EGFP 和 OD600 记录见元件表征。
+- BmCBP：每个条件记录为 `n=3 measurements`；当前结构化提交保留条件均值，逐次原始测量值未恢复，因此不生成误差线，也不将 3 次测量解释为 3 个生物学重复。见 [元件表征](../parts/AISB26-045-002/characterization.md)。
+- PhiReX：[元件表征](../parts/AISB26-045-001/characterization.md)分别保留 Fig.12、Fig.13 的归一化 EGFP/OD600 近似图读值；未恢复逐次原始荧光和 OD600 测量表。
 
 重复类型、样品身份和 n 均按对应原始记录表述，不将“3 次测量”自动等同于“3 个生物学重复”。
 
@@ -167,7 +167,19 @@ python tools/fabric_ai/verify_repo_freeze.py --outdir .reproduction/verification
 
 ---
 
-## 7. 当前评价范围
+## 7. 提交修复版复核
+
+```bash
+python tools/fabric_ai/validate_submission_fixes.py --outdir .reproduction/submission-fixes-check
+```
+
+该入口分别运行历史 9 项排序内核测试、40 项真实输入校验测试、19 项 Learn 测试、原 15/15 冻结 verification、当前元件一致性检查和 Learn 重放。它重新执行严格排序入口，并比较 235 行 ranking 与六行 Top-6 的全部数值及范围标签。此次防错修复没有修改 evaluate，无需为此重算 235×2 求解。
+
+PhiReX 的 FASTA 与 GenBank 序列一致；四个边界未定的区段按 `misc_feature` 保存，两个保留 CDS 通过阅读框检查。[注释状态与原始导出](../results/evidence/20260909/phirex_annotation/README.md)。
+
+[本轮验证结果](../results/evidence/20260909/validation/verification.json) · [Learn 前后数值](../results/evidence/20260909/C3_1_QUANTITATIVE_ITERATION.md)。
+
+## 8. 当前评价范围
 
 FABRIC-AI 当前公开 benchmark 以单基因敲除和冻结的共同代谢模型为核心任务。v1 是 primary standardized reference，v2A 是生产阶段敏感性条件，v2B 只用于营养可获得性机制诊断。Design mode 的排序不使用 Round 1 的 PAN5/MDE1 实验结果；实验结果在 Design mode 冻结后进入 Learn mode 更新证据等级。
 
@@ -175,4 +187,4 @@ FABRIC-AI 当前公开 benchmark 以单基因敲除和冻结的共同代谢模�
 
 ---
 
-*最后更新：2026-09-08*
+*最后更新：2026-09-09*

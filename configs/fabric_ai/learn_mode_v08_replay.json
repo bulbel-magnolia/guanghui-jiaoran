@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "implementation_version": "learn-state-replay-1.0-20260909",
+  "mode": "RECOVERED_V08_RULES_WITH_NEW_EXPLICIT_STATE_TRANSITION",
+  "source_root": "results/evidence/20260909/recovered_v08",
+  "rules_path": "data/processed/gsmm_evidence_v0_2/feedback_rules.json",
+  "rules_sha256": "5e08bf7b0e39f029f00d74b776b0d0a6e53320131a353e6e2da04129472459dd",
+  "engine_path": "src/ai/fabric_ai/metabolic.py",
+  "engine_sha256": "bacbc2122fd0d0f496871053a3702c6995dbbcea7576c1627fa583d68bfbddad",
+  "design_freeze_path": "results/fabric_ai/20260908/DESIGN_MODE_FINAL_FREEZE.json",
+  "design_freeze_sha256": "0faec507efadda9ad84167076cdb07b4ea2e0bd8fd938aef531269fdc31da62b",
+  "frozen_design_guard": {
+    "results/fabric_ai/20260908/v1_candidate_metrics.csv": "2176df82d1f75ee7c38990836c3e185c658b2c615635664e800c68063332300d",
+    "results/fabric_ai/20260908/v2a_candidate_metrics.csv": "e270f2636e8fb0e52702f43e35fc6a7e8aea5acdffa344fb7b09c45d0839e150",
+    "results/fabric_ai/20260908/design_mode_ranking.csv": "64e7493450278d3b616a66b6dc1d109b7d503d175bc3ffef5c9c36517ec23206",
+    "results/fabric_ai/20260908/design_mode_topk.csv": "ea440d8e8bc5f96a8bf88b1579c4074f54ef4f4146eed6330058ad0edc62c561",
+    "models/fabric_ai/common_model.json": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684"
+  },
+  "experiment_time_origin": "BIT-China 2025 team records",
+  "rules_time_origin": "Existing v0.8 archive; rules were already outcome-informed before this replay. No prospective independence claimed.",
+  "state_update_time_origin": "2026-09-09 implementation/replay",
+  "before_definition": "Only the recovered selected_targets_pre_validation table; unassessed evidence is null, never an invented tier or predicted yield.",
+  "after_definition": "Same six historical targets, updated by original v0.8 engine and unchanged project thresholds.",
+  "interpretation": "Evidence-state and next-action update, not retraining or out-of-sample predictive accuracy improvement. Historical six-target set is separate from the 235-gene Design-mode Top-6."
+}

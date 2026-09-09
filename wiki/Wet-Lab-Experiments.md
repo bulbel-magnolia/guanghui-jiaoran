@@ -18,7 +18,7 @@
 |---|---|---|---|
 | **P0 生产优化** | Round 0 发酵 + Round 1 六靶点 | ΔPAN5 120 h 约 **0.67 mg/L**；同批 AST 约 0.47 mg/L；ΔMDE1 后期下降 | Production Optimizer / Learn mode |
 | **P1 材料接口** | BmCBP 表达、A480、织物 | 三浓度平均 A480：**2.19190 → 2.00360 → 1.84980** | Material Interface Optimizer |
-| **P2 光控** | PhiReX 红光 / 无光 EGFP | R5、R11、R13 红光条件下归一化 EGFP 均高于无光对照 | Color & Light Translator |
+| **P2 光控** | PhiReX 红光 / 无光 EGFP | Fig.12 中 R5、R11、R13 红光条件下归一化 EGFP 均高于无光对照 | Color & Light Translator |
 
 ---
 
@@ -131,16 +131,20 @@ Human Practices 的产业反馈进一步推动“**BmCBP 蛋白媒染 + 壳聚�
 | EGFP Ex / Em | `485 / 528 nm` |
 | 归一化 | EGFP / OD600 |
 
-R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对照的归一化 EGFP 信号。
+Fig.12 中 R5、R11、R13 三个编号样品在红光条件下均表现出高于无光对照的归一化 EGFP 信号。
 
 <p align="center">
   <img src="./assets/figures/phirex-expression.webp" alt="PhiReX 红光与对照归一化 EGFP" width="84%">
 </p>
-<p align="center"><em>R5、R11、R13 的红光/对照归一化 EGFP/OD600 数字化读取值。重复类型、n 与误差线类型仍按原始记录中的人工确认字段管理，因此此图不额外生成误差线。</em></p>
+<p align="center"><em>Fig.12 中 R5、R11、R13 的红光/对照归一化 EGFP/OD600 数字化读取值；未展示统计显著性。重复类型、n 与误差线类型仍按原始记录中的人工确认字段管理，因此此图不额外生成误差线。</em></p>
 
 > **P2 实验接口**：固定光参数 → EGFP / OD600 → 结构化光控记录 → Color & Light Translator。
 
 ---
+
+当前展示的 Fig.12 数字化记录中，R5、R11、R13 红光条件下的 EGFP/OD600 均高于对照。原记录的 Fig.13 中，R11 与 R13 低于对照；两组记录分开保存，不合并为重复。
+
+[两组独立图记录与样品字段](../results/evidence/20260909/phirex_annotation/README.md)。
 
 ## 7. 染色、混色与硬件接口
 

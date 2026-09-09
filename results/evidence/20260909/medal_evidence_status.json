@@ -1,0 +1,18 @@
+{
+  "C3_1": {
+    "status": "QUANTITATIVE_RULE_STATE_UPDATE_EVIDENCE_ADDED",
+    "scope": "model-assisted historical target selection; experimental feedback; recovered fixed-rule Learn evidence-state update",
+    "predictive_model_retraining_or_accuracy_gain_demonstrated": false,
+    "final_criterion_acceptance": "JUDGES_TO_DETERMINE"
+  },
+  "C3_2": {
+    "route": "SIGNIFICANT_INNOVATION",
+    "production_superiority_claim": false
+  },
+  "C3_5": {
+    "status": "C3_5_CURRENT_EVIDENCE_NOT_SUFFICIENT",
+    "NUDT_CHINA_and_SCU_CHINA_current_competitors": false,
+    "basis": "Explicit user confirmation in repair task"
+  },
+  "gold_all_criteria_claim_supported": false
+}

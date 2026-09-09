@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETED",
+  "command": "prepare",
+  "condition_id": "v1_glucose_reference",
+  "model_sha256": "c7767f92ae22dfd1591ca138e99dc305f477728cffb9eee4eef71d3c162ed684",
+  "WT_mu_max": 0.08093801253215745,
+  "growth_admission_floor": 0.008093801253215745,
+  "gene_associated_internal_fva_count": 2207,
+  "blocked_count": 600,
+  "native_genes_total": 1143,
+  "eligible_count": 235,
+  "solver_failures": 0,
+  "wall_time_seconds": 167.00901449999947,
+  "solver": "optlang.glpk_interface",
+  "solver_tolerance_requested": 1e-07,
+  "solver_tolerance_readback": {
+    "feasibility": 1e-07,
+    "optimality": null,
+    "integrality": 1e-07
+  },
+  "FVA_solver_state": "GLPK basis reuse permitted only across objective switches at fixed bounds",
+  "gene_growth_solver_details": {
+    "solver": "scipy.optimize.linprog(method=highs)",
+    "scipy_version": "1.17.1",
+    "presolve": true,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07
+  },
+  "applied_condition_bounds": [],
+  "cobra_version": "0.30.0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

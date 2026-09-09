@@ -1,0 +1,4484 @@
+{
+  "search_scope": "All eight structured workbooks from v0.8, native XML cell search; v0.8 textual records; reachable Git history",
+  "workbook_hits": [
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet2.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "LGT-001"
+        },
+        {
+          "cell": "B5",
+          "value": "Light induction"
+        },
+        {
+          "cell": "C5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "D5",
+          "value": "Bar chart"
+        },
+        {
+          "cell": "E5",
+          "value": "Promoters R5, R11, R13, G22, G23, G24; +Light vs Control"
+        },
+        {
+          "cell": "F5",
+          "value": "Normalized GFP fluorescence (RFU/OD); significance marked ****"
+        },
+        {
+          "cell": "G5",
+          "value": "Light_Induction"
+        },
+        {
+          "cell": "H5",
+          "value": "Promoter response modeling; verified red/green channels"
+        },
+        {
+          "cell": "I5",
+          "value": "approximate digitization from screenshot"
+        },
+        {
+          "cell": "J5",
+          "value": "Medium"
+        },
+        {
+          "cell": "K5",
+          "value": "Use as main light-induction dataset; raw fluorescence/OD values preferred."
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_1.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet2.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "LGT-001"
+        },
+        {
+          "cell": "B5",
+          "value": "Light induction"
+        },
+        {
+          "cell": "C5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "D5",
+          "value": "Bar chart"
+        },
+        {
+          "cell": "E5",
+          "value": "Promoters R5, R11, R13, G22, G23, G24; +Light vs Control"
+        },
+        {
+          "cell": "F5",
+          "value": "Normalized GFP fluorescence (RFU/OD); significance marked ****"
+        },
+        {
+          "cell": "G5",
+          "value": "Light_Induction"
+        },
+        {
+          "cell": "H5",
+          "value": "Promoter response modeling; verified red/green channels"
+        },
+        {
+          "cell": "I5",
+          "value": "approximate digitization from screenshot"
+        },
+        {
+          "cell": "J5",
+          "value": "Medium"
+        },
+        {
+          "cell": "K5",
+          "value": "Use as main light-induction dataset; raw fluorescence/OD values preferred."
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_2.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet2.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "LGT-001"
+        },
+        {
+          "cell": "B5",
+          "value": "Light induction"
+        },
+        {
+          "cell": "C5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "D5",
+          "value": "Bar chart"
+        },
+        {
+          "cell": "E5",
+          "value": "Promoters R5, R11, R13, G22, G23, G24; +Light vs Control"
+        },
+        {
+          "cell": "F5",
+          "value": "Normalized GFP fluorescence (RFU/OD); significance marked ****"
+        },
+        {
+          "cell": "G5",
+          "value": "Light_Induction"
+        },
+        {
+          "cell": "H5",
+          "value": "Promoter response modeling; verified red/green channels"
+        },
+        {
+          "cell": "I5",
+          "value": "approximate digitization from screenshot"
+        },
+        {
+          "cell": "J5",
+          "value": "Medium"
+        },
+        {
+          "cell": "K5",
+          "value": "Use as main light-induction dataset; raw fluorescence/OD values preferred."
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_3.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_4.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_5.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approx_from_screenshot"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_6.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approx_from_screenshot_low_reliability"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_7.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "2",
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "PhiReX red-light records: approximately 630 nm, 200 uW/cm2, 2 h pulse; 24 h total culture; EGFP Ex/Em 485/528 nm and OD600; normalized EGFP/OD600. R5/R11/R13 identity, replicate type and n, and error-bar type require manual confirmation."
+        },
+        {
+          "cell": "B2",
+          "value": ""
+        },
+        {
+          "cell": "C2",
+          "value": ""
+        },
+        {
+          "cell": "D2",
+          "value": ""
+        },
+        {
+          "cell": "E2",
+          "value": ""
+        },
+        {
+          "cell": "F2",
+          "value": ""
+        },
+        {
+          "cell": "G2",
+          "value": ""
+        },
+        {
+          "cell": "H2",
+          "value": ""
+        },
+        {
+          "cell": "I2",
+          "value": ""
+        },
+        {
+          "cell": "J2",
+          "value": ""
+        },
+        {
+          "cell": "K2",
+          "value": ""
+        },
+        {
+          "cell": "L2",
+          "value": ""
+        },
+        {
+          "cell": "M2",
+          "value": ""
+        },
+        {
+          "cell": "N2",
+          "value": ""
+        },
+        {
+          "cell": "O2",
+          "value": ""
+        },
+        {
+          "cell": "P2",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "5",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B5",
+          "value": "R5"
+        },
+        {
+          "cell": "C5",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D5",
+          "value": "+Light"
+        },
+        {
+          "cell": "E5",
+          "value": "1900"
+        },
+        {
+          "cell": "F5",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G5",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H5",
+          "value": "model feature / verified channel"
+        },
+        {
+          "cell": "I5",
+          "value": "630"
+        },
+        {
+          "cell": "J5",
+          "value": "200"
+        },
+        {
+          "cell": "K5",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L5",
+          "value": "24"
+        },
+        {
+          "cell": "M5",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N5",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O5",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P5",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B6",
+          "value": "R5"
+        },
+        {
+          "cell": "C6",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D6",
+          "value": "Control"
+        },
+        {
+          "cell": "E6",
+          "value": "720"
+        },
+        {
+          "cell": "F6",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G6",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H6",
+          "value": "baseline"
+        },
+        {
+          "cell": "I6",
+          "value": "630"
+        },
+        {
+          "cell": "J6",
+          "value": "200"
+        },
+        {
+          "cell": "K6",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L6",
+          "value": "24"
+        },
+        {
+          "cell": "M6",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N6",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O6",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P6",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B7",
+          "value": "R11"
+        },
+        {
+          "cell": "C7",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D7",
+          "value": "+Light"
+        },
+        {
+          "cell": "E7",
+          "value": "1985"
+        },
+        {
+          "cell": "F7",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G7",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H7",
+          "value": "model feature / verified channel"
+        },
+        {
+          "cell": "I7",
+          "value": "630"
+        },
+        {
+          "cell": "J7",
+          "value": "200"
+        },
+        {
+          "cell": "K7",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L7",
+          "value": "24"
+        },
+        {
+          "cell": "M7",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N7",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O7",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P7",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "8",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B8",
+          "value": "R11"
+        },
+        {
+          "cell": "C8",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D8",
+          "value": "Control"
+        },
+        {
+          "cell": "E8",
+          "value": "685"
+        },
+        {
+          "cell": "F8",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G8",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H8",
+          "value": "baseline"
+        },
+        {
+          "cell": "I8",
+          "value": "630"
+        },
+        {
+          "cell": "J8",
+          "value": "200"
+        },
+        {
+          "cell": "K8",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L8",
+          "value": "24"
+        },
+        {
+          "cell": "M8",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N8",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O8",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P8",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B9",
+          "value": "R13"
+        },
+        {
+          "cell": "C9",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D9",
+          "value": "+Light"
+        },
+        {
+          "cell": "E9",
+          "value": "1550"
+        },
+        {
+          "cell": "F9",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G9",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H9",
+          "value": "model feature / verified channel"
+        },
+        {
+          "cell": "I9",
+          "value": "630"
+        },
+        {
+          "cell": "J9",
+          "value": "200"
+        },
+        {
+          "cell": "K9",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L9",
+          "value": "24"
+        },
+        {
+          "cell": "M9",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N9",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O9",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P9",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "10",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Fig.12"
+        },
+        {
+          "cell": "B10",
+          "value": "R13"
+        },
+        {
+          "cell": "C10",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D10",
+          "value": "Control"
+        },
+        {
+          "cell": "E10",
+          "value": "800"
+        },
+        {
+          "cell": "F10",
+          "value": "****; main usable functional verification"
+        },
+        {
+          "cell": "G10",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H10",
+          "value": "baseline"
+        },
+        {
+          "cell": "I10",
+          "value": "630"
+        },
+        {
+          "cell": "J10",
+          "value": "200"
+        },
+        {
+          "cell": "K10",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L10",
+          "value": "24"
+        },
+        {
+          "cell": "M10",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N10",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O10",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P10",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "17",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B17",
+          "value": "R5"
+        },
+        {
+          "cell": "C17",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D17",
+          "value": "+Light"
+        },
+        {
+          "cell": "E17",
+          "value": "1120"
+        },
+        {
+          "cell": "F17",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G17",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H17",
+          "value": "model feature / verified channel"
+        },
+        {
+          "cell": "I17",
+          "value": "630"
+        },
+        {
+          "cell": "J17",
+          "value": "200"
+        },
+        {
+          "cell": "K17",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L17",
+          "value": "24"
+        },
+        {
+          "cell": "M17",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N17",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O17",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P17",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "18",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B18",
+          "value": "R5"
+        },
+        {
+          "cell": "C18",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D18",
+          "value": "Control"
+        },
+        {
+          "cell": "E18",
+          "value": "1050"
+        },
+        {
+          "cell": "F18",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G18",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H18",
+          "value": "baseline"
+        },
+        {
+          "cell": "I18",
+          "value": "630"
+        },
+        {
+          "cell": "J18",
+          "value": "200"
+        },
+        {
+          "cell": "K18",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L18",
+          "value": "24"
+        },
+        {
+          "cell": "M18",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N18",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O18",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P18",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "19",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B19",
+          "value": "R11"
+        },
+        {
+          "cell": "C19",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D19",
+          "value": "+Light"
+        },
+        {
+          "cell": "E19",
+          "value": "1480"
+        },
+        {
+          "cell": "F19",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G19",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H19",
+          "value": "model feature / verified channel"
+        },
+        {
+          "cell": "I19",
+          "value": "630"
+        },
+        {
+          "cell": "J19",
+          "value": "200"
+        },
+        {
+          "cell": "K19",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L19",
+          "value": "24"
+        },
+        {
+          "cell": "M19",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N19",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O19",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P19",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "20",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B20",
+          "value": "R11"
+        },
+        {
+          "cell": "C20",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D20",
+          "value": "Control"
+        },
+        {
+          "cell": "E20",
+          "value": "1550"
+        },
+        {
+          "cell": "F20",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G20",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H20",
+          "value": "baseline"
+        },
+        {
+          "cell": "I20",
+          "value": "630"
+        },
+        {
+          "cell": "J20",
+          "value": "200"
+        },
+        {
+          "cell": "K20",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L20",
+          "value": "24"
+        },
+        {
+          "cell": "M20",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N20",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O20",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P20",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "21",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B21",
+          "value": "R13"
+        },
+        {
+          "cell": "C21",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D21",
+          "value": "+Light"
+        },
+        {
+          "cell": "E21",
+          "value": "1100"
+        },
+        {
+          "cell": "F21",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G21",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H21",
+          "value": "model feature / verified channel"
+        },
+        {
+          "cell": "I21",
+          "value": "630"
+        },
+        {
+          "cell": "J21",
+          "value": "200"
+        },
+        {
+          "cell": "K21",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L21",
+          "value": "24"
+        },
+        {
+          "cell": "M21",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N21",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O21",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P21",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    },
+    {
+      "workbook": "FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "archive_member": "data/processed/FABRIC_wetlab_structured_dataset_v0_8.xlsx",
+      "xml_member": "xl/worksheets/sheet3.xml",
+      "row": "22",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "Fig.13"
+        },
+        {
+          "cell": "B22",
+          "value": "R13"
+        },
+        {
+          "cell": "C22",
+          "value": "red-light promoter"
+        },
+        {
+          "cell": "D22",
+          "value": "Control"
+        },
+        {
+          "cell": "E22",
+          "value": "1220"
+        },
+        {
+          "cell": "F22",
+          "value": "suboptimal due to light-source equipment"
+        },
+        {
+          "cell": "G22",
+          "value": "approximate_digitization"
+        },
+        {
+          "cell": "H22",
+          "value": "baseline"
+        },
+        {
+          "cell": "I22",
+          "value": "630"
+        },
+        {
+          "cell": "J22",
+          "value": "200"
+        },
+        {
+          "cell": "K22",
+          "value": "2 h pulse"
+        },
+        {
+          "cell": "L22",
+          "value": "24"
+        },
+        {
+          "cell": "M22",
+          "value": "EGFP Ex/Em 485/528 nm; OD600; normalized EGFP/OD600"
+        },
+        {
+          "cell": "N22",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "O22",
+          "value": "manual_confirmation_required"
+        },
+        {
+          "cell": "P22",
+          "value": "manual_confirmation_required"
+        }
+      ]
+    }
+  ],
+  "genbank_history": "121a7d6032210c477292097c76073b5a7a676faf 2026-09-08T23:27:30+08:00 Sync frozen FABRIC-AI artifacts and signed AISB26 parts\n",
+  "sample_identity": "manual_confirmation_required",
+  "replicate_type_and_n": "manual_confirmation_required",
+  "error_bar_type": "manual_confirmation_required",
+  "network_attempts": [
+    {
+      "url": "https://2025.igem.wiki/bit-china/notebook",
+      "result": "web open returned Internal Error; no external replacement evidence recovered"
+    },
+    {
+      "url": "https://2025.igem.wiki/bit-china/parts",
+      "result": "web open returned Internal Error; no external replacement evidence recovered"
+    },
+    {
+      "url": "https://2025.igem.wiki/bit-china/experiments",
+      "result": "web open returned Internal Error; no external replacement evidence recovered"
+    },
+    {
+      "url": "https://registry.igem.org/parts/BBa_25UFORFE",
+      "result": "web open returned Internal Error; no external replacement evidence recovered"
+    },
+    {
+      "url": "https://parts.igem.org/Part:BBa_25UFORFE",
+      "result": "web open returned Internal Error; no external replacement evidence recovered"
+    }
+  ],
+  "no_identity_inference_from_labels": true
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Targeted requested claims, not a generic literature audit",
+  "checks": {
+    "A480_false_raw_pointer_absent": true,
+    "old_Top6_not_in_current_Wiki": true,
+    "obsolete_pool_not_current_claim": true,
+    "C3_5_not_claimed_from_handbook": true,
+    "C3_2_no_superiority_claim": true
+  }
+}

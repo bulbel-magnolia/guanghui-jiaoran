@@ -1,0 +1,27 @@
+{
+  "operation": "Remove unsupported significance stars and brackets only",
+  "source_sha256": "e42d22e29b07be319c00c972e92a8096ea65f751e52a449a13ce598abb828988",
+  "output_sha256": "470b80e90bef5bf001d49da8e4fbfbf67f411aaae0d8939fca75282ace8dffb8",
+  "edited_rectangles_xyxy": [
+    [
+      230,
+      140,
+      379,
+      195
+    ],
+    [
+      580,
+      125,
+      725,
+      180
+    ],
+    [
+      938,
+      202,
+      1085,
+      255
+    ]
+  ],
+  "all_pixels_outside_rectangles_unchanged": true,
+  "experimental_values_changed": false
+}

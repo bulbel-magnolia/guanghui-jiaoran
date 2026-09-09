@@ -1,0 +1,11 @@
+{
+  "review_scope": "Only the regenerated PhiReX map and significance-only edit were visually inspected in this repair.",
+  "rendered_map_readable": true,
+  "map_coordinate_labels_no_overlap": true,
+  "expression_stars_and_brackets_removed": true,
+  "bar_labels_and_axes_preserved": true,
+  "reviewed_source_sha256": {
+    "parts/AISB26-045-001/map.svg": "ae1a0667a85d31c9d84b3d02ebbe530a44f3d9281ca7b1eda308d80d4c432154",
+    "wiki/assets/figures/phirex-expression.webp": "470b80e90bef5bf001d49da8e4fbfbf67f411aaae0d8939fca75282ace8dffb8"
+  }
+}
