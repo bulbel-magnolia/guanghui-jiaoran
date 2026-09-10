@@ -8,13 +8,13 @@
 
 ## 红光调控设计
 
-TDH3 promoter 驱动 HY1 与 PcyA，提供 PhyB 光敏色素所需的胆色素合成模块。TEF2 promoter 驱动 PIF3-NLS-VP16 与 PhyBNT-Zif268。红光诱导 PhyB 与 PIF3 相互作用，将 VP16 激活结构域定位至 GalZifBSp promoter 邻近区域并促进下游 EGFP 表达。
+TDH3 启动子驱动 HY1 与 PcyA，提供 PhyB 光敏色素所需的胆色素合成模块。TEF2 启动子驱动 PIF3-NLS-VP16 与 PhyBNT-Zif268。红光诱导 PhyB 与 PIF3 相互作用，将 VP16 激活结构域定位至 GalZifBSp 启动子邻近区域并促进下游 EGFP 表达。
 
-复合序列还包含 YPRC3L、TEF1 terminator、tENO2、FBA1 terminator、KanMX 和 YPRC3R。该元件由多个调控与编码单元组成，按 Composite Part 表达其完整功能结构。
+复合序列还包含 YPRC3L、TEF1 终止子、tENO2、FBA1 终止子、KanMX 和 YPRC3R。该元件由多个调控与编码单元组成，按 Composite Part 表达其完整功能结构。
 
 ## 构建证据
 
-团队依次使用 Overlap Extension PCR 和 Gibson Assembly 组装多片段系统。Plasmid 5/6 构建示意、菌落 PCR 和测序记录共同支持元件构建结果，测序结论与设计序列一致。
+团队依次使用重叠延伸 PCR 和 Gibson Assembly 组装多片段系统。Plasmid 5/6 构建示意、菌落 PCR 和测序记录共同支持元件构建结果，测序结论与设计序列一致。
 
 ## 功能表征
 
@@ -24,30 +24,30 @@ PhiReX 酵母培养物接受约 630 nm、200 μW/cm² 的红光脉冲照射，�
 |---|---|
 | 红光中心波长 | 约 630 nm |
 | 光强 | 200 μW/cm² |
-| 照射方式 | 2 h pulse |
+| 照射方式 | 2 h 脉冲照射 |
 | 总培养时间 | 24 h |
-| EGFP 测量 | Ex/Em 485/528 nm |
+| EGFP 测量 | 激发/发射波长 485/528 nm |
 | 生物量测量 | OD600 |
 | 结果计算 | EGFP/OD600 归一化荧光强度 |
 
-Fig.12 中 R5、R11 和 R13 三个编号样品均在红光条件下表现出高于无光对照的归一化 EGFP 信号。
+原记录图 12 中 R5、R11 和 R13 三个编号样品均在红光条件下表现出高于无光对照的归一化 EGFP 信号。
 
 ## 注释与图记录复核（2026-09-09）
 
-DNA 全长 12,584 bp，FASTA 字节保持不变，GenBank 提取序列逐碱基一致。PIF3-NLS-VP16 与 PhyBNT-Zif268 保留 CDS，并通过起始、终止和阅读框检查。HY1、PcyA、EGFP、KanMX 保留原标签、区段及方向，改记 `misc_feature`；完整 CDS 边界由原设计/测序记录核实后再更新。
+DNA 全长 12,584 bp，序列与修订前相同，FASTA 与 GenBank 提取序列逐碱基一致。PIF3-NLS-VP16 与 PhyBNT-Zif268 保留 CDS，并通过起始、终止和阅读框检查。HY1、PcyA、EGFP、KanMX 保留原标签、区段及方向，改记 `misc_feature`；完整 CDS 边界由原设计/测序记录核实后再更新。
 
-当前展示的 Fig.12 数字化记录中，R5、R11、R13 红光条件下的 EGFP/OD600 均高于对照。原记录的 Fig.13 中，R11 与 R13 低于对照；两组记录分开保存，不合并为重复。
+当前展示的原记录图 12 数字化记录中，R5、R11、R13 红光条件下的 EGFP/OD600 均高于对照。原记录图 13 中，R11 与 R13 低于对照；两组记录分开保存，不合并为重复。
 
 | 图记录 | 样品 | +Light | Control |
 |---|---|---:|---:|
-| Fig.12 | R5 | 约 1900 | 约 720 |
-| Fig.12 | R11 | 约 1985 | 约 685 |
-| Fig.12 | R13 | 约 1550 | 约 800 |
-| Fig.13 | R5 | 约 1120 | 约 1050 |
-| Fig.13 | R11 | 约 1480 | 约 1550 |
-| Fig.13 | R13 | 约 1100 | 约 1220 |
+| 原记录图 12 | R5 | 约 1900 | 约 720 |
+| 原记录图 12 | R11 | 约 1985 | 约 685 |
+| 原记录图 12 | R13 | 约 1550 | 约 800 |
+| 原记录图 13 | R5 | 约 1120 | 约 1050 |
+| 原记录图 13 | R11 | 约 1480 | 约 1550 |
+| 原记录图 13 | R13 | 约 1100 | 约 1220 |
 
-值为归一化 EGFP/OD600 的近似图读数。R5/R11/R13 构建或克隆身份、重复类型、n、误差线及统计方法未从本轮材料恢复，保持 `manual_confirmation_required`。图中的星号和括号已移除，柱高、数值和编辑区外像素不变。
+表中数值为 EGFP/OD600 的近似图读值。R5/R11/R13 对应的构建或克隆身份、重复类型、n、误差线和统计方法待原始记录确认。图中不标统计显著性，柱高与数值保留原记录。
 
 [原序列、修订与图记录](../../results/evidence/20260909/phirex_annotation/README.md)。
 

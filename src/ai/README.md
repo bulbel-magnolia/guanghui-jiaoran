@@ -1,29 +1,12 @@
-# src/ai · AI / 计算代码
+# AI / 计算代码
 
-```
-src/ai/
-├── README.md          # 本文件
-├── models/            # 模型定义（PyTorch / TF）
-├── data/              # 数据加载与预处理
-└── scripts/           # 入口脚本：train / inference / evaluate
-```
+当前可执行程序位于 [fabric_ai_optimizer](fabric_ai_optimizer/README.md)。
 
-## 入口脚本约定
+| 程序 | 功能 |
+|---|---|
+| [fabric_ai_基准比较.py](fabric_ai_optimizer/fabric_ai_benchmark.py) | 准备候选、评价表型和排序 |
+| [learn_mode.py](fabric_ai_optimizer/learn_mode.py) | 读取历史实验数据，生成反馈前后评价 |
+| [核验脚本](../../tools/fabric_ai/verify_repo_freeze.py) | 检查保存的排序与来源一致性 |
+| [输入与结果验证](../../tools/fabric_ai/validate_submission_fixes.py) | 排序、实验反馈和元件检查 |
 
-| 脚本 | 用途 | 典型用法 |
-|---|---|---|
-| `scripts/train.py` | 训练 | `python scripts/train.py --config configs/baseline.yaml --seed 42` |
-| `scripts/inference.py` | 推理 / 生成候选 | `python scripts/inference.py --checkpoint results/checkpoints/best.pt` |
-| `scripts/evaluate.py` | 在测试集上评估 + 基线对比 | `python scripts/evaluate.py --eval-set data/processed/test.csv` |
-
-## 配置管理
-
-- 推荐使用 [Hydra](https://hydra.cc/) 或 OmegaConf；
-- 把配置文件放在 `configs/` 而不是写死在代码里——这是可验证性的关键。
-
-## 单元测试
-
-把简单单元测试放在 `tests/`（与 src 同级），CI 自动跑：
-```bash
-pytest tests/ -v
-```
+运行环境与命令见 [使用说明](fabric_ai_optimizer/README.md)。相关测试保存在 [tests/fabric_ai](../../tests/fabric_ai/)；模型和实验反馈分别使用各自的数据。

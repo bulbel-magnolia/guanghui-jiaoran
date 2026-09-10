@@ -1,19 +1,7 @@
-# src/wet_lab · 实验数据分析与图表
+# 实验资料与分析
 
-> 本目录放置与湿实验配套的脚本：测序数据预处理、流式数据分析、HPLC 谱图绘制等。
-> 实验方案本身请写在 `wiki/Wet-Lab-Experiments.md`。
+实验方法、测量结果及材料比较见 [湿实验](../../wiki/Wet-Lab-Experiments.md)。PhiReX 与 BmCBP 的序列、注释和表征资料见 [元件索引](../../parts/README.md)。
 
-## 目录约定（建议）
+六个历史实验靶点的反馈分析由 [learn_mode.py](../ai/fabric_ai_optimizer/learn_mode.py) 执行，输出见 [实验前后对照](../../results/fabric_ai/20260909/learn_mode_iteration/README.md)。
 
-```
-src/wet_lab/
-├── README.md
-├── flow_cytometry/    # 流式细胞数据分析
-├── hplc/              # HPLC 数据分析
-├── sequencing/        # 测序数据处理
-└── plotting/          # 通用绘图函数
-```
-
-## 输出去向
-
-所有生成的图表统一输出到 `results/figures/`，并以 `<exp_id>_<description>.png` 命名。
+本目录为其他实验数据分析脚本预留位置。

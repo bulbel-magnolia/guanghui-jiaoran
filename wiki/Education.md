@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[← Wiki 首页](./Home.md) · [Human Practices](./Human-Practices.md) · [Collaboration](./Collaboration.md)
+[← Wiki 首页](./Home.md) · [人类实践](./Human-Practices.md) · [团队合作](./Collaboration.md)
 
 </div>
 
@@ -54,15 +54,13 @@ FABRIC 作为完整案例展示：
 
 **天然色素 → 光控表达 → BmCBP 固色 → 可持续纺织**
 
-这条链条让参与者能够从分子层面一路看到实际产品场景。
-
 ---
 
 ## 4. 传统染色文化与科学传播
 
 团队与非物质文化遗产相关从业者交流传统蓝染、扎染和蜡染等知识。传统染色中的发酵、天然染料和低碳循环，为解释现代生物制造提供了直观参照。
 
-这一部分使科普同时具备科学和文化维度：学生与公众既能理解工程生物学的逻辑，也能看到现代技术与中国传统染色智慧之间的联系。
+科普将传统染色中的微生物过程与现代生物制造联系起来。
 
 ---
 
@@ -76,9 +74,10 @@ BIT-China 与 NUDT-CHINA、SCU-China 共同编写《合成生物学与可持续�
 | **NUDT-CHINA** | 内容讨论、翻译与可视化 |
 | **SCU-China** | 内容讨论、翻译与可视化 |
 
-该合作同时构成 Education 与 Collaboration 的共同成果，并在对方 Wiki 中保留独立互证。
+该手册用于教育与科普，合作队伍在各自 Wiki 中记录了分工和成果。
 
-### 对方 Wiki 互证
+<a id="对方-wiki-互证"></a>
+### 合作队伍的 Wiki 记录
 
 - NUDT-CHINA Collaboration：https://2025.igem.wiki/nudt-china/collaboration
 - NUDT-CHINA Education：https://2025.igem.wiki/nudt-china/education
@@ -94,7 +93,7 @@ BIT-China 与 NUDT-CHINA、SCU-China 共同编写《合成生物学与可持续�
 
 </div>
 
-教育活动使团队更明确地看到：项目需要同时解释“为什么做”和“如何验证”。这也是当前 Wiki、开放代码、元件文件和复现 benchmark 均采用公开证据路径的重要原因。
+公众反馈促使团队在科普中说明研究目的、实验结果及验证方法，并公开代码、元件文件和基准比较资料。
 
 ---
 
@@ -105,15 +104,15 @@ BIT-China 与 NUDT-CHINA、SCU-China 共同编写《合成生物学与可持续�
 | Education / Collaboration 证据摘要 | [`EDUCATION_AND_COLLABORATION_EVIDENCE.md`](../results/evidence/20260908/EDUCATION_AND_COLLABORATION_EVIDENCE.md) |
 | BIT-China 2025 Sustainability | https://2025.igem.wiki/bit-china/sustainability |
 | BIT-China 2025 Collaboration | https://2025.igem.wiki/bit-china/collaboration |
-| Human Practices | [Human Practices](./Human-Practices.md) |
-| Collaboration | [Collaboration](./Collaboration.md) |
+| Human Practices | [人类实践](./Human-Practices.md) |
+| Collaboration | [团队合作](./Collaboration.md) |
 
 ---
 
 <div align="center">
 
-[← Wiki 首页](./Home.md) · [Human Practices](./Human-Practices.md) · [Collaboration](./Collaboration.md) · [干湿结合验证](./Integrated-Validation.md)
+[← Wiki 首页](./Home.md) · [人类实践](./Human-Practices.md) · [团队合作](./Collaboration.md) · [干湿结合验证](./Integrated-Validation.md)
 
 </div>
 
-*最后更新：2026-09-09*
+*最后更新：2026-09-10（文字修订）*

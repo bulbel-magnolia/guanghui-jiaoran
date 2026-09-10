@@ -10,9 +10,10 @@
     "production_superiority_claim": false
   },
   "C3_5": {
-    "status": "C3_5_CURRENT_EVIDENCE_NOT_SUFFICIENT",
-    "NUDT_CHINA_and_SCU_CHINA_current_competitors": false,
-    "basis": "Explicit user confirmation in repair task"
+    "status": "C3_5_SUPPORTED_BY_CURRENT_COMPETITOR_COLLABORATION",
+    "NUDT_CHINA_and_SCU_CHINA_current_competitors": true,
+    "basis": "Team re-confirmation on 2026-09-10; mutual Wiki records retained for the three-team handbook collaboration"
   },
-  "gold_all_criteria_claim_supported": false
+  "gold_self_assessment_supported": true,
+  "final_medal_determination": "JUDGES_TO_DETERMINE"
 }

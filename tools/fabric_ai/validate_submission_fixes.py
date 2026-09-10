@@ -86,7 +86,7 @@ def main():
     stale={'A480_false_raw_pointer_absent':'A480 原始值与平均值见元件表征' not in wiki,
            'old_Top6_not_in_current_Wiki':'YOR311C' not in wiki,
            'obsolete_pool_not_current_claim':not bool(re.search(r'237\s*(?:genes|个基因)',wiki)),
-           'C3_5_not_claimed_from_handbook': '当前证据不足' in (ROOT/'wiki/Collaboration.md').read_text() and load(E/'medal_evidence_status.json')['C3_5']['status']=='C3_5_CURRENT_EVIDENCE_NOT_SUFFICIENT',
+           'C3_5_current_competitor_collaboration_supported': 'C.3.5 已满足' in (ROOT/'wiki/Collaboration.md').read_text() and load(E/'medal_evidence_status.json')['C3_5']['status']=='C3_5_SUPPORTED_BY_CURRENT_COMPETITOR_COLLABORATION' and load(E/'medal_evidence_status.json')['C3_5']['NUDT_CHINA_and_SCU_CHINA_current_competitors'] is True,
            'C3_2_no_superiority_claim':not load(E/'medal_evidence_status.json')['C3_2']['production_superiority_claim']}
     dump(out/'stale_claim_scan.json',{'scope':'Targeted requested claims, not a generic literature audit','checks':stale});checks['targeted_stale_claims_corrected']=all(stale.values())
     # The report itself is linked from the summary; materialize it before scanning.

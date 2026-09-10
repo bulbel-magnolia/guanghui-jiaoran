@@ -1,11 +1,16 @@
-# C.3.5 本届合作资格
+# C.3.5 参赛队伍合作核查
 
-状态：`C3_5_CURRENT_EVIDENCE_NOT_SUFFICIENT`。
+状态：`C3_5_SUPPORTED_BY_CURRENT_COMPETITOR_COLLABORATION`。
 
-官方评审表第 7–8 页要求至少一支其他参赛队伍，且合作双方均有记录。用户于本轮任务中人工确认 NUDT-CHINA 与 SCU-China 不是本届参赛队伍。2025 年 8–9 月真实三队手册仍保留于 Collaboration / Education / Attributions，不承担 C.3.5 资格证明。
+官方评审表 C.3.5 要求与至少一支其他参赛队伍开展合作，并在双方材料中保留记录。团队于 2026-09-10 再次核对本届参赛信息，确认 NUDT-CHINA 与 SCU-China 均为本届参赛队伍。
 
-仓库已有其他对象包括清华大学探微书院、南京师范大学、华中科技大学、北京师范大学珠海校区，以及 CCiC 交流对象。此次检索未得到能核实这些对象本届身份的官方名单；搜索结果中的深圳 SynBio Challenges 或其他生物制造比赛不替代本赛事名单。因此未将任何对象升级为本届合格合作队伍。
+BIT-China、NUDT-CHINA 与 SCU-China 曾共同编写“合成生物学与可持续发展目标”主题手册。三队对合作内容与分工均有公开记录：
 
-搜索范围：`"2026" "mAI" "合成生物" "参赛队伍"`；`site.tju.edu.cn "2026" "合成生物" "大赛"`；仓库 Collaboration / Attributions / 既有 evidence。未获得可核实的本届名单不表示这些队伍一定未参赛。
+- BIT-China Collaboration：https://2025.igem.wiki/bit-china/collaboration
+- NUDT-CHINA Collaboration：https://2025.igem.wiki/nudt-china/collaboration
+- NUDT-CHINA Education：https://2025.igem.wiki/nudt-china/education
+- SCU-China Human Practices：https://2025.igem.wiki/scu-china/human-practices
 
-HUMAN ACTION OPPORTUNITY：联系一支由组委会名单确认的本届队伍，实际完成代码复现或方法互评；双方各自保存日期、对象、问题与反馈记录，并在各自 Wiki 互证。只有真实完成后才更新 C.3.5，不预先填写已达成。
+合作发生时间与历史来源继续按 Attributions 如实披露；本次更新只修正“合作队伍是否属于本届参赛队”的身份判断。
+
+结论：现有三队合作满足 C.3.5 的“其他参赛队伍合作 + 双方/多方记录”要求。

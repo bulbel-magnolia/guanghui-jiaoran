@@ -1,6 +1,6 @@
 # Attributions · 项目归属与贡献
 
-本页与仓库根目录 [`attributions.md`](../attributions.md) 保持一致，集中展示团队成员贡献、资料来源、公开 baseline、AI 辅助范围和许可边界。
+本页与仓库根目录 [`attributions.md`](../attributions.md) 保持一致，集中展示团队成员贡献、资料来源、公开基线、AI 辅助范围和许可范围。
 
 ## 项目信息
 
@@ -14,23 +14,24 @@
 
 | 人员 | 身份 | 贡献 |
 |---|---|---|
-| 赵博研 | 队长、学生成员 | 整体统筹；FABRIC-AI 技术主线整合；数据与证据体系；benchmark 任务组织；代码仓库和发布管理；赛事材料提交 |
+| 赵博研 | 队长、学生成员 | 整体统筹；FABRIC-AI 方法与实验整合；数据和来源记录整理；基准比较组织；代码仓库和发布管理；赛事材料提交 |
 | 徐士宸 | 学生成员 | 湿实验体系与实验记录复核；色素合成、光控表达及构建/PCR/测序/荧光表征证据整理 |
-| 张意帆 | 学生成员 | 项目概念、硬件、软件可视化、Wiki 编排和 Human Practices 材料整理 |
+| 张意帆 | 学生成员 | 项目概念、硬件、软件可视化、Wiki 编排和人类实践材料整理 |
 | 范运涵 | 学生成员 | BmCBP、蛋白媒染、染色和材料界面实验资料整理；实验条件和图表核对 |
-| 宋吉羽 | 学生成员 | GSMM、OptKnock、Round 0/Round 1 与 feedback 数据整理；代码测试、结果复核和可复现性检查 |
-| 慕金贝 | 学生成员 | 文献、遗传回路和引物设计；模型推进；元件、Human Practices、Education、Collaboration 和贡献材料整理 |
+| 宋吉羽 | 学生成员 | GSMM、OptKnock、Round 0/Round 1 与实验反馈数据整理；代码测试、结果复核和可复现性检查 |
+| 慕金贝 | 学生成员 | 文献、遗传回路和引物设计；模型分析；元件、人类实践、教育与科普、团队合作和贡献材料整理 |
 | 胡冰 | Primary PI | 项目方向、实验与生物安全指导、学术内容审核和最终材料批准 |
 
 ## 资料来源与本届工作
 
-本项目延续 BIT-China 2025 FABRIC 实验体系。2026 赛季完成数据结构化、FABRIC-AI 闭环重构、Yeast-GEM 共同模型、FastKnock/CFSA/OptEnvelope 近期公开基线复现、Production Optimizer v1.2、反馈规则、自动测试、元件提交和发布复核。
+本项目延续 BIT-China 2025 FABRIC 实验体系。2026 赛季完成数据结构化、FABRIC-AI 计算与实验反馈整合、Yeast-GEM 共同模型、FastKnock/CFSA/OptEnvelope 近期公开基线复现、Production Optimizer v1.2、反馈规则、自动测试、元件提交和发布复核。
 
-历史发酵、光控、BmCBP、染色、硬件和 Human Practices 记录均保留其来源与时间。两项 DNA 元件由团队于 2025 年创建，2026 年首次按 AISB26 格式正式提交。
+历史发酵、光控、BmCBP、染色、硬件和人类实践记录均保留其来源与时间。两项 DNA 元件由团队于 2025 年创建，2026 年首次按 AISB26 格式正式提交。
 
-## 提交修复
+<a id="提交修复"></a>
+## 程序与记录更新
 
-本轮新增工作的日期、具体修复及人工复核状态见根目录 [Attributions](../attributions.md#6-提交修复新增工作2026-09-09)。NUDT-CHINA/SCU-China 的真实手册合作保留，但不用于本届 C.3.5 资格佐证。
+本轮新增工作的日期、具体修复及人工复核状态见根目录 [项目贡献](../attributions.md#6-提交修复新增工作2026-09-09)。NUDT-CHINA、SCU-China 的手册属于已有合作成果；团队于 2026-09-10 复核确认两队均为本届参赛队伍，因此该合作用于 C.3.5 佐证。
 
 ## AI 辅助范围
 
@@ -43,8 +44,8 @@
 - Registry 元件序列、GenBank 和衍生说明：CC BY-SA 4.0；
 - 第三方内容：沿用原始许可。
 
-完整贡献母表见 [`attributions.md`](../attributions.md)。
+完整贡献表见 [`attributions.md`](../attributions.md)。
 
 ---
 
-*最后更新：2026-09-09*
+*最后更新：2026-09-10（文字修订）*

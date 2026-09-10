@@ -2,21 +2,21 @@
 
 # Collaboration · 团队合作
 
-**共享方法、共同教育、工程互鉴**
+**方法交流、联合科普与硬件讨论**
 
 </div>
 
 <div align="center">
 
-[← Wiki 首页](./Home.md) · [Education](./Education.md) · [Human Practices](./Human-Practices.md)
+[← Wiki 首页](./Home.md) · [教育与科普](./Education.md) · [人类实践](./Human-Practices.md)
 
 </div>
 
-> FABRIC 的合作覆盖高校 iGEM 团队、产业单位和跨学科专家。最完整、可双向核查的成果，是 BIT-China 与 NUDT-CHINA、SCU-China 共同完成的合成生物学与可持续发展主题手册。
+> BIT-China 与高校 iGEM 团队、产业单位及跨学科专家开展交流，并与 NUDT-CHINA、SCU-China 共同编写合成生物学与可持续发展主题手册。
 
 | 合作对象 | 合作主题 | 对 FABRIC 的直接作用 |
 |---|---|---|
-| **NUDT-CHINA + SCU-China** | 联合教育手册 | 形成公开可复用的 SDGs 科普材料，并保留双方 Wiki 互证 |
+| **NUDT-CHINA + SCU-China** | 联合教育手册 | 共同编写可复用的 SDGs 科普材料，在各自 Wiki 记录合作；两队均已确认为本届参赛队 |
 | 清华大学探微书院 iGEM | 工业评价、稳定性 | 强化标准化和产品稳定性评价 |
 | 南京师范大学 iGEM | 软件展示 | 推动结果可视化和界面优化 |
 | 华中科技大学团队 | 社会实践 | 强化传统染色文化与公众参与 |
@@ -27,9 +27,9 @@
 
 ## 本届 C.3.5 核查
 
-**当前证据不足。** 团队已确认 NUDT-CHINA 和 SCU-China 不是本届参赛队伍，三队手册保留为真实的教育与合作成果，不作为 C.3.5“与其他参赛队伍合作”的资格性佐证。本轮未核实到同时具备本届队伍身份与双向合作记录的其他对象。
+**C.3.5 已满足。** 团队于 2026-09-10 再次核对本届参赛信息，确认 NUDT-CHINA 与 SCU-China 均为本届参赛队伍。三队共同编写的可持续发展教育手册在 BIT-China、NUDT-CHINA 和 SCU-China 的公开 Wiki 中均有记录，可用于本条合作佐证。
 
-[资格核查记录](../results/evidence/20260909/C3_5_COLLABORATION_STATUS.md)。
+[参赛身份与合作记录](../results/evidence/20260909/C3_5_COLLABORATION_STATUS.md)。
 
 ## 1. 三队联合教育手册
 
@@ -41,9 +41,10 @@ BIT-China、NUDT-CHINA 与 SCU-China 围绕“合成生物学如何参与可持�
 | **NUDT-CHINA** | 内容讨论、翻译与可视化 |
 | **SCU-China** | 内容讨论、翻译与可视化 |
 
-### 双向 / 多方互证
+<a id="双向--多方互证"></a>
+### 合作队伍的公开记录
 
-> **NUDT-CHINA** 在其 Collaboration 页面独立记录三队合作，记录 NUDT-CHINA、BIT-CHINA 与 SCU-China 共同完成该手册；精确时间见 Attributions 和原页面。
+> **NUDT-CHINA** 的合作页面记录了 NUDT-CHINA、BIT-CHINA 与 SCU-China 共同编写该手册的过程，时间见贡献说明和原页面。
 
 - NUDT-CHINA Collaboration：https://2025.igem.wiki/nudt-china/collaboration
 - NUDT-CHINA Education：https://2025.igem.wiki/nudt-china/education
@@ -58,7 +59,7 @@ BIT-China 自身记录：
 
 <div align="center">
 
-**三队联合内容 → 翻译与可视化 → 公开教育材料 → 对方 Wiki 互证**
+**三队联合内容 → 翻译与可视化 → 公开教育材料 → 合作队伍的 Wiki 记录**
 
 </div>
 
@@ -84,7 +85,7 @@ BIT-China 自身记录：
 
 ### 2.5 CCiC 交流
 
-FABRIC 在 CCiC 展示后，多支队伍集中询问工艺可行性和标准化。团队据此开展棉、丝绸和聚酯的比较实验，使“基材差异”从讨论问题转化为实际测试变量，并进入 P1 Material Interface Optimizer 的材料优先级更新。
+FABRIC 在 CCiC 展示后，多支队伍集中询问工艺可行性和标准化。团队据此开展棉、丝绸和聚酯的比较实验，用实验结果比较基材差异，并调整 P1 的基材优先级。
 
 ---
 
@@ -92,7 +93,7 @@ FABRIC 在 CCiC 展示后，多支队伍集中询问工艺可行性和标准化�
 
 团队还与 JABIO Biotech 等产业单位交流发酵放大、分离纯化、废水处理和副产物资源化。产业反馈帮助团队将实验室模块放到更完整的生产链中考虑，并补充规模化、稳定性和成本控制等工程问题。
 
-> **合作的工程意义**：高校团队提供标准化、软件、硬件和公众沟通视角；产业交流补充放大、稳定性和成本约束。两类合作共同推动 FABRIC 从“能否实现”走向“如何标准化、如何扩展、如何让其他人复用”。
+高校团队交流用于改进标准化、软件、硬件和公众沟通；产业交流补充发酵放大、稳定性和成本要求。
 
 ---
 
@@ -104,15 +105,15 @@ FABRIC 在 CCiC 展示后，多支队伍集中询问工艺可行性和标准化�
 | BIT-China 2025 Collaboration | https://2025.igem.wiki/bit-china/collaboration |
 | NUDT-CHINA 2025 Collaboration | https://2025.igem.wiki/nudt-china/collaboration |
 | SCU-China 2025 Human Practices | https://2025.igem.wiki/scu-china/human-practices |
-| Education | [Education](./Education.md) |
-| Human Practices | [Human Practices](./Human-Practices.md) |
+| Education | [教育与科普](./Education.md) |
+| Human Practices | [人类实践](./Human-Practices.md) |
 
 ---
 
 <div align="center">
 
-[← Wiki 首页](./Home.md) · [Education](./Education.md) · [Human Practices](./Human-Practices.md) · [干湿结合验证](./Integrated-Validation.md)
+[← Wiki 首页](./Home.md) · [教育与科普](./Education.md) · [人类实践](./Human-Practices.md) · [干湿结合验证](./Integrated-Validation.md)
 
 </div>
 
-*最后更新：2026-09-09*
+*最后更新：2026-09-10（文字修订）*

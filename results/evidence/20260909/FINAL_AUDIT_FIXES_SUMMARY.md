@@ -15,7 +15,7 @@
 | R5/R11/R13 身份、n 和统计标记不能追溯 | 搜索已恢复的八版工作簿与历史资料；保留身份、重复和误差线人工确认字段；区分 Fig.12 与 Fig.13；只移除 Fig.12 图上的未获支持星号及括号 | [恢复记录](phirex_annotation/phirex_digitized_records.csv)、[像素编辑记录](phirex_annotation/figure_edit_record.json)、[元数据](../../../parts/AISB26-045-001/metadata.yaml) |
 | BmCBP 原始测量入口与实际提交矛盾 | Verifiability 改为每条件 3 次测量、当前仅保留均值、逐次原始值未恢复；不生成 SD/SEM 或误差线 | [可验证性](../../../wiki/Verifiability.md) |
 | 排序器接受 NaN、失败状态、来源不一致或错误派生比例 | 在公共 `build_ranking` 与 CLI 增加状态感知校验；保持合法的 v2A 不可行情形；冻结排序内核不变 | [排序实现](../../../src/ai/fabric_ai_optimizer/fabric_ai_benchmark.py)、[新增测试](../../../tests/fabric_ai/test_ranker_input_validation.py) |
-| 手册合作不能直接支持本届 C.3.5 | 按用户确认移除 NUDT-CHINA、SCU-China 的本届参赛资格性作用；真实合作成果继续保留 | [合作资格说明](C3_5_COLLABORATION_STATUS.md)、[Collaboration](../../../wiki/Collaboration.md) |
+| C.3.5 参赛队伍身份需要复核 | 团队于 2026-09-10 再次核对本届参赛信息，确认 NUDT-CHINA、SCU-China 均为本届参赛队；三队手册合作及各方 Wiki 记录用于 C.3.5 佐证 | [合作资格说明](C3_5_COLLABORATION_STATUS.md)、[Collaboration](../../../wiki/Collaboration.md) |
 | 历史成果与本届新增工作混淆 | 在重点正文使用统一承接句；底层资料保留准确时间、Registry 来源和本轮实现性质 | [贡献记录](../../../attributions.md)、[AI 使用披露](../../../AI-USE-DISCLOSURE.md)、[来源清单](recovered_v08/SOURCE_MANIFEST.json) |
 | C.3.2 容易被误读为增产性能领先 | 保留显著创新路线；全量表型、多条件同池、目标区分度、数值等价与 Design/Learn 分离分别陈述 | [AI/计算方法](../../../wiki/AI-Computational-Methods.md)、[奖牌证据状态](medal_evidence_status.json) |
 
@@ -77,6 +77,6 @@ python tools/fabric_ai/validate_submission_fixes.py --outdir .reproduction/submi
 
 **C.3.2：**继续走显著创新路线，不提出生产性能优于基线的声明。
 
-**C.3.5：**当前证据不足。用户已确认 NUDT-CHINA、SCU-China 不是本届参赛队伍；本轮没有找到可核查的其他合格合作替代证据。手册仍是实际合作与教育成果，不计为已满足本条。**不能据本次修复宣布金牌全部条目已经达成。**
+**C.3.5：**团队于 2026-09-10 再次核对本届参赛信息，确认 NUDT-CHINA、SCU-China 均为本届参赛队伍。三队联合教育手册在 BIT-China、NUDT-CHINA 和 SCU-China 的 Wiki 中均有记录，本条按“其他参赛队伍合作 + 双方/多方记录”申报。
 
-团队复核后处理：PhiReX 四段精确编码边界与 R5/R11/R13 身份和重复定义；C.3.1 按上述实际状态更新性质填写；C.3.5 仅在与真实本届参赛队完成实际合作且双方公开记录后更新。随后由团队批准修复分支、同步 Gitee，并确认最终评审表及安全文件签字、邮件和视频交付。本轮没有替这些人工动作填写已完成。
+团队提交前继续核对 PhiReX 四段精确编码边界与 R5/R11/R13 身份和重复定义，并确认最终评审表、安全文件签字、Gitee 同步、邮件与视频交付。
